@@ -1,13 +1,6 @@
 <script setup lang='ts'>
 import { ref } from 'vue'
-import SeoSvg from '~/components/icons/menu/SeoSvg.vue'
-import MarketingSvg from '~/components/icons/menu/MarketingSvg.vue'
-import GraphicDesignSvg from '~/components/icons/menu/GraphicDesign.vue'
-import SupportSvg from '~/components/icons/menu/SupportSvg.vue'
 import ArrowDownSvg from '~/components/icons/ArrowDownSvg.vue'
-import WebDesignSvg from '~/components/icons/menu/WebDesignSvg.vue'
-import SuggestionsSvg from '~/components/icons/menu/SuggestionsSvg.vue'
-import AnnouncementsSvg from '~/components/icons/menu/AnnouncementsSvg.vue'
 
 const isClicked = ref(false)
 
@@ -18,18 +11,21 @@ const itemClicked = () => {
   }, 100)
 }
 
-const servicesLinks = [
+const comparisonLinks = [
   {
-    title: 'Diseño web',
-    link: '/diseno-web',
-    icon: WebDesignSvg,
-    iconAlt: 'Diseño web',
+    title: 'Counter Top',
+    link: '/counter-top',
+    iconAlt: 'Counter Top',
   },
   {
-    title: 'Diseño gráfico',
-    link: '/diseno-grafico',
-    icon: GraphicDesignSvg,
-    iconAlt: 'Diseño gráfico'
+    title: 'Wireless',
+    link: '/wireless',
+    iconAlt: 'Wireless'
+  },
+  {
+    title: 'Portable',
+    link: '/portable',
+    iconAlt: 'Portable'
   },
 ]
 
@@ -37,13 +33,11 @@ const supportLinks = [
   {
     title: 'Contacta con soporte',
     link: '/contacta-con-soporte',
-    icon: SupportSvg,
     iconAlt: 'Contacta con soporte'
   },
   {
     title: 'Sugerencias',
     link: '/sugerencias',
-    icon: SuggestionsSvg,
     iconAlt: 'Sugerencias'
   }
 ]
@@ -56,13 +50,13 @@ const supportLinks = [
     <ul class="items">
 
       <li class="item">
-        <h3 class="title">Servicios</h3>
+        <h3 class="title">Comparisons</h3>
         <ArrowDownSvg class="icon arrow-icon" />
 
         <ul :class="['sub-items', { 'clicked': isClicked }]">
-          <li v-for="(item, index) in servicesLinks" :key="index" class="sub-item" @click="itemClicked">
+          <li v-for="(item, index) in comparisonLinks" :key="index" class="sub-item" @click="itemClicked">
             <NuxtLink class="link" :to="item.link">
-              <component :is="item.icon" class="icon" :alt="item.iconAlt" />
+              <component :alt="item.iconAlt" />
               <p>{{ item.title }}</p>
             </NuxtLink>
           </li>
@@ -76,7 +70,7 @@ const supportLinks = [
         <ul :class="['sub-items', { 'clicked': isClicked }]" @click="itemClicked">
           <li v-for="(item, index) in supportLinks" :key="index" class="sub-item">
             <NuxtLink class="link" :to="item.link">
-              <component :is="item.icon" class="icon" :alt="item.iconAlt" />
+              <component :alt="item.iconAlt" />
               <p>{{ item.title }}</p>
             </NuxtLink>
           </li>
@@ -119,7 +113,7 @@ const supportLinks = [
       }
 
       .title {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
       }
 
       .arrow-icon {
@@ -149,12 +143,13 @@ const supportLinks = [
         visibility: hidden;
 
         .sub-item {
+
           .link {
             display: flex;
             justify-content: flex-start;
             z-index: 1000;
             color: var(--heading);
-            font-size: 16px;
+            font-size: 1.2rem;
             padding: 8px 20px;
             display: flex;
             align-items: center;
@@ -169,9 +164,8 @@ const supportLinks = [
             }
 
             p {
-              margin-left: 1rem;
               font-weight: 500;
-
+              
             }
           }
 

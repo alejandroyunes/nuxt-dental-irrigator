@@ -9,18 +9,21 @@ import QuestionsAndAnswers from '~/components/organisms-raw/questions.vue'
 import TypeSection from '~/components/organisms-raw/types.vue'
 import ReviewsGrid from '~/components/organisms/review-grid.vue'
 
+const title = 'Expert advice and products to improve your oral health'
+const description = 'Improve your oral health with our: ✓ Detailed user guides ✓ Expert advice ✓ Comparisons ✓ Reviews ✓ Promotions'
+
 useSeoMeta({
-  title: '',
-  description: '',
-  ogSiteName: '',
-  ogTitle: '',
-  ogDescription: '',
-  ogImage: '/meta/inicio-web-profesional.webp',
-  ogUrl: 'https://paginasprofesionales.co',
-  ogLocale: 'es_CO',
-  twitterTitle: 'Servicio Web Profesional en Colombia',
-  twitterDescription: 'Ofrecemos hosting gratis el primer año con un diseño web único. Aprovecha esta oferta antes de que se termine.',
-  twitterImage: '/meta/inicio-web-profesional.webp',
+  title: title,
+  description: description,
+  ogSiteName: 'https://dental-irrigator.net/',
+  ogTitle: title,
+  ogDescription: description,
+  ogImage: '/open-graph.webp',
+  ogUrl: 'https://dental-irrigator.net/',
+  ogLocale: 'en_US',
+  twitterTitle: title,
+  twitterDescription: description,
+  twitterImage: '/open-graph.webp',
   twitterCard: 'summary_large_image',
 })
 
@@ -37,3 +40,5 @@ const { bestIrrigatorReviewDescription, bestIrrigatorReviewTitle } = getBestIrri
   <TypeSection />
   <QuestionsAndAnswers />
 </template>
+
+<meta charset="UTF-8">
