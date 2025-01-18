@@ -10,11 +10,11 @@ import TypeSection from '~/components/organisms-raw/types.vue'
 import ReviewsGrid from '~/components/organisms/review-grid.vue'
 
 useSeoMeta({
-  title: 'Servicio Web Profesional en Colombia',
-  description: 'Ofrecemos hosting gratis el primer año con un diseño web único.',
-  ogSiteName: 'Paginas Profesionales',
-  ogTitle: 'Servicio Web Profesional en Colombia',
-  ogDescription: 'Ofrecemos hosting gratis el primer año con un diseño web único. Aprovecha esta oferta antes de que se termine.',
+  title: '',
+  description: '',
+  ogSiteName: '',
+  ogTitle: '',
+  ogDescription: '',
   ogImage: '/meta/inicio-web-profesional.webp',
   ogUrl: 'https://paginasprofesionales.co',
   ogLocale: 'es_CO',

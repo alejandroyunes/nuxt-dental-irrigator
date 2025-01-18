@@ -36,9 +36,6 @@ const heroData = {
   background: var(--background);
   padding-bottom: 3rem;
 
-  @media (max-width: 1024px) {
-    height: 100vh;
-  }
 
   .content {
     margin: 50px auto 0;

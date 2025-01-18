@@ -65,22 +65,24 @@ const toggleSliderTopNav = () => {
 
 <style lang="scss" scoped>
 .header {
-  width: 100%;
-  padding: 0;
   z-index: 10;
   position: fixed;
-  background-color: var(--background-base);
-  box-shadow: var(--shadow-base);
+  backdrop-filter: blur(5px);
+  border-radius: 40px;
+  width: 100%;
 
   .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    background-color: var(--background-base);
+    box-shadow: var(--shadow-base);
     max-width: var(--max-width);
+    border-radius: 40px;
+    padding: 0 28px;
     height: 68px;
-    margin: 0 auto;
-    padding: 0 20px;
+    margin: 10px auto 0;
+    max-width: var(--large-width);
 
     .logo-and-title {
       display: flex;
