@@ -17,6 +17,7 @@ const { reviewTitle, reviews } = defineProps<{
 <template>
   <!-- <ProductScrollSkeleton v-if="isLoading" /> -->
 
+  
   <section v-if="isLoading" class="product-scroll">
     <ul>
       <li v-for="review in reviews" :key="review.id">
