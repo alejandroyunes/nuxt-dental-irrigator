@@ -5,19 +5,19 @@ const types = [
     title: 'Countertop',
     description: 'Countertop dental irrigators are characterized by their stationary design and larger water tank capacity. Unlike portable models, they offer multiple pressure settings and interchangeable nozzles, allowing for more precise and customized cleaning based on individual needs. Their size and features make them ideal for intensive and personalized use at home, providing comprehensive and professional oral hygiene.',
     image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1734236670/irrigators/01%20-%20types/counter-top_b8n4z9.webp',
-    link: '#countertop'
+    link: '/counter-top'
   },
   {
-    title: 'Travel Size',
-    description: 'Travel dental irrigators are the portable choice for oral hygiene on the go. Unlike countertop models, their compact and lightweight design makes them easy to carry. They often operate on batteries and have smaller water reservoirs, suitable for temporary use away from home. Although they may have fewer pressure settings, their convenience and adaptability make them essential for those who frequently travel.',
+    title: 'Portable Dental Irrigator',
+    description: 'Portable dental irrigators are the portable choice for oral hygiene on the go. Unlike countertop models, their compact and lightweight design makes them easy to carry. They often operate on batteries and have smaller water reservoirs, suitable for temporary use away from home. Although they may have fewer pressure settings, their convenience and adaptability make them essential for those who frequently travel.',
     image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1734236670/irrigators/01%20-%20types/wireless_tqxtyc.webp',
-    link: '#travel'
+    link: '/portable'
   },
   {
     title: 'Wireless',
     description: 'Wireless dental irrigators offer the flexibility of cable-free cleaning. Unlike countertop models, they do not need to be connected to the electrical grid, making them more versatile and convenient to use. They operate on rechargeable batteries, and their design is often more compact and ergonomic, allowing for easy handling. Although they may have a smaller water reservoir, their freedom of movement makes them ideal for modern and efficient oral hygiene.',
     image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1734236670/irrigators/01%20-%20types/travel-size_lwpd7t.webp',
-    link: '#wireless'
+    link: '/wireless'
   }
 ]
 </script>
@@ -71,7 +71,7 @@ const types = [
 
     p {
       font-size: 1.1rem;
-      color: var(--text-color);
+      color: var(--heading);
     }
   }
 
@@ -93,7 +93,7 @@ const types = [
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     padding: 2rem;
-    background: var(--background-opposite-soft);
+    background: var(--background-dark);
     border-radius: 1rem;
     overflow: hidden;
     transition: transform 0.3s ease;
@@ -114,22 +114,22 @@ const types = [
       h3 {
         font-size: 1.75rem;
         margin-bottom: 1rem;
-        color: var(--primary);
+        color: var(--white);
       }
 
       p {
         margin-bottom: 1.5rem;
         line-height: 1.7;
-        color: var(--background);
+        color: var(--white);
       }
 
       .learn-more {
         display: inline-block;
-        color: var(--primary);
+        color: var(--white);
         text-decoration: none;
         font-weight: 600;
         transition: transform 0.3s ease;
-
+        text-decoration: underline;
         &:hover {
           transform: translateX(5px);
         }
