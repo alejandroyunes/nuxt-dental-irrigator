@@ -1,14 +1,15 @@
 <script setup lang="ts">
 import RightArrowSvg from '~/components/icons/arrows/RightArrowSvg.vue'
 
-const heroData = {
-  titleH2: "Discover the Top Picks for",
-  title: "Best Water Flossers of 2025",
-  subtitle: "Say goodbye to plaque and hello to a healthier smile! We've reviewed the top water flossers of 2025 based on performance, user reviews, and expert recommendations. Find the perfect water flosser for your dental care needs today!",
-  buttonText: "Browse Best Water Flossers",
-  cta: "best-dental-irrigators"
+type HeroData = {
+  title: string,
+  titleH2: string,
+  subtitle: string,
+  buttonText: string,
+  cta: string,
 }
 
+const { heroData } = defineProps<{heroData: HeroData}>()
 
 </script>
 

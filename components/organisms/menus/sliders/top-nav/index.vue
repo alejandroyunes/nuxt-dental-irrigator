@@ -1,13 +1,7 @@
 <script lang="ts" setup>
 import './top-nav.scss'
 import ExitSvg from '@/components/icons/ExitSvg.vue'
-import SeoSvg from "~/components/icons/menu/SeoSvg.vue"
-import MarketingSvg from "~/components/icons/menu/MarketingSvg.vue"
-import GraphicDesignSvg from "~/components/icons/menu/GraphicDesign.vue"
-import SupportSvg from "~/components/icons/menu/SupportSvg.vue"
-import WebDesignSvg from "~/components/icons/menu/WebDesignSvg.vue"
-import SuggestionsSvg from "~/components/icons/menu/SuggestionsSvg.vue"
-import AnnouncementsSvg from '~/components/icons/menu/AnnouncementsSvg.vue'
+
 import FacebookSvg from '~/components/icons/social/FacebookSvg.vue'
 import TwitterSvg from '~/components/icons/social/TwitterSvg.vue'
 import InstagramSvg from '~/components/icons/social/InstagramSvg.vue'
@@ -21,7 +15,7 @@ const navLinks = [
   {
     title: 'Diseño web',
     link: '/diseno-web',
-    icon: WebDesignSvg,
+    icon: FacebookSvg,
     iconAlt: 'Diseño web'
   },
 ]
