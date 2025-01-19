@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { ProductDetails } from '~/types/product-details'
+import type { ProductDetails } from '~/types/product-details';
 import Galleria from '../organisms/galleria.vue';
 
 const { info } = defineProps<{
@@ -42,6 +42,7 @@ const { info } = defineProps<{
       <NuxtLink :to="info?.buyLink" class="buy-button">👉 {{ info?.cta }}</NuxtLink>
     </div>
   </div>
+  
 </template>
 
 <style lang="scss" scoped>
