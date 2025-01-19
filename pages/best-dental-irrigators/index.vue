@@ -1,5 +1,7 @@
 <script setup lang="ts">
+
 import { getBestIrrigators } from '~/components/composables/getBestIrrigators'
+import Hero from '~/components/organisms/hero.vue'
 import ReviewsGrid from '~/components/organisms/review-grid.vue'
 import TypeSection from '~/components/organisms-raw/types.vue'
 
@@ -21,13 +23,21 @@ useSeoMeta({
   twitterCard: 'summary_large_image',
 })
 
+const { bestIrrigatorReviewDescription, bestIrrigatorSlug} = getBestIrrigators()
 
-const { bestIrrigatorReviewDescription, bestIrrigatorReviewTitle } = getBestIrrigators()
+const heroData = {
+  titleH2: "Discover the Top Choices for",
+  title: "Top 6 Best Dental Irrigators in 2025",
+  subtitle: "Upgrade your smile with stunning dental irrigators! We've reviewed the top best water flossers of 2025 based on durability, style, and customer feedback. Find the perfect one to enhance your oral health today!",
+  buttonText: "Browse Best Countertops",
+  cta: ""
+}
 
 </script>
 
 <template>
-  <ReviewsGrid :reviews="bestIrrigatorReviewDescription" :reviewTitle="bestIrrigatorReviewTitle" marginTop />
+  <Hero :heroData="heroData" />
+  <ReviewsGrid :reviews="bestIrrigatorReviewDescription" :slug="bestIrrigatorSlug" />
   <TypeSection />
   <QuestionsAndAnswers />
 

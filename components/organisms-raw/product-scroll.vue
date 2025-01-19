@@ -2,13 +2,12 @@
 import { ref } from 'vue'
 import ProductScrollSkeleton from './product-scroll-skeleton.vue'
 import type { ReviewGrid } from "~/types/review-grid"
-import type { TitleInfo } from "~/types/title-info"
 
 const isLoading = ref(true)
 
-const { reviewTitle, reviews } = defineProps<{
+const { slug, reviews } = defineProps<{
   reviews: ReviewGrid[],
-  reviewTitle: TitleInfo,
+  slug: string,
   marginTop?: boolean
 }>()
 
@@ -37,7 +36,7 @@ const { reviewTitle, reviews } = defineProps<{
                   <span> ⭐ {{ review.rating }} Stars</span>
                   <span> ❤️ {{ review.reviewCount }} reviews</span>
                 </div>
-                <NuxtLink :to="`/${reviewTitle.slug}/${review.fileName}`" class="button">
+                <NuxtLink :to="`/${slug}/${review.fileName}`" class="button">
                   Read Review
                 </NuxtLink>
               </div>

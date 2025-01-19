@@ -8,6 +8,9 @@ import QuestionsAndAnswers from '~/components/organisms-raw/questions.vue'
 import TypeSection from '~/components/organisms-raw/types.vue'
 import Hero from '~/components/organisms/hero.vue'
 import ReviewsGrid from '~/components/organisms/review-grid.vue'
+import type { TitleInfo } from "~/types/title-info"
+import TitleDescription from "~/components/atoms/title-description/index.vue"
+
 
 const title = 'Expert advice and products to improve your oral health'
 const description = 'Improve your oral health with our: ✓ Detailed user guides ✓ Expert advice ✓ Comparisons ✓ Reviews ✓ Promotions'
@@ -27,9 +30,9 @@ useSeoMeta({
   twitterCard: 'summary_large_image',
 })
 
-const { bestWirelessReviewDescription, bestWirelessReviewTitle } = getWirelessReviews()
-const { bestCounterReviewDescription, bestCounterReviewTitle } = getCounterReviews()
-const { bestIrrigatorReviewDescription, bestIrrigatorReviewTitle } = getBestIrrigators()
+const { bestWirelessReviewDescription, bestWirelessSlug } = getWirelessReviews()
+const { bestCounterReviewDescription, bestCounterSlug } = getCounterReviews()
+const { bestIrrigatorReviewDescription, bestIrrigatorSlug } = getBestIrrigators()
 
 const heroData = {
   titleH2: "Discover the Top Picks for",
@@ -38,13 +41,33 @@ const heroData = {
   buttonText: "Browse Best Water Flossers",
   cta: "best-dental-irrigators"
 }
+
+const bestWirelessReviewsTitle: TitleInfo = {
+  title: "Affordable And Wireless Oral Irrigators",
+  description: "Upgrade your smile game without breaking the bank! Dive into the coolest portable and affordable oral irrigators on Amazon. We've rounded up the best brands for easy, breezy dental care.",
+  subtext: "Click on view more to read our review of the top-rated wireless oral Irrigators.",
+}
+
+const bestCounterReviewsTitle: TitleInfo = {
+  title: 'Affordable CounterTop Irrigators',
+  description: 'Explore the best budget-friendly countertop oral irrigators that provide superior dental care with high water pulsation, multiple pressure settings, and various tips for different needs.',
+  subtext: 'Achieve effective, professional-level cleaning without the high cost. Perfect for families and individuals looking for a reliable and affordable oral care solution.',
+}
+
+
+
 </script>
 
 <template>
   <Hero :heroData="heroData" />
-  <ProductScroll :reviews="bestIrrigatorReviewDescription" :reviewTitle="bestIrrigatorReviewTitle" />
-  <ReviewsGrid :reviews="bestWirelessReviewDescription" :reviewTitle="bestWirelessReviewTitle" />
-  <ReviewsGrid :reviews="bestCounterReviewDescription" :reviewTitle="bestCounterReviewTitle" />
+  <ProductScroll :reviews="bestIrrigatorReviewDescription" :slug="bestIrrigatorSlug" />
+
+  <TitleDescription :info="bestWirelessReviewsTitle" />
+  <ReviewsGrid :reviews="bestWirelessReviewDescription" :slug="bestWirelessSlug" />
+
+  <TitleDescription :info="bestCounterReviewsTitle" />
+  <ReviewsGrid :reviews="bestCounterReviewDescription" :slug="bestCounterSlug" />
+
   <TypeSection />
   <QuestionsAndAnswers />
 </template>

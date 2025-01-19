@@ -51,7 +51,7 @@ const { info } = defineProps<{
   gap: 4rem;
   align-items: center;
   background: var(--background);
-  padding: 4rem 0 5rem;
+  padding: 8rem 0 5rem;
   max-width: var(--max-width);
   margin: 0 auto;
 

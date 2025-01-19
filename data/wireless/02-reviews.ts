@@ -1,5 +1,4 @@
 import type { ReviewGrid } from "~/types/review-grid"
-import type { TitleInfo } from "~/types/title-info"
 import waterpikWF02 from './waterpik-WF02'
 import nicwellF5025 from './nicwell-F5025'
 import nicefeelFC1592 from './nicefeel-FC1592'
@@ -8,12 +7,7 @@ import coslusF5020E from './coslus-F5020E'
 import bitvaeC2 from './bitvae-C2'
 import { waterPikWF02GlobalData, nicefeelFC1592GlobalData, coslusC20F5020EGlobalData, bitvaeC2GlobalData, nicwellF5025GlobalData, insmartFC256GlobalData } from "./01-global"
 
-export const bestWirelessReviewsTitle: TitleInfo = {
-  title: "Affordable And Wireless Oral Irrigators",
-  description: "Upgrade your smile game without breaking the bank! Dive into the coolest portable and affordable oral irrigators on Amazon. We've rounded up the best brands for easy, breezy dental care.",
-  subtext: "Click on view more to read our review of the top-rated wireless oral Irrigators.",
-  slug: "reviews/affordable-and-wireless-oral-irrigators/wireless"
-}
+export const slug = 'reviews/affordable-and-wireless-oral-irrigators/wireless'	
 
 export const bestWirelessReviewsDescription: ReviewGrid[] = [
   {

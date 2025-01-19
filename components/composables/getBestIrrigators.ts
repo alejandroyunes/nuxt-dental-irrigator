@@ -1,17 +1,11 @@
 import { ref, onMounted } from 'vue'
 import type { ReviewGrid } from "~/types/review-grid"
-import type { TitleInfo } from "~/types/title-info"
-import { bestIrrigatorReviewsDescription, bestIrrigatorReviewsTitle } from "~/data/best/02-reviews"
+import { bestIrrigatorReviewsDescription, slug } from "~/data/best/02-reviews"
 
 export function getBestIrrigators() {
-  const bestIrrigatorReviewTitle = ref<TitleInfo>({
-    title: '',
-    description: '',
-    subtext: '',
-    slug: ''
-  })
 
   const bestIrrigatorReviewDescription = ref<ReviewGrid[]>([])
+  const bestIrrigatorSlug = ref(slug)
 
   const bestIrrigatorReviewLoading = ref(false)
   const bestIrrigatorReviewError = ref(false)
@@ -19,7 +13,7 @@ export function getBestIrrigators() {
   const fetchPosts = async () => {
     bestIrrigatorReviewLoading.value = true
     try {
-      bestIrrigatorReviewTitle.value = await bestIrrigatorReviewsTitle
+      bestIrrigatorSlug.value = await slug
       bestIrrigatorReviewDescription.value = await bestIrrigatorReviewsDescription
       bestIrrigatorReviewDescription.value.sort((a, b) => a.id - b.id)
       bestIrrigatorReviewLoading.value = false
@@ -34,7 +28,7 @@ export function getBestIrrigators() {
 
   return {
     bestIrrigatorReviewDescription,
-    bestIrrigatorReviewTitle,
+    bestIrrigatorSlug,
     bestIrrigatorReviewLoading,
     bestIrrigatorReviewError
   }

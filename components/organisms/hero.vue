@@ -6,7 +6,7 @@ type HeroData = {
   titleH2: string,
   subtitle: string,
   buttonText: string,
-  cta: string,
+  cta?: string,
 }
 
 const { heroData } = defineProps<{heroData: HeroData}>()
@@ -19,7 +19,7 @@ const { heroData } = defineProps<{heroData: HeroData}>()
       <h2 class="subtitle">{{ heroData.titleH2 }}</h2>
       <h1 class="title">{{ heroData.title }}</h1>
       <p class="description">{{ heroData.subtitle }}</p>
-      <NuxtLink :to="`/${heroData.cta}`" class="button">
+      <NuxtLink v-if="heroData.cta" :to="`/${heroData.cta}`" class="button">
         {{ heroData.buttonText }}
         <RightArrowSvg />
       </NuxtLink>
@@ -35,8 +35,7 @@ const { heroData } = defineProps<{heroData: HeroData}>()
   align-items: center;
   overflow: hidden;
   background: var(--background);
-  padding-bottom: 3rem;
-
+  padding: 6rem;
 
   .content {
     margin: 50px auto 0;

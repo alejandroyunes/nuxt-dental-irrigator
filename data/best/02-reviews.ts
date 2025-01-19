@@ -1,5 +1,4 @@
 import type { ReviewGrid } from "~/types/review-grid"
-import type { TitleInfo } from "~/types/title-info"
 import panasonicEW1511W from './panasonic-EW1511W'
 import synhopeM6Plus from "./synhope-M6Plus"
 import waterpikwp580 from "./waterpik-wp580"
@@ -8,12 +7,7 @@ import waterpikwp662 from "./waterpik-wp662"
 import waterpikwp667 from "./waterpik-wp667"
 import { panasonicEW1511WGlobalData, synhopeM6PlusGlobalData, waterpikwp580GlobalData, waterpikwp660GlobalData, waterpikwp662GlobalData, waterpikwp667GlobalData } from "./01-global"
 
-export const bestIrrigatorReviewsTitle: TitleInfo = {
-  title: 'Top 6 Best Dental Irrigators in 2025',
-  description: 'Maintaining optimal oral hygiene is crucial for overall health, and dental irrigators have become an essential tool in achieving that goal. These devices, also known as water flossers, use a stream of water to remove plaque and food particles from between your teeth and below the gumline.',
-  subtext: 'Here are some of the best dental irrigators you can buy online:',
-  slug: 'reviews/best-dental-irrigators/best'
-}
+export const slug = 'reviews/best-dental-irrigators/best'
 
 export const bestIrrigatorReviewsDescription: ReviewGrid[] = [
   {

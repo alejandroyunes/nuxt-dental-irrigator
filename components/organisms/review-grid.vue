@@ -1,19 +1,15 @@
 <script setup lang="ts">
 import type { ReviewGrid } from "~/types/review-grid"
-import type { TitleInfo } from "~/types/title-info"
-import TitleDescription from "~/components/atoms/title-description/index.vue"
 
-const { reviewTitle, reviews } = defineProps<{
-  reviews: ReviewGrid[],
-  reviewTitle: TitleInfo,
-  marginTop?: boolean
+const { reviews } = defineProps<{
+  reviews: ReviewGrid[]
+  slug: string
 }>()
 
 </script>
 
 <template>
   <section class="irrigator-grid">
-    <TitleDescription :info="reviewTitle" :marginTop="marginTop" />
 
     <div class="cards">
       <div v-for="review in reviews" :key="review.id" class="card">
@@ -30,7 +26,7 @@ const { reviewTitle, reviews } = defineProps<{
               <span> ⭐ {{ review.rating }} Stars</span>
               <span> ❤️ {{ review.reviewCount }} reviews</span>
             </div>
-            <NuxtLink :to="`/${reviewTitle.slug}/${review.fileName}`" class="button">
+            <NuxtLink :to="`/${slug}/${review.fileName}`" class="button">
               Read Review
             </NuxtLink>
           </div>
@@ -48,7 +44,6 @@ const { reviewTitle, reviews } = defineProps<{
 
   .cards {
     display: grid;
-    margin-top: 4rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
 

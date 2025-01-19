@@ -8,12 +8,7 @@ import heyaxa2302WF from './heyaxa-2302WF'
 import turewellFC162 from './turewell-FC162'
 import { h2oflossHF9GlobalData, sawgmoreFC166GlobalData, turewellFC165GlobalData, oeeterM01GlobalData, heyaxa2302WFGlobalData, turewellFC162GlobalData } from "./01-global"
 
-export const bestCounterReviewsTitle: TitleInfo = {
-  title: 'Affordable CounterTop Irrigators',
-  description: 'Explore the best budget-friendly countertop oral irrigators that provide superior dental care with high water pulsation, multiple pressure settings, and various tips for different needs.',
-  subtext: 'Achieve effective, professional-level cleaning without the high cost. Perfect for families and individuals looking for a reliable and affordable oral care solution.',
-  slug: 'reviews/affordable-countertop-irrigators/counter'
-}
+export const slug = 'reviews/affordable-countertop-irrigators/counter'
 
 export const bestCounterReviewsDescription: ReviewGrid[] = [
   {

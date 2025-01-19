@@ -1,17 +1,11 @@
 import { ref, onMounted } from 'vue'
 import type { ReviewGrid } from "~/types/review-grid"
-import type { TitleInfo } from "~/types/title-info"
-import { bestWirelessReviewsDescription, bestWirelessReviewsTitle } from "~/data/wireless/02-reviews"
+import { bestWirelessReviewsDescription, slug } from "~/data/wireless/02-reviews"
 
 export function getWirelessReviews() {
 
-  const bestWirelessReviewTitle = ref<TitleInfo>({
-    title: '',
-    description: '',
-    subtext: '',
-    slug: ''
-  })
   const bestWirelessReviewDescription = ref<ReviewGrid[]>([])
+  const bestWirelessSlug = ref(slug)
 
   const loadingBestWireless = ref(false)
   const errorBestWireless = ref(false)
@@ -19,7 +13,7 @@ export function getWirelessReviews() {
   const fetchPosts = async () => {
     loadingBestWireless.value = true
     try {
-      bestWirelessReviewTitle.value = await bestWirelessReviewsTitle
+      bestWirelessSlug.value = await slug
       bestWirelessReviewDescription.value = await bestWirelessReviewsDescription
       bestWirelessReviewDescription.value.sort((a, b) => a.id - b.id)
       loadingBestWireless.value = false
@@ -33,7 +27,7 @@ export function getWirelessReviews() {
   onMounted(fetchPosts)
 
   return {
-    bestWirelessReviewTitle,
+    bestWirelessSlug,
     bestWirelessReviewDescription,
     loadingBestWireless,
     errorBestWireless

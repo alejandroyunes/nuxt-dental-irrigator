@@ -57,6 +57,7 @@ const types = [
 
 <style lang="scss" scoped>
 .types-section {
+  padding: 4rem 0;
 
   .types-header {
     text-align: center;
