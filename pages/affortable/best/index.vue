@@ -27,7 +27,7 @@ const { bestIrrigatorReviewDescription, bestIrrigatorSlug} = getBestIrrigators()
 
 const heroData = {
   titleH2: "Discover the Top Choices for",
-  title: "Top 6 Best Dental Irrigators in 2025",
+  title: "Top 6 Best Affordable Dental Irrigators in 2025",
   subtitle: "Upgrade your smile with stunning dental irrigators! We've reviewed the top best water flossers of 2025 based on durability, style, and customer feedback. Find the perfect one to enhance your oral health today!",
   buttonText: "Browse Best Countertops",
   cta: ""

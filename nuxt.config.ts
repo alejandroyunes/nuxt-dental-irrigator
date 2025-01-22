@@ -1,7 +1,7 @@
 import { defineNuxtConfig } from "nuxt/config"
 
 export default defineNuxtConfig({
-compatibilityDate: "2025-01-20",
+// compatibilityDate: "2025-01-22",
   devtools: { enabled: false },
   css: ["~/assets/main.scss"],
   modules: [    

@@ -43,7 +43,7 @@ const heroData = {
 }
 
 const bestWirelessReviewsTitle: TitleInfo = {
-  title: "Affordable And Wireless Oral Irrigators",
+  title: "Affordable Wireless Oral Irrigators",
   description: "Upgrade your smile game without breaking the bank! Dive into the coolest portable and affordable oral irrigators on Amazon. We've rounded up the best brands for easy, breezy dental care.",
   subtext: "Click on view more to read our review of the top-rated wireless oral Irrigators.",
 }
