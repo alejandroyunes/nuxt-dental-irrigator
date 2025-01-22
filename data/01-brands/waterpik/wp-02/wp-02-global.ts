@@ -1,6 +1,6 @@
-//New not included
-export const zerhuntFC169GlobalData = {
-  id: 7,
+export const wp02Global = {
+  brand: 'waterpik',
+  path: 'wf02',
   images: [
     {
       url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-wf-02/waterpik-w-02_lzvmu1.webp',
@@ -11,13 +11,14 @@ export const zerhuntFC169GlobalData = {
       thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183548/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2-xs_phlwfe.webp'
     },
   ],
-  amazonUrl: 'https://amzn.to/3Gycdqi',
+  amazonUrl: 'https://amzn.to/3TjtFqp',
   videoUrl: 'https://www.youtube.com/embed/oijS5814cVg?si=91iHyYw79l9F8PIC',
   videoUrl2: 'https://www.youtube.com/embed/_pI9UgJs1zw?si=_qQXR412SCnkP-oK',
-  productPrice: '--.--',
+  productPrice: '36.89',
   amazonPrime: 'https://www.amazon.com',
+  updatedDate: '11/23/2023',
   rating: {
-    stars: 4.3,
-    reviews: 2210,
-  },
+    stars: 4.2,
+    reviews: 48102,
+  }
 }

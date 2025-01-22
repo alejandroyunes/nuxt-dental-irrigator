@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import { getBestIrrigators } from '~/components/composables/getBestIrrigators'
+import { getBestReviews } from '~/components/composables/getBestReviews'
 import { getCounterReviews } from '~/components/composables/getCounterReviews'
 import { getWirelessReviews } from '~/components/composables/getWirelessReviews'
 
+import TitleDescription from "~/components/atoms/title-description/index.vue"
 import ProductScroll from '~/components/organisms-raw/product-scroll.vue'
 import QuestionsAndAnswers from '~/components/organisms-raw/questions.vue'
 import TypeSection from '~/components/organisms-raw/types.vue'
 import Hero from '~/components/organisms/hero.vue'
 import ReviewsGrid from '~/components/organisms/review-grid.vue'
 import type { TitleInfo } from "~/types/title-info"
-import TitleDescription from "~/components/atoms/title-description/index.vue"
 
 
 const title = 'Expert advice and products to improve your oral health'
@@ -32,7 +32,7 @@ useSeoMeta({
 
 const { bestWirelessReviewDescription, bestWirelessSlug } = getWirelessReviews()
 const { bestCounterReviewDescription, bestCounterSlug } = getCounterReviews()
-const { bestIrrigatorReviewDescription, bestIrrigatorSlug } = getBestIrrigators()
+const { bestReview } = getBestReviews()
 
 const heroData = {
   titleH2: "Discover the Top Picks for",
@@ -58,7 +58,7 @@ const bestCounterReviewsTitle: TitleInfo = {
 
 <template>
   <Hero :heroData="heroData" />
-  <ProductScroll :reviews="bestIrrigatorReviewDescription" :slug="bestIrrigatorSlug" />
+  <ProductScroll :reviews="bestReview" />
 
   <TitleDescription :info="bestWirelessReviewsTitle" />
   <ReviewsGrid :reviews="bestWirelessReviewDescription" :slug="bestWirelessSlug" />

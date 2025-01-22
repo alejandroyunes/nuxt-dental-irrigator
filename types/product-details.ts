@@ -1,6 +1,4 @@
 export interface ProductDetails {
-  id: number
-  fileName: string
   info: {
     images: { url: string; thumbnail: string }[],
     alt: string

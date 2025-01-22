@@ -1,51 +1,24 @@
-import synhopeM6Plus from "~/data/01-brands/synhope/synhope-M6Plus"
+import panasonicEW1511W from "~/data/01-brands/panasonic/ew1511w/ew1511w"
+import synhopeM6Plus from "~/data/01-brands/synhope/m6plus/m6-plus"
+import waterpikwp662 from "~/data/01-brands/waterpik/wp-662/wp-662"
+import waterpikwp667 from "~/data/01-brands/waterpik/wp-667/wp-667"
+import waterpikwp580 from "~/data/01-brands/waterpik/wp-580/wp-580"
+
 import type { ReviewGrid } from "~/types/review-grid"
-import waterpikwp580 from "~/data/01-brands/waterpik/waterpik-wp580"
-import waterpikwp660 from "~/data/01-brands/waterpik/waterpik-wp660"
-import waterpikwp662 from "~/data/01-brands/waterpik/waterpik-wp662"
-import waterpikwp667 from "~/data/01-brands/waterpik/waterpik-wp667"
-import panasonicEW1511W from "~/data/01-brands/panasonic/panasonic-EW1511W"
-import { panasonicEW1511WGlobalData, synhopeM6PlusGlobalData, waterpikwp580GlobalData, waterpikwp660GlobalData, waterpikwp662GlobalData, waterpikwp667GlobalData } from "./01-global"
 
-export const slug = 'reviews/best-dental-irrigators/best'
+import { waterpikwp660 } from "~/data/01-brands/waterpik/wp-660/wp-660"
 
-export const bestIrrigatorReviewsDescription: ReviewGrid[] = [
+import { wp580Global } from "~/data/01-brands/waterpik/wp-580/wp-580-global"
+import { wp662Global } from "~/data/01-brands/waterpik/wp-662/wp-662-global"
+import { wp667Global } from "~/data/01-brands/waterpik/wp-667/wp-667-global"
+import { wp660Global } from "~/data/01-brands/waterpik/wp-660/wp-660-global"
+
+const slug = 'reviews/best'
+
+export const bestReviews: ReviewGrid[] = [
   {
-    id: panasonicEW1511WGlobalData.id,
-    fileName: panasonicEW1511W.fileName,
-    name: panasonicEW1511W.info.title,
-    image: panasonicEW1511W.info.images[0].thumbnail,
-    alt: panasonicEW1511W.info.alt,
-    price: panasonicEW1511W.info.price,
-    rating: panasonicEW1511W.info.rating.stars,
-    reviewCount: panasonicEW1511W.info.rating.reviews,
-    updatedDate: panasonicEW1511W.info.updatedDate
-  },
-  {
-    id: synhopeM6PlusGlobalData.id,
-    fileName: synhopeM6Plus.fileName,
-    name: synhopeM6Plus.info.title,
-    image: synhopeM6Plus.info.images[0].thumbnail,
-    alt: synhopeM6Plus.info.alt,
-    price: synhopeM6Plus.info.price,
-    rating: synhopeM6Plus.info.rating.stars,
-    reviewCount: synhopeM6Plus.info.rating.reviews,
-    updatedDate: synhopeM6Plus.info.updatedDate
-  },
-  {
-    id: waterpikwp580GlobalData.id,
-    fileName: waterpikwp580.fileName,
-    name: waterpikwp580.info.title,
-    image: waterpikwp580.info.images[0].thumbnail,
-    alt: waterpikwp580.info.alt,
-    price: waterpikwp580.info.price,
-    rating: waterpikwp580.info.rating.stars,
-    reviewCount: waterpikwp580.info.rating.reviews,
-    updatedDate: waterpikwp580.info.updatedDate
-  },
-  {
-    id: waterpikwp660GlobalData.id,
-    fileName: waterpikwp660.fileName,
+    id: 1,
+    path: `/${slug}/${wp660Global.brand}/${wp660Global.path}`,
     name: waterpikwp660.info.title,
     image: waterpikwp660.info.images[0].thumbnail,
     alt: waterpikwp660.info.alt,
@@ -55,8 +28,41 @@ export const bestIrrigatorReviewsDescription: ReviewGrid[] = [
     updatedDate: waterpikwp660.info.updatedDate
   },
   {
-    id: waterpikwp662GlobalData.id,
-    fileName: waterpikwp662.fileName,
+    id: 2,
+    path: '',
+    name: waterpikwp580.info.title,
+    image: waterpikwp580.info.images[0].thumbnail,
+    alt: waterpikwp580.info.alt,
+    price: waterpikwp580.info.price,
+    rating: waterpikwp580.info.rating.stars,
+    reviewCount: waterpikwp580.info.rating.reviews,
+    updatedDate: waterpikwp580.info.updatedDate
+  },
+  {
+    id: 3,
+    path: '',
+    name: synhopeM6Plus.info.title,
+    image: synhopeM6Plus.info.images[0].thumbnail,
+    alt: synhopeM6Plus.info.alt,
+    price: synhopeM6Plus.info.price,
+    rating: synhopeM6Plus.info.rating.stars,
+    reviewCount: synhopeM6Plus.info.rating.reviews,
+    updatedDate: synhopeM6Plus.info.updatedDate
+  },
+  {
+    id: 4,
+    path: '',
+    name: panasonicEW1511W.info.title,
+    image: panasonicEW1511W.info.images[0].thumbnail,
+    alt: panasonicEW1511W.info.alt,
+    price: panasonicEW1511W.info.price,
+    rating: panasonicEW1511W.info.rating.stars,
+    reviewCount: panasonicEW1511W.info.rating.reviews,
+    updatedDate: panasonicEW1511W.info.updatedDate
+  },
+  {
+    id: 5,
+    path: '',
     name: waterpikwp662.info.title,
     image: waterpikwp662.info.images[0].thumbnail,
     alt: waterpikwp662.info.alt,
@@ -66,8 +72,8 @@ export const bestIrrigatorReviewsDescription: ReviewGrid[] = [
     updatedDate: waterpikwp662.info.updatedDate
   },
   {
-    id: waterpikwp667GlobalData.id,
-    fileName: waterpikwp667.fileName,
+    id: 6,
+    path: '',
     name: waterpikwp667.info.title,
     image: waterpikwp667.info.images[0].thumbnail,
     alt: waterpikwp667.info.alt,
