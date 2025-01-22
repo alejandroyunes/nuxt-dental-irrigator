@@ -42,10 +42,11 @@ const { info } = defineProps<{
       <NuxtLink :to="info?.buyLink" class="buy-button">👉 {{ info?.cta }}</NuxtLink>
     </div>
   </div>
-  
+
 </template>
 
 <style lang="scss" scoped>
+
 .card-details {
   display: grid;
   grid-template-columns: .8fr 1fr;

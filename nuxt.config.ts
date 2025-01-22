@@ -1,6 +1,7 @@
 import { defineNuxtConfig } from "nuxt/config"
 
 export default defineNuxtConfig({
+compatibilityDate: "2025-01-20",
   devtools: { enabled: false },
   css: ["~/assets/main.scss"],
   modules: [    
@@ -47,5 +48,4 @@ gtm: {
   trackOnNextTick: false,
   devtools: false,
   },  
-  compatibilityDate: "2024-07-11",
 })

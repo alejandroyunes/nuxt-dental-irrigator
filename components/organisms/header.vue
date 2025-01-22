@@ -6,7 +6,6 @@ import SliderTopNav from '~/components/organisms/menus/sliders/top-nav/index.vue
 import Dropdown from '~/components/organisms/menus/dropdown/desktop/index.vue'
 import SunSvg from '~/components/icons/header/SunSvg.vue'
 import MoonSvg from '~/components/icons/header/MoonSvg.vue'
-import ButtonsGlowOn from '~/components/atoms/buttons/glow-on/index.vue'
 
 import HamburgerVerticalSvg from '~/components/icons/header/HamburgerSvg.vue'
 

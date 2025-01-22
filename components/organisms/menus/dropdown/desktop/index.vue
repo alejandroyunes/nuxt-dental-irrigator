@@ -29,14 +29,19 @@ const comparisonLinks = [
   },
 ]
 
-const supportLinks = [
+const affortableLinks = [
   {
-    title: 'Contacta con soporte',
-    link: '/contacta-con-soporte',
-    iconAlt: 'Contacta con soporte'
+    title: 'Top Best of 2025',
+    link: '/best-dental-irrigators',
+    iconAlt: 'Top Best of 2025'
   },
   {
-    title: 'Sugerencias',
+    title: 'Counter Top',
+    link: '/sugerencias',
+    iconAlt: 'Sugerencias'
+  },
+  {
+    title: 'Counter Top',
     link: '/sugerencias',
     iconAlt: 'Sugerencias'
   }
@@ -48,6 +53,20 @@ const supportLinks = [
 
   <nav class="menu">
     <ul class="items">
+
+      <li class="item">
+        <h3 class="title">Best</h3>
+        <ArrowDownSvg class="icon arrow-icon" />
+
+        <ul :class="['sub-items', { 'clicked': isClicked }]" @click="itemClicked">
+          <li v-for="(item, index) in affortableLinks" :key="index" class="sub-item">
+            <NuxtLink class="link" :to="item.link">
+              <component :alt="item.iconAlt" />
+              <p>{{ item.title }}</p>
+            </NuxtLink>
+          </li>
+        </ul>
+      </li>
 
       <li class="item">
         <h3 class="title">Comparisons</h3>
@@ -64,11 +83,11 @@ const supportLinks = [
       </li>
 
       <li class="item">
-        <h3 class="title">Soporte</h3>
+        <h3 class="title">Affortable</h3>
         <ArrowDownSvg class="icon arrow-icon" />
 
         <ul :class="['sub-items', { 'clicked': isClicked }]" @click="itemClicked">
-          <li v-for="(item, index) in supportLinks" :key="index" class="sub-item">
+          <li v-for="(item, index) in affortableLinks" :key="index" class="sub-item">
             <NuxtLink class="link" :to="item.link">
               <component :alt="item.iconAlt" />
               <p>{{ item.title }}</p>

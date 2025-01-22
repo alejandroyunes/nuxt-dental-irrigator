@@ -54,8 +54,6 @@ const bestCounterReviewsTitle: TitleInfo = {
   subtext: 'Achieve effective, professional-level cleaning without the high cost. Perfect for families and individuals looking for a reliable and affordable oral care solution.',
 }
 
-
-
 </script>
 
 <template>
