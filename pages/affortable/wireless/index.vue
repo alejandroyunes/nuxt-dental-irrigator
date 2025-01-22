@@ -2,9 +2,8 @@
 
 import Hero from '~/components/organisms/hero.vue'
 
-const title = 'Top 6 Best Countertop Water Flossers for Healthy Teeth & Gums in 2025';
-const description = 'Discover the best countertop water flossers to maintain optimal oral hygiene. Explore our expert reviews and comparisons of the top dental irrigators for healthier teeth and gums.';
-
+const title = 'Top Best Affordable Wireless Water Flossers for Healthy Teeth & Gums in 2025';
+const description = 'Discover the best affordable wireless/portable water flossers to maintain optimal oral hygiene. Explore our expert reviews and comparisons of the top dental irrigators for healthier teeth and gums.';
 useSeoMeta({
   title: title,
   description: description,
@@ -22,9 +21,9 @@ useSeoMeta({
 
 const heroData = {
   titleH2: "Discover the Top Choices for",
-  title: "Best Countertops Water Flossers of 2025",
-  subtitle: "Upgrade your home with stunning countertops! We've reviewed the top countertops of 2025 based on durability, style, and customer feedback. Find the perfect countertop to enhance your oral health today!",
-  buttonText: "Browse Best Countertops",
+  title: "Best Affordable Wireless/Portable Water Flossers of 2025",
+  subtitle: "Upgrade your home with stunning and affordable wireless portable water flossers! We've reviewed the top wireless and portable water flossers of 2025 based on affordability, durability, style, and customer feedback. Find the perfect dental irrigator to enhance your oral health today!",
+  buttonText: "Browse Best Wireless/Portable Water Flossers",
   cta: ""
 }
 
