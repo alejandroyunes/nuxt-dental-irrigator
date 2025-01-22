@@ -1,4 +1,4 @@
-import { nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592GlobalData, coslusC20F5020EGlobalData } from './01-global'
+import { nicwellF5025GlobalData, waterPikWF02GlobalData, nicefeelFC1592GlobalData, coslusC20F5020EGlobalData } from '~/data/wireless/01-global'
 import type { ProductDetails } from '~/types/product-details'
 
 const nicefeelFC1592: ProductDetails = {

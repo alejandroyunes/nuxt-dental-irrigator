@@ -1,11 +1,11 @@
 import type { ReviewGrid } from "~/types/review-grid"
-import waterpikWF02 from './waterpik-WF02'
-import nicwellF5025 from './nicwell-F5025'
-import nicefeelFC1592 from './nicefeel-FC1592'
-import inSmartFC256 from './inSmart-FC256'
-import coslusF5020E from './coslus-F5020E'
-import bitvaeC2 from './bitvae-C2'
-import { waterPikWF02GlobalData, nicefeelFC1592GlobalData, coslusC20F5020EGlobalData, bitvaeC2GlobalData, nicwellF5025GlobalData, insmartFC256GlobalData } from "./01-global"
+import coslusF5020E from '~/data/01-brands/coslus/coslus-F5020E'
+import waterpikWF02 from '~/data/01-brands/waterpik/waterpik-WF02'
+import { bitvaeC2GlobalData, coslusC20F5020EGlobalData, insmartFC256GlobalData, nicefeelFC1592GlobalData, nicwellF5025GlobalData, waterPikWF02GlobalData } from "./01-global"
+import bitvaeC2 from '~/data/01-brands/bitvae/bitvae-C2'
+import inSmartFC256 from '~/data/01-brands/inSmart/inSmart-FC256'
+import nicefeelFC1592 from '~/data/01-brands/nicefeel/nicefeel-FC1592'
+import nicwellF5025 from '~/data/01-brands/nicwell/nicwell-F5025'
 
 export const slug = 'reviews/affordable-and-wireless-oral-irrigators/wireless'	
 

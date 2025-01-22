@@ -1,5 +1,5 @@
 import type { ProductDetails } from '~/types/product-details';
-import { waterpikwp660GlobalData, waterpikwp580GlobalData, synhopeM6PlusGlobalData, panasonicEW1511WGlobalData } from './01-global';
+import { panasonicEW1511WGlobalData, synhopeM6PlusGlobalData, waterpikwp580GlobalData, waterpikwp660GlobalData } from '~/data/best/01-global';
 
 const waterpikwp660: ProductDetails = {
   id: waterpikwp660GlobalData.id,

@@ -1,10 +1,10 @@
+import synhopeM6Plus from "~/data/01-brands/synhope/synhope-M6Plus"
 import type { ReviewGrid } from "~/types/review-grid"
-import panasonicEW1511W from './panasonic-EW1511W'
-import synhopeM6Plus from "./synhope-M6Plus"
-import waterpikwp580 from "./waterpik-wp580"
-import waterpikwp660 from "./waterpik-wp660"
-import waterpikwp662 from "./waterpik-wp662"
-import waterpikwp667 from "./waterpik-wp667"
+import waterpikwp580 from "~/data/01-brands/waterpik/waterpik-wp580"
+import waterpikwp660 from "~/data/01-brands/waterpik/waterpik-wp660"
+import waterpikwp662 from "~/data/01-brands/waterpik/waterpik-wp662"
+import waterpikwp667 from "~/data/01-brands/waterpik/waterpik-wp667"
+import panasonicEW1511W from "~/data/01-brands/panasonic/panasonic-EW1511W"
 import { panasonicEW1511WGlobalData, synhopeM6PlusGlobalData, waterpikwp580GlobalData, waterpikwp660GlobalData, waterpikwp662GlobalData, waterpikwp667GlobalData } from "./01-global"
 
 export const slug = 'reviews/best-dental-irrigators/best'

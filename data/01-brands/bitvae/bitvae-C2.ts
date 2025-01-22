@@ -1,5 +1,5 @@
 import type { ProductDetails } from '~/types/product-details'
-import { bitvaeC2GlobalData, coslusC20F5020EGlobalData, nicwellF5025GlobalData, nicefeelFC1592GlobalData, insmartFC256GlobalData } from './01-global'
+import { bitvaeC2GlobalData, coslusC20F5020EGlobalData, nicwellF5025GlobalData, nicefeelFC1592GlobalData, insmartFC256GlobalData } from '~/data/wireless/01-global'
 
 const bitvaeC2: ProductDetails = {
   id: bitvaeC2GlobalData.id,

@@ -1,5 +1,5 @@
 import type { ProductDetails } from '~/types/product-details'
-import { waterpikwp667GlobalData } from './01-global'
+import { waterpikwp667GlobalData } from '~/data/best/01-global'
 
 const waterpikwp667: ProductDetails = {
   id: waterpikwp667GlobalData.id,

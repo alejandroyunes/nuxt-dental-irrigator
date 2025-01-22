@@ -1,12 +1,11 @@
 import type { ReviewGrid } from "~/types/review-grid"
-import type { TitleInfo } from "~/types/title-info"
-import turewellFC165 from './turewell-FC165'
-import h2oflossHF9 from './h2ofloss-HF9'
-import sawgmoreFC166 from './sawgmore-FC166'
-import oeeterM01 from './oeeter-M01'
-import heyaxa2302WF from './heyaxa-2302WF'
-import turewellFC162 from './turewell-FC162'
-import { h2oflossHF9GlobalData, sawgmoreFC166GlobalData, turewellFC165GlobalData, oeeterM01GlobalData, heyaxa2302WFGlobalData, turewellFC162GlobalData } from "./01-global"
+import { h2oflossHF9GlobalData, heyaxa2302WFGlobalData, oeeterM01GlobalData, sawgmoreFC166GlobalData, turewellFC162GlobalData, turewellFC165GlobalData } from "./01-global"
+import turewellFC165 from '~/data/01-brands/turewell/turewell-FC165'
+import turewellFC162 from '~/data/01-brands/turewell/turewell-FC162'
+import heyaxa2302WF from '~/data/01-brands/heyaxa/heyaxa-2302WF'
+import h2oflossHF9 from '~/data/01-brands/h20floss/h2ofloss-HF9'
+import oeeterM01 from '~/data/01-brands/oeeter/oeeter-M01'
+import sawgmoreFC166 from '~/data/01-brands/sawgmore/sawgmore-FC166'
 
 export const slug = 'reviews/affordable-countertop-irrigators/counter'
 
