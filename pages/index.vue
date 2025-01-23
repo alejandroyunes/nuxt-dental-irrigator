@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { getBestReviews } from '~/components/composables/affortable/getBest'
-import { getCounterReviews } from '~/components/composables/affortable/getBestCounter'
-import { getWirelessReviews } from '~/components/composables/affortable/getBestWireless'
+import { getBestReviews } from '~/components/composables/Affordable/getBest'
+import { getCounterReviews } from '~/components/composables/Affordable/getBestCounter'
+import { getWirelessReviews } from '~/components/composables/Affordable/getBestWireless'
 
 import TitleDescription from "~/components/atoms/title-description/index.vue"
 import ProductScroll from '~/components/organisms-raw/product-scroll.vue'
@@ -35,10 +35,10 @@ const { bestCounterAffortableReview } = getCounterReviews()
 
 const heroData = {
   titleH2: "Discover the Top Picks for",
-  title: "Best Water Flossers of 2025",
+  title: "Best Affordable Water Flossers of 2025",
   subtitle: "Say goodbye to plaque and hello to a healthier smile! We've reviewed the top water flossers of 2025 based on performance, user reviews, and expert recommendations. Find the perfect water flosser for your dental care needs today!",
   buttonText: "Browse Best Water Flossers",
-  cta: "best-dental-irrigators"
+  cta: ""
 }
 
 const bestWirelessReviewsTitle: TitleInfo = {

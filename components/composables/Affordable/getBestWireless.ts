@@ -6,18 +6,19 @@ export function getWirelessReviews() {
 
   const bestWirelessAffortableReview = ref<ReviewGrid[]>([])
 
-  const loadingBestWireless = ref(false)
-  const errorBestWireless = ref(false)
+  const bestWirelessAffortableLoading = ref(false)
+  const bestWirelessAffortableError = ref(false)
 
   const fetchPosts = async () => {
-    loadingBestWireless.value = true
+    bestWirelessAffortableLoading.value = true
     try {
       bestWirelessAffortableReview.value = await bestWireless
-      loadingBestWireless.value = false
-
+      
+      bestWirelessAffortableLoading.value = false
+      bestWirelessAffortableError.value = false
     } catch (e) {
-      errorBestWireless.value = true
-      loadingBestWireless.value = false
+      bestWirelessAffortableError.value = true
+      bestWirelessAffortableLoading.value = false
     }
   }
 
@@ -25,7 +26,7 @@ export function getWirelessReviews() {
 
   return {
     bestWirelessAffortableReview,
-    loadingBestWireless,
-    errorBestWireless
+    bestWirelessAffortableLoading,
+    bestWirelessAffortableError
   }
 }

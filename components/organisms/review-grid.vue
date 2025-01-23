@@ -46,10 +46,6 @@ const { reviews } = defineProps<{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
 
-    @media (max-width: 1024px) {
-      grid-template-columns: 1fr;
-    }
-
     .card {
       display: flex;
       flex-direction: column;

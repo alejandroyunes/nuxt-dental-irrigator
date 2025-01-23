@@ -35,7 +35,7 @@ const { heroData } = defineProps<{heroData: HeroData}>()
   align-items: center;
   overflow: hidden;
   background: var(--background);
-  padding: 6rem;
+  padding: 6rem 1.25rem 2rem;
 
   .content {
     margin: 50px auto 0;

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import { getBestReviews } from '~/components/composables/affortable/getBest'
+import { getBestReviews } from '~/components/composables/Affordable/getBest'
 import TypeSection from '~/components/organisms-raw/types.vue'
 import Hero from '~/components/organisms/hero.vue'
 import ReviewsGrid from '~/components/organisms/review-grid.vue'
