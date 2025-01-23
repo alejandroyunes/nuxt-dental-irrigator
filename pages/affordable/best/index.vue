@@ -1,12 +1,16 @@
 <script setup lang="ts">
 
-import { getBestReviews } from '~/components/composables/Affordable/getBest'
-import TypeSection from '~/components/organisms-raw/types.vue'
 import Hero from '~/components/organisms/hero.vue'
 import ReviewsGrid from '~/components/organisms/review-grid.vue'
+import TypeSection from '~/components/organisms/types.vue'
+import TitleDescription from "~/components/atoms/title-description/index.vue"
+import type { TitleInfo } from "~/types/title-info"
 
-const title = 'Top 6 Best Dental Irrigators for Healthy Teeth & Gums in 2025'
-const description = 'Discover the best dental irrigators to maintain optimal oral hygiene. Explore our expert reviews and comparisons of the top water flossers for healthier teeth and gums.'
+import { getBestReviews } from '~/components/composables/Affordable/getBest'
+
+const title = 'Top 6 Best Affordable Dental Irrigators for Healthy Teeth & Gums in 2025'
+const description = 'Discover the best affordable dental irrigators to maintain optimal oral hygiene. Explore our expert reviews and comparisons of the top water flossers for healthier teeth and gums.'
+const { bestReview } = getBestReviews()
 
 useSeoMeta({
   title: title,
@@ -15,15 +19,13 @@ useSeoMeta({
   ogTitle: title,
   ogDescription: description,
   ogImage: '/open-graph.webp',
-  ogUrl: 'https://dental-irrigator.net/best-dental-irrigators',
+  ogUrl: 'https://dental-irrigator.net/affordable/best',
   ogLocale: 'en_US',
   twitterTitle: title,
   twitterDescription: description,
   twitterImage: '/open-graph.webp',
   twitterCard: 'summary_large_image',
 })
-
-const { bestReview } = getBestReviews()
 
 const heroData = {
   titleH2: "Discover the Top Choices for",
@@ -33,12 +35,33 @@ const heroData = {
   cta: ""
 }
 
+const typeTitle: TitleInfo = {
+  title: 'What Type of Dental Irrigator to Buy?',
+  description: 'The best irrigator is the one that fits your needs. To meet different demands, manufacturers have created two main types of irrigators: countertop (powerful), cordless (more convenient for travel and portability).',
+  subtext: 'Check out our reviews and comparisons of the top affordable water flossers for healthier teeth and gums.',
+}
+
+const bestAffordableTypes =  [
+  {
+    title: 'Best Affordable Counter Tops Water Flossers',
+    description: 'Countertop dental irrigators are characterized by their stationary design and larger water tank capacity. Unlike portable models, they offer multiple pressure settings and interchangeable nozzles, allowing for more precise and customized cleaning based on individual needs. Their size and features make them ideal for intensive and personalized use at home, providing comprehensive and professional oral hygiene.',
+    image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1734236670/irrigators/01%20-%20types/counter-top_b8n4z9.webp',
+    link: '/affordable/counter-top'
+  },
+  {
+    title: 'Best Affordable Portable Water Flossers',
+    description: 'Portable dental irrigators are the portable choice for oral hygiene on the go. Unlike countertop models, their compact and lightweight design makes them easy to carry. They often operate on batteries and have smaller water reservoirs, suitable for temporary use away from home. Although they may have fewer pressure settings, their convenience and adaptability make them essential for those who frequently travel.',
+    image: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1734236670/irrigators/01%20-%20types/wireless_tqxtyc.webp',
+    link: '/affordable/portable'
+  },
+]
+
 </script>
 
 <template>
   <Hero :heroData="heroData" />
   <ReviewsGrid :reviews="bestReview"  />
-  <TypeSection />
+  <TitleDescription :info="typeTitle" />
+  <TypeSection :types="bestAffordableTypes" />
   <QuestionsAndAnswers />
-
 </template>

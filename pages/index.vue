@@ -1,14 +1,14 @@
 <script setup lang="ts">
 import { getBestReviews } from '~/components/composables/Affordable/getBest'
-import { getCounterReviews } from '~/components/composables/Affordable/getBestCounter'
-import { getWirelessReviews } from '~/components/composables/Affordable/getBestWireless'
+import { getBestCounterReviews } from '~/components/composables/Affordable/getBestCounter'
+import { getBestWirelessReviews } from '~/components/composables/Affordable/getBestWireless'
 
 import TitleDescription from "~/components/atoms/title-description/index.vue"
 import QuestionsAndAnswers from '~/components/organisms-raw/questions.vue'
-import TypeSection from '~/components/organisms-raw/types.vue'
 import Hero from '~/components/organisms/hero.vue'
 import ProductScroll from '~/components/organisms/product-scroll.vue'
 import ReviewsGrid from '~/components/organisms/review-grid.vue'
+import TypeSection from '~/components/organisms/types.vue'
 import type { TitleInfo } from "~/types/title-info"
 
 const title = 'Expert advice and products to improve your oral health'
@@ -30,8 +30,8 @@ useSeoMeta({
 })
 
 const { bestReview } = getBestReviews()
-const { bestWirelessAffortableReview } = getWirelessReviews()
-const { bestCounterAffortableReview } = getCounterReviews()
+const { bestWirelessAffortableReview } = getBestWirelessReviews()
+const { bestCounterAffortableReview } = getBestCounterReviews()
 
 const heroData = {
   titleH2: "Discover the Top Picks for",
@@ -65,7 +65,7 @@ const bestCounterReviewsTitle: TitleInfo = {
   <TitleDescription :info="bestCounterReviewsTitle" />
   <ReviewsGrid :reviews="bestCounterAffortableReview" />
 
-  <TypeSection />
+  <!-- <TypeSection  /> -->
   <QuestionsAndAnswers />
 </template>
 

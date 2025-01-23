@@ -59,9 +59,9 @@ const affortableLinks = [
     iconAlt: 'Counter Top'
   },
   {
-    title: 'Wireless',
-    link: '/affordable/wireless',
-    iconAlt: 'Wireless'
+    title: 'Portable',
+    link: '/affordable/portable',
+    iconAlt: 'Portable'
   }
 ]
 
