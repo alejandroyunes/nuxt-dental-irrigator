@@ -1,6 +1,6 @@
 export const wf2302Global = {
   brand: 'heyaxa',
-  path: '2302wf',
+  path: 'wf-2302',
   images: [
     {
       url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735544298/irrigators/heyaxa/Heyaxa_2302WF_tq7e6u.webp',

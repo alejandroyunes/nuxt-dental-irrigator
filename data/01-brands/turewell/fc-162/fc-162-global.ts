@@ -1,7 +1,7 @@
 export const fc162Global = {
   // id: 6,
   brand: 'turewell',
-  path: 'fc162',
+  path: 'fc-162',
   images: [
     {
       url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735597963/irrigators/turewell/FC162/turewell-FC162_enonma.webp',

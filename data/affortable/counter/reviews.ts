@@ -1,21 +1,24 @@
 import h2oflossHF9 from '~/data/01-brands/h20floss/hf9/hf9'
-import heyaxa2302WF from '~/data/01-brands/heyaxa/2302wf/wf2302'
+import heyaxa2302WF from '~/data/01-brands/heyaxa/wf-2302/wf-2302'
 import oeeterM01 from '~/data/01-brands/oeeter/m01/m01'
 import sawgmoreFC166 from '~/data/01-brands/sawgmore/fc166/fc166'
-import turewellFC162 from '~/data/01-brands/turewell/fc-162/fc162'
+import turewellFC162 from '~/data/01-brands/turewell/fc-162/fc-162'
 import turewellFC165 from '~/data/01-brands/turewell/fc-165/fc-165'
 import type { ReviewGrid } from "~/types/review-grid"
 
 import { hf9Global } from "~/data/01-brands/h20floss/hf9/hf9-global"
-import { wf2302Global } from "~/data/01-brands/heyaxa/2302wf/wf2302-global"
+import { wf2302Global } from "~/data/01-brands/heyaxa/wf-2302/wf-2302-global"
+import { m01Global } from '~/data/01-brands/oeeter/m01/m01-global'
+import { fc166Global } from '~/data/01-brands/sawgmore/fc166/fc166-global'
+import { fc162Global } from '~/data/01-brands/turewell/fc-162/fc-162-global'
+import { fc165Global } from '~/data/01-brands/turewell/fc-165/fc-165-global'
 
+export const slug = 'reviews'
 
-export const slug = 'reviews/affordable/counter-top'
-
-export const bestCounterReviewsDescription: ReviewGrid[] = [
+export const bestCounter: ReviewGrid[] = [
   {
     id: 1,
-    path: '',
+    path: `/${slug}/${fc165Global.brand}/${fc165Global.path}`,
     name: turewellFC165.info.title,
     image: turewellFC165.info.images[0].thumbnail,
     alt: turewellFC165.info.alt,
@@ -37,7 +40,7 @@ export const bestCounterReviewsDescription: ReviewGrid[] = [
   },
   {
     id: 3,
-    path: '',
+    path: `/${slug}/${fc166Global.brand}/${fc166Global.path}`,
     name: sawgmoreFC166.info.title,
     image: sawgmoreFC166.info.images[0].thumbnail,
     alt: sawgmoreFC166.info.alt,
@@ -48,7 +51,7 @@ export const bestCounterReviewsDescription: ReviewGrid[] = [
   },
   {
     id: 4,
-    path: '',
+    path: `/${slug}/${m01Global.brand}/${m01Global.path}`,
     name: oeeterM01.info.title,
     image: oeeterM01.info.images[0].thumbnail,
     alt: oeeterM01.info.alt,
@@ -70,7 +73,7 @@ export const bestCounterReviewsDescription: ReviewGrid[] = [
   },
   {
     id: 6,
-    path: '',
+    path: `/${slug}/${fc162Global.brand}/${fc162Global.path}`,
     name: turewellFC162.info.title,
     image: turewellFC162.info.images[0].thumbnail,
     alt: turewellFC162.info.alt,

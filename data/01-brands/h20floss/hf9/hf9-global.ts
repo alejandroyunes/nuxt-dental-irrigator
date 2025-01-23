@@ -1,5 +1,5 @@
 export const hf9Global = {
-  brand: 'h2ofloss',
+  brand: 'h20floss',
   path: 'hf9',
   images: [
     {

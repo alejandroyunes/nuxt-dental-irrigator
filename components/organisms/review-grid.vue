@@ -3,7 +3,6 @@ import type { ReviewGrid } from "~/types/review-grid"
 
 const { reviews } = defineProps<{
   reviews: ReviewGrid[]
-  slug: string
 }>()
 
 </script>
@@ -26,7 +25,7 @@ const { reviews } = defineProps<{
               <span> ⭐ {{ review.rating }} Stars</span>
               <span> ❤️ {{ review.reviewCount }} reviews</span>
             </div>
-            <NuxtLink :to="`/${slug}/${review.fileName}`" class="button">
+            <NuxtLink :to="`${review.path}`" class="button">
               Read Review
             </NuxtLink>
           </div>

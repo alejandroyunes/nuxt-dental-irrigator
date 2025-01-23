@@ -31,7 +31,7 @@ useSeoMeta({
 
 const { bestReview } = getBestReviews()
 const { bestWirelessReviewDescription, bestWirelessSlug } = getWirelessReviews()
-const { bestCounterReviewDescription, bestCounterSlug } = getCounterReviews()
+const { bestCounterAffortableReview } = getCounterReviews()
 
 const heroData = {
   titleH2: "Discover the Top Picks for",
@@ -63,7 +63,7 @@ const bestCounterReviewsTitle: TitleInfo = {
   <ReviewsGrid :reviews="bestWirelessReviewDescription" :slug="bestWirelessSlug" />
 
   <TitleDescription :info="bestCounterReviewsTitle" />
-  <ReviewsGrid :reviews="bestCounterReviewDescription" :slug="bestCounterSlug" />
+  <ReviewsGrid :reviews="bestCounterAffortableReview" :slug="bestCounterAffortableSlug" />
 
   <TypeSection />
   <QuestionsAndAnswers />
