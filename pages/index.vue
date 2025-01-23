@@ -4,10 +4,10 @@ import { getCounterReviews } from '~/components/composables/Affordable/getBestCo
 import { getWirelessReviews } from '~/components/composables/Affordable/getBestWireless'
 
 import TitleDescription from "~/components/atoms/title-description/index.vue"
-import ProductScroll from '~/components/organisms-raw/product-scroll.vue'
 import QuestionsAndAnswers from '~/components/organisms-raw/questions.vue'
 import TypeSection from '~/components/organisms-raw/types.vue'
 import Hero from '~/components/organisms/hero.vue'
+import ProductScroll from '~/components/organisms/product-scroll.vue'
 import ReviewsGrid from '~/components/organisms/review-grid.vue'
 import type { TitleInfo } from "~/types/title-info"
 

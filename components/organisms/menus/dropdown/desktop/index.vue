@@ -50,19 +50,19 @@ const comparisonLinks = [
 const affortableLinks = [
   {
     title: 'Top Best of 2025',
-    link: '/',
+    link: '/affordable/best',
     iconAlt: 'Top Best of 2025'
   },
-  // {
-  //   title: 'Counter Top',
-  //   link: '/',
-  //   iconAlt: 'Counter Top'
-  // },
-  // {
-  //   title: 'Wireless',
-  //   link: '/',
-  //   iconAlt: 'Wireless'
-  // }
+  {
+    title: 'Counter Top',
+    link: '/affordable/counter-top',
+    iconAlt: 'Counter Top'
+  },
+  {
+    title: 'Wireless',
+    link: '/affordable/wireless',
+    iconAlt: 'Wireless'
+  }
 ]
 
 </script>
@@ -71,6 +71,20 @@ const affortableLinks = [
 
   <nav class="menu">
     <ul class="items">
+
+      <li class="item">
+        <h3 class="title">Affordable</h3>
+        <ArrowDownSvg class="icon arrow-icon" />
+
+        <ul :class="['sub-items', { 'clicked': isClicked }]" @click="itemClicked">
+          <li v-for="(item, index) in affortableLinks" :key="index" class="sub-item">
+            <NuxtLink class="link" :to="item.link">
+              <component :alt="item.iconAlt" />
+              <p>{{ item.title }}</p>
+            </NuxtLink>
+          </li>
+        </ul>
+      </li>
 
       <li class="item">
         <h3 class="title">Best</h3>
@@ -86,7 +100,7 @@ const affortableLinks = [
         </ul>
       </li>
 
-      <!-- <li class="item">
+      <li class="item">
         <h3 class="title">Comparisons</h3>
         <ArrowDownSvg class="icon arrow-icon" />
 
@@ -99,20 +113,6 @@ const affortableLinks = [
           </li>
         </ul>
       </li>
-
-      <li class="item">
-        <h3 class="title">Affortable</h3>
-        <ArrowDownSvg class="icon arrow-icon" />
-
-        <ul :class="['sub-items', { 'clicked': isClicked }]" @click="itemClicked">
-          <li v-for="(item, index) in affortableLinks" :key="index" class="sub-item">
-            <NuxtLink class="link" :to="item.link">
-              <component :alt="item.iconAlt" />
-              <p>{{ item.title }}</p>
-            </NuxtLink>
-          </li>
-        </ul>
-      </li> -->
 
     </ul>
   </nav>
