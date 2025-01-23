@@ -8,9 +8,10 @@ import type { TitleInfo } from "~/types/title-info"
 
 import { getBestCounterReviews } from '~/components/composables/Affordable/getBestCounter'
 
+const { bestCounterAffortableReview } = getBestCounterReviews()
+
 const title = 'Top 6 Best Affordable Counter top Water Flossers for Healthy Teeth & Gums in 2025';
 const description = 'Discover the best affordable counter top water flossers to maintain optimal oral hygiene. Explore our expert reviews and comparisons of the top dental irrigators for healthier teeth and gums.';
-const { bestCounterAffortableReview } = getBestCounterReviews()
 
 useSeoMeta({
   title: title,
