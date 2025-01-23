@@ -60,7 +60,7 @@ const waterpikwp580: ProductDetails = {
       {
         id: 1,
         path: wp580Global.path,
-        model: "WP 580",
+        model: "Waterpik WP 580",
         image: wp580Global.images[0].thumbnail,
         alt: "Waterpik Cordless Express Water Flosser",
         prime: false,

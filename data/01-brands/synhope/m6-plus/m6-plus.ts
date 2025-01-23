@@ -57,9 +57,9 @@ const synhopeM6Plus: ProductDetails = {
       {
         id: 1,
         path: m6PlusGlobal.path,
-        model: "SYNHOPE Mini Cordless",
+        model: "Synhope Mini Cordless",
         image: m6PlusGlobal.images[0].thumbnail,
-        alt: "SYNHOPE Mini Cordless Water Flosser",
+        alt: "Synhope Mini Cordless Water Flosser",
         prime: true,
         dimensions: " 4.88 x 2.44 x 1.26 in, 5 oz",
         tips: "Includes 4 replacement jet tips",
