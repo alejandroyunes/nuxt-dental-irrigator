@@ -5,7 +5,7 @@ import { fc1592Global } from '~/data/01-brands/nicefeel/fc1592/fc1592-global';
 import { f5025Global } from '~/data/01-brands/nicwell/f5025/f5025-global';
 
 
-export const coslusf5020e: ProductDetails = {
+const coslusf5020e: ProductDetails = {
   info: {
     images: f5020eGlobal.images,
     alt: 'Coslus Water Dental Flosser F5020E, 300 ml.',
@@ -162,3 +162,5 @@ export const coslusf5020e: ProductDetails = {
     ],
   },
 }
+
+export default coslusf5020e

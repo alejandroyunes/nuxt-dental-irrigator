@@ -30,7 +30,7 @@ useSeoMeta({
 })
 
 const { bestReview } = getBestReviews()
-const { bestWirelessReviewDescription, bestWirelessSlug } = getWirelessReviews()
+const { bestWirelessAffortableReview } = getWirelessReviews()
 const { bestCounterAffortableReview } = getCounterReviews()
 
 const heroData = {
@@ -60,10 +60,10 @@ const bestCounterReviewsTitle: TitleInfo = {
   <ProductScroll :reviews="bestReview" />
 
   <TitleDescription :info="bestWirelessReviewsTitle" />
-  <ReviewsGrid :reviews="bestWirelessReviewDescription" :slug="bestWirelessSlug" />
+  <ReviewsGrid :reviews="bestWirelessAffortableReview" />
 
   <TitleDescription :info="bestCounterReviewsTitle" />
-  <ReviewsGrid :reviews="bestCounterAffortableReview" :slug="bestCounterAffortableSlug" />
+  <ReviewsGrid :reviews="bestCounterAffortableReview" />
 
   <TypeSection />
   <QuestionsAndAnswers />

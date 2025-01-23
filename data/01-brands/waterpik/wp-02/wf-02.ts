@@ -1,24 +1,24 @@
 import type { ProductDetails } from '~/types/product-details'
 
-import { wp02Global } from './wp-02-global'
-import { f5025Global } from '~/data/01-brands/nicwell/f5025/f5025-global'
-import { fc1592Global } from '~/data/01-brands/nicefeel/fc1592/fc1592-global'
 import { c2Global } from '~/data/01-brands/bitvae/c2/c2-global'
+import { fc1592Global } from '~/data/01-brands/nicefeel/fc1592/fc1592-global'
+import { f5025Global } from '~/data/01-brands/nicwell/f5025/f5025-global'
+import { wf02Global } from './wf-02-global'
 
 
-const waterpikF02: ProductDetails = {
+const waterpikwf02: ProductDetails = {
   info: {
-    images: wp02Global.images,
+    images: wf02Global.images,
     alt: "Waterpik WF 02 Cordless Express Portable Water Flosser, 148 ml.",
     title: "Waterpik WF 02 Cordless Express Portable Water Flosser, 148 ml.",
     description: "The Waterpik WF 02 Cordless Express Water Flosser is a portable, battery-operated device designed to enhance oral hygiene by effectively. Its cordless design and compact size make it an excellent choice for individuals with small bathrooms or those who travel frequently.",
-    price: wp02Global.productPrice,
-    updatedDate: wp02Global.updatedDate,
-    buyLink: wp02Global.amazonUrl,
+    price: wf02Global.productPrice,
+    updatedDate: wf02Global.updatedDate,
+    buyLink: wf02Global.amazonUrl,
     cta: 'Buy on Amazon',
-    rating: wp02Global.rating,
-    video: wp02Global.videoUrl,
-    video2: wp02Global.videoUrl2,
+    rating: wf02Global.rating,
+    video: wf02Global.videoUrl,
+    video2: wf02Global.videoUrl2,
     characteristics: [
       "Portable",
       "Waterproof for Shower Use",
@@ -47,9 +47,9 @@ const waterpikF02: ProductDetails = {
     models: [
       {
         id: 1,
-        path: wp02Global.path,
+        path: wf02Global.path,
         model: 'Waterpik WF 02',
-        image: wp02Global.images[0].thumbnail,
+        image: wf02Global.images[0].thumbnail,
         alt: 'Waterpik Model WF 02',
         prime: true,
         dimensions: "3.6 x 2.5 x 11.75 in, 5 oz",
@@ -57,8 +57,8 @@ const waterpikF02: ProductDetails = {
         capacity: "148 ml.",
         highlight: "No outlets or charging needed",
         problem: "Requires regular battery replacement",
-        price: wp02Global.productPrice,
-        satisfaction: wp02Global.rating.stars,
+        price: wf02Global.productPrice,
+        satisfaction: wf02Global.rating.stars,
       },
       {
         id: 2,
@@ -134,7 +134,7 @@ const waterpikF02: ProductDetails = {
     title: "Pros and Cons Waterpik Model WF 02",
     description: "It's important to note that the perceived pros and cons can vary based on individual preferences and needs. Users should consider their specific oral care requirements and lifestyle when deciding if the Waterpik Cordless Express WF 02 is the right fit for them.",
     cta: 'Buy Now on Amazon',
-    buyLink: wp02Global.amazonUrl,
+    buyLink: wf02Global.amazonUrl,
     pros: [
       { title: 'Ideal for travel, small bathrooms, and on-the-go oral care.' },
       { title: 'Runs on 3 AA batteries (included), eliminating the need for charging cords.' },
@@ -149,4 +149,4 @@ const waterpikF02: ProductDetails = {
   },
 }
 
-export default waterpikF02
+export default waterpikwf02

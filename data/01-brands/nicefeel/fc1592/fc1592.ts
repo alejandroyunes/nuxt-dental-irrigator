@@ -1,10 +1,10 @@
-import type { ProductDetails } from '~/types/product-details'
-import { fc1592Global } from './fc1592-global'
+import type { ProductDetails } from '~/types/product-details';
+import { fc1592Global } from './fc1592-global';
 
-import { f5020eGlobal } from '~/data/01-brands/coslus/f5020e/f5020e-global'
-import { wp02Global } from '~/data/01-brands/waterpik/wp-02/wp-02-global';
+import { f5020eGlobal } from '~/data/01-brands/coslus/f5020e/f5020e-global';
+import { wf02Global } from '~/data/01-brands/waterpik/wp-02/wf-02-global';
 
-const nicefeelFC1592: ProductDetails = {
+const nicefeelfc1592: ProductDetails = {
   info: {
     images: fc1592Global.images,
     alt: 'Nicefeel FC1592 Cordless Water Flosser, 300 ml.',
@@ -73,9 +73,9 @@ const nicefeelFC1592: ProductDetails = {
       },
       {
         id: 3,
-        path: wp02Global.path,
+        path: wf02Global.path,
         model: 'Waterpik WF 02',
-        image: wp02Global.images[0].thumbnail,
+        image: wf02Global.images[0].thumbnail,
         alt: 'Waterpik Model WF 02',
         prime: true,
         dimensions: "3.6 x 2.5 x 11.75 in, 5 oz",
@@ -83,8 +83,8 @@ const nicefeelFC1592: ProductDetails = {
         capacity: "148 ml.",
         highlight: "No outlets or charging needed",
         problem: "Requires regular battery replacement",
-        price: wp02Global.productPrice,
-        satisfaction: wp02Global.rating.stars,
+        price: wf02Global.productPrice,
+        satisfaction: wf02Global.rating.stars,
       },
       {
         id: 4,
@@ -146,4 +146,4 @@ const nicefeelFC1592: ProductDetails = {
   },
 };
 
-export default nicefeelFC1592;
+export default nicefeelfc1592

@@ -2,11 +2,11 @@ import type { ProductDetails } from '~/types/product-details'
 
 import { fc256Global } from './fc256-global'
 
-import { wp02Global } from '~/data/01-brands/waterpik/wp-02/wp-02-global'
 import { fc1592Global } from '~/data/01-brands/nicefeel/fc1592/fc1592-global'
 import { f5025Global } from '~/data/01-brands/nicwell/f5025/f5025-global'
+import { wf02Global } from '~/data/01-brands/waterpik/wp-02/wf-02-global'
 
-const inSmartFC256: ProductDetails = {
+const inSmartfc256: ProductDetails = {
   info: {
     images: fc256Global.images,
     alt: 'InSmart Professional Cordless Water Dental Flosser FC256, 300 ml.',
@@ -99,9 +99,9 @@ const inSmartFC256: ProductDetails = {
       },
       {
         id: 3,
-        path: wp02Global.path,
+        path: wf02Global.path,
         model: 'Waterpik WF 02',
-        image: wp02Global.images[0].thumbnail,
+        image: wf02Global.images[0].thumbnail,
         alt: 'Waterpik Model WF 02',
         prime: true,
         dimensions: "3.6 x 2.5 x 11.75 in, 5 oz",
@@ -109,8 +109,8 @@ const inSmartFC256: ProductDetails = {
         capacity: "148 ml.",
         highlight: "No outlets or charging needed",
         problem: "Requires regular battery replacement",
-        price: wp02Global.productPrice,
-        satisfaction: wp02Global.rating.stars,
+        price: wf02Global.productPrice,
+        satisfaction: wf02Global.rating.stars,
       },
       {
         id: 4,
@@ -161,4 +161,4 @@ const inSmartFC256: ProductDetails = {
 
 };
 
-export default inSmartFC256;
+export default inSmartfc256

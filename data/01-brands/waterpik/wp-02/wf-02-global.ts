@@ -1,6 +1,6 @@
-export const wp02Global = {
+export const wf02Global = {
   brand: 'waterpik',
-  path: 'wf02',
+  path: 'wf-02',
   images: [
     {
       url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735175699/irrigators/waterpik/waterpik-wf-02/waterpik-w-02_lzvmu1.webp',

@@ -1,11 +1,11 @@
 import type { ProductDetails } from '~/types/product-details'
+import { f5025Global } from './f5025-global'
 
 import { fc1592Global } from '~/data/01-brands/nicefeel/fc1592/fc1592-global'
 import { wp660Global } from '~/data/01-brands/waterpik/wp-660/wp-660-global'
 import { c2Global } from '~/data/01-brands/bitvae/c2/c2-global'
-import { f5025Global } from './f5025-global'
 
-export const nicwellF5025: ProductDetails = {
+const nicwellf5025: ProductDetails = {
   info: {
     images: f5025Global.images,
     alt: 'Nicwell F5025 Water Dental Flosser Teeth Pick - Cordless, 200 ml.',
@@ -137,3 +137,5 @@ export const nicwellF5025: ProductDetails = {
     ],
   },
 }
+
+export default nicwellf5025

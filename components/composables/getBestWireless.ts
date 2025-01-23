@@ -1,11 +1,10 @@
 import { onMounted, ref } from 'vue'
-import { bestWirelessReviewsDescription, slug } from "~/data/affortable/wireless/reviews"
+import { bestWireless } from "~/data/affortable/wireless/reviews"
 import type { ReviewGrid } from "~/types/review-grid"
 
 export function getWirelessReviews() {
 
-  const bestWirelessReviewDescription = ref<ReviewGrid[]>([])
-  const bestWirelessSlug = ref(slug)
+  const bestWirelessAffortableReview = ref<ReviewGrid[]>([])
 
   const loadingBestWireless = ref(false)
   const errorBestWireless = ref(false)
@@ -13,8 +12,7 @@ export function getWirelessReviews() {
   const fetchPosts = async () => {
     loadingBestWireless.value = true
     try {
-      bestWirelessSlug.value = await slug
-      bestWirelessReviewDescription.value = await bestWirelessReviewsDescription
+      bestWirelessAffortableReview.value = await bestWireless
       loadingBestWireless.value = false
 
     } catch (e) {
@@ -26,8 +24,7 @@ export function getWirelessReviews() {
   onMounted(fetchPosts)
 
   return {
-    bestWirelessSlug,
-    bestWirelessReviewDescription,
+    bestWirelessAffortableReview,
     loadingBestWireless,
     errorBestWireless
   }
