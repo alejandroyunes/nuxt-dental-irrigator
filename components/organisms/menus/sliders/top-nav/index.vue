@@ -14,7 +14,7 @@ const { toggle, isOpen } = defineProps<{
 const navLinks = [
   {
     title: 'Diseño web',
-    link: '/diseno-web',
+    link: '/',
     icon: FacebookSvg,
     iconAlt: 'Diseño web'
   },

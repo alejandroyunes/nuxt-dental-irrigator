@@ -1,9 +1,9 @@
 import type { ProductDetails } from '~/types/product-details'
 
-import { fc166Global } from './fc166-global'
-import { fc165Global } from '../../turewell/fc-165/fc-165-global'
 import { hf9Global } from '../../h20floss/hf9/hf9-global'
 import { m01Global } from '../../oeeter/m01/m01-global'
+import { fc165Global } from '../../turewell/fc-165/fc-165-global'
+import { fc166Global } from './fc166-global'
 
 const sawgmoreFC166: ProductDetails = {
   info: {

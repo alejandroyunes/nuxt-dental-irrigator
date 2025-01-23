@@ -1,6 +1,6 @@
 import type { ProductDetails } from '~/types/product-details'
 
-import { m6PlusGlobal } from "~/data/01-brands/synhope/m6plus/m6-plus-global"
+import { m6PlusGlobal } from "~/data/01-brands/synhope/m6-plus/m6-plus-global"
 import { wp580Global } from '../../waterpik/wp-580/wp-580-global'
 import { ew1511wGlobal } from './ew1511w-global'
 

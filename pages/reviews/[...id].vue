@@ -10,10 +10,11 @@ import Title from '~/components/atoms/title-description/index.vue'
 import Video from '~/components/organisms/video.vue'
 
 const route = useRoute()
+
 const fileRoute = route.params.id
-console.log(fileRoute)
 
 const { product, loading, error } = getProductDetails(fileRoute)
+
 
 watch([product, loading, error], ([newProduct, newLoading, newError]) => {
 

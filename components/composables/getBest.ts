@@ -1,6 +1,6 @@
 import { ref, onMounted } from 'vue'
 import type { ReviewGrid } from "~/types/review-grid"
-import { bestReviews } from "~/data/best/02-reviews"
+import { bestReviews } from "~/data/best/reviews"
 
 export function getBestReviews() {
 

@@ -1,13 +1,11 @@
 import type { ProductDetails } from '~/types/product-details'
-
 import { wp660Global } from './wp-660-global'
 
-
 import { ew1511wGlobal } from '~/data/01-brands/panasonic/ew1511w/ew1511w-global'
-import { m6PlusGlobal } from '~/data/01-brands/synhope/m6plus/m6-plus-global'
+import { m6PlusGlobal } from '~/data/01-brands/synhope/m6-plus/m6-plus-global'
 import { wp580Global } from "~/data/01-brands/waterpik/wp-580/wp-580-global"
 
-export const waterpikwp660: ProductDetails = {
+const waterpikwp660: ProductDetails = {
   info: {
     images: wp660Global.images,
     alt: "Waterpik WP 660 Aquarius Water Flosser",
@@ -151,3 +149,5 @@ export const waterpikwp660: ProductDetails = {
     ],
   },
 }
+
+export default waterpikwp660

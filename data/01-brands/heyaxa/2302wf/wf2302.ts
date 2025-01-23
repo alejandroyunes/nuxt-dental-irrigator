@@ -1,9 +1,9 @@
 import type { ProductDetails } from '~/types/product-details'
 
-import { wf2302Global } from './wf2302-global'
-import { fc166Global } from '~/data/01-brands/sawgmore/fc166/fc166-global'
 import { hf9Global } from '~/data/01-brands/h20floss/hf9/hf9-global'
 import { m01Global } from '~/data/01-brands/oeeter/m01/m01-global'
+import { fc166Global } from '~/data/01-brands/sawgmore/fc166/fc166-global'
+import { wf2302Global } from './wf2302-global'
 
 const heyaxa2302WF: ProductDetails = {
   info: {

@@ -1,10 +1,10 @@
-import type { ReviewGrid } from "~/types/review-grid"
-import turewellFC165 from '~/data/01-brands/turewell/fc-165/fc-165'
-import turewellFC162 from '~/data/01-brands/turewell/fc-162/fc162'
-import heyaxa2302WF from '~/data/01-brands/heyaxa/2302wf/wf2302'
 import h2oflossHF9 from '~/data/01-brands/h20floss/hf9/hf9'
+import heyaxa2302WF from '~/data/01-brands/heyaxa/2302wf/wf2302'
 import oeeterM01 from '~/data/01-brands/oeeter/m01/m01'
 import sawgmoreFC166 from '~/data/01-brands/sawgmore/fc166/fc166'
+import turewellFC162 from '~/data/01-brands/turewell/fc-162/fc162'
+import turewellFC165 from '~/data/01-brands/turewell/fc-165/fc-165'
+import type { ReviewGrid } from "~/types/review-grid"
 
 import { hf9Global } from "~/data/01-brands/h20floss/hf9/hf9-global"
 import { wf2302Global } from "~/data/01-brands/heyaxa/2302wf/wf2302-global"

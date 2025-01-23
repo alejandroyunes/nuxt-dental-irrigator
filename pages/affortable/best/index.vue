@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import { getBestIrrigators } from '~/components/composables/getBestReviews'
+import { getBestIrrigators } from '~/components/composables/getBest'
 import TypeSection from '~/components/organisms-raw/types.vue'
 import Hero from '~/components/organisms/hero.vue'
 import ReviewsGrid from '~/components/organisms/review-grid.vue'

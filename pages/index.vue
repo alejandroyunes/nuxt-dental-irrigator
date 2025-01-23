@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { getBestReviews } from '~/components/composables/getBestReviews'
-import { getCounterReviews } from '~/components/composables/getCounterReviews'
-import { getWirelessReviews } from '~/components/composables/getWirelessReviews'
+import { getBestReviews } from '~/components/composables/getBest'
+import { getCounterReviews } from '~/components/composables/getBestCounter'
+import { getWirelessReviews } from '~/components/composables/getBestWireless'
 
 import TitleDescription from "~/components/atoms/title-description/index.vue"
 import ProductScroll from '~/components/organisms-raw/product-scroll.vue'
@@ -10,7 +10,6 @@ import TypeSection from '~/components/organisms-raw/types.vue'
 import Hero from '~/components/organisms/hero.vue'
 import ReviewsGrid from '~/components/organisms/review-grid.vue'
 import type { TitleInfo } from "~/types/title-info"
-
 
 const title = 'Expert advice and products to improve your oral health'
 const description = 'Improve your oral health with our: ✓ Detailed user guides ✓ Expert advice ✓ Comparisons ✓ Reviews ✓ Promotions'
@@ -30,9 +29,9 @@ useSeoMeta({
   twitterCard: 'summary_large_image',
 })
 
+const { bestReview } = getBestReviews()
 const { bestWirelessReviewDescription, bestWirelessSlug } = getWirelessReviews()
 const { bestCounterReviewDescription, bestCounterSlug } = getCounterReviews()
-const { bestReview } = getBestReviews()
 
 const heroData = {
   titleH2: "Discover the Top Picks for",

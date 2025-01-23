@@ -2,9 +2,9 @@ import type { ProductDetails } from '~/types/product-details'
 
 import { hf9Global } from './hf9-global'
 
+import { m01Global } from '~/data/01-brands/oeeter/m01/m01-global'
 import { fc166Global } from '~/data/01-brands/sawgmore/fc166/fc166-global'
 import { fc165Global } from '~/data/01-brands/turewell/fc-165/fc-165-global'
-import { m01Global } from '~/data/01-brands/oeeter/m01/m01-global'
 
 const h2oflossHF9: ProductDetails = {
   info: {

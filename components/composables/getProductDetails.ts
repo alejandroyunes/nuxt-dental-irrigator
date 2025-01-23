@@ -6,14 +6,11 @@ export const getProductDetails = (fileRoutes: string[] | string) => {
   const loading = ref(false)
   const error = ref<string | null>(null)
 
-  // const { category, fileName} = fileRoutes
-
-
   const fetchProductDetails = async () => {
     loading.value = true
     try {
+      product.value = (await import(`~/data/01-brands/${fileRoutes[1]}/${fileRoutes[2]}/${fileRoutes[2]}.ts`)).default
 
-      // product.value = (await import(`~/data/${category}/${fileName}.ts`)).default
     } catch (e) {
       error.value = 'Failed to fetch product details'
     } finally {
@@ -31,3 +28,6 @@ export const getProductDetails = (fileRoutes: string[] | string) => {
     error,
   }
 }
+
+
+

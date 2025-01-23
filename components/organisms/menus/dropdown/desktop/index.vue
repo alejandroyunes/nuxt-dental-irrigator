@@ -14,55 +14,55 @@ const itemClicked = () => {
 const bestCounterTopLinks = [
   {
     title: 'Counter Top',
-    link: '/best/counter-top',
+    link: '/',
     iconAlt: 'Counter Top'
   },
-  {
-    title: 'Counter Top',
-    link: '/counter-top',
-    iconAlt: 'Counter Top'
-  },
-  {
-    title: 'Wireless',
-    link: '/sugerencias',
-    iconAlt: 'Sugerencias'
-  }
+  // {
+  //   title: 'Counter Top',
+  //   link: '/',
+  //   iconAlt: 'Counter Top'
+  // },
+  // {
+  //   title: 'Wireless',
+  //   link: '/',
+  //   iconAlt: 'Sugerencias'
+  // }
 ]
 
 const comparisonLinks = [
   {
     title: 'Counter Top',
-    link: '/counter-top',
+    link: '/',
     iconAlt: 'Counter Top',
   },
-  {
-    title: 'Wireless',
-    link: '/wireless',
-    iconAlt: 'Wireless'
-  },
-  {
-    title: 'Portable',
-    link: '/portable',
-    iconAlt: 'Portable'
-  },
+  // {
+  //   title: 'Wireless',
+  //   link: '/',
+  //   iconAlt: 'Wireless'
+  // },
+  // {
+  //   title: 'Portable',
+  //   link: '/',
+  //   iconAlt: 'Portable'
+  // },
 ]
 
 const affortableLinks = [
   {
     title: 'Top Best of 2025',
-    link: '/affortable/best',
+    link: '/',
     iconAlt: 'Top Best of 2025'
   },
-  {
-    title: 'Counter Top',
-    link: '/affortable/counter-top',
-    iconAlt: 'Counter Top'
-  },
-  {
-    title: 'Wireless',
-    link: '/affortable/wireless',
-    iconAlt: 'Wireless'
-  }
+  // {
+  //   title: 'Counter Top',
+  //   link: '/',
+  //   iconAlt: 'Counter Top'
+  // },
+  // {
+  //   title: 'Wireless',
+  //   link: '/',
+  //   iconAlt: 'Wireless'
+  // }
 ]
 
 </script>
@@ -86,7 +86,7 @@ const affortableLinks = [
         </ul>
       </li>
 
-      <li class="item">
+      <!-- <li class="item">
         <h3 class="title">Comparisons</h3>
         <ArrowDownSvg class="icon arrow-icon" />
 
@@ -112,7 +112,7 @@ const affortableLinks = [
             </NuxtLink>
           </li>
         </ul>
-      </li>
+      </li> -->
 
     </ul>
   </nav>

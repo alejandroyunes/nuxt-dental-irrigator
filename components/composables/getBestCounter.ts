@@ -1,6 +1,6 @@
 import { ref, onMounted } from 'vue'
 import type { ReviewGrid } from "~/types/review-grid"
-import { bestCounterReviewsDescription, slug } from '~/data/counter/02-reviews'
+import { bestCounterReviewsDescription, slug } from '~/data/counter/reviews'
 
 export function getCounterReviews() {
 
