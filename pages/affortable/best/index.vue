@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import { getBestIrrigators } from '~/components/composables/getBest'
+import { getBestReviews } from '~/components/composables/affortable/getBest'
 import TypeSection from '~/components/organisms-raw/types.vue'
 import Hero from '~/components/organisms/hero.vue'
 import ReviewsGrid from '~/components/organisms/review-grid.vue'
@@ -23,7 +23,7 @@ useSeoMeta({
   twitterCard: 'summary_large_image',
 })
 
-const { bestIrrigatorReviewDescription, bestIrrigatorSlug} = getBestIrrigators()
+const { bestReview } = getBestReviews()
 
 const heroData = {
   titleH2: "Discover the Top Choices for",
@@ -37,7 +37,7 @@ const heroData = {
 
 <template>
   <Hero :heroData="heroData" />
-  <ReviewsGrid :reviews="bestIrrigatorReviewDescription" :slug="bestIrrigatorSlug" />
+  <ReviewsGrid :reviews="bestReview"  />
   <TypeSection />
   <QuestionsAndAnswers />
 

@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { getBestReviews } from '~/components/composables/getBest'
-import { getCounterReviews } from '~/components/composables/getBestCounter'
-import { getWirelessReviews } from '~/components/composables/getBestWireless'
+import { getBestReviews } from '~/components/composables/affortable/getBest'
+import { getCounterReviews } from '~/components/composables/affortable/getBestCounter'
+import { getWirelessReviews } from '~/components/composables/affortable/getBestWireless'
 
 import TitleDescription from "~/components/atoms/title-description/index.vue"
 import ProductScroll from '~/components/organisms-raw/product-scroll.vue'
