@@ -1,6 +1,6 @@
-import { ref, onMounted } from 'vue'
+import { onMounted, ref } from 'vue'
+import { bestReviews } from "~/data/affortable/best/reviews"
 import type { ReviewGrid } from "~/types/review-grid"
-import { bestReviews } from "~/data/best/reviews"
 
 export function getBestReviews() {
 

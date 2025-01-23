@@ -1,6 +1,6 @@
-import { ref, onMounted } from 'vue'
+import { onMounted, ref } from 'vue'
+import { bestWirelessReviewsDescription, slug } from "~/data/affortable/wireless/reviews"
 import type { ReviewGrid } from "~/types/review-grid"
-import { bestWirelessReviewsDescription, slug } from "~/data/wireless/reviews"
 
 export function getWirelessReviews() {
 
@@ -15,7 +15,6 @@ export function getWirelessReviews() {
     try {
       bestWirelessSlug.value = await slug
       bestWirelessReviewDescription.value = await bestWirelessReviewsDescription
-      bestWirelessReviewDescription.value.sort((a, b) => a.id - b.id)
       loadingBestWireless.value = false
 
     } catch (e) {

@@ -1,6 +1,6 @@
 export const m6PlusGlobal = {
   brand: 'synhope',
-  path: 'm6plus',
+  path: 'm6-plus',
   images: [
     {
       url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735618204/irrigators/synhope/Synhope_rwczgb.webp',

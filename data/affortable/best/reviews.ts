@@ -6,12 +6,12 @@ import waterpikwp662 from "~/data/01-brands/waterpik/wp-662/wp-662"
 import waterpikwp667 from "~/data/01-brands/waterpik/wp-667/wp-667"
 import type { ReviewGrid } from "~/types/review-grid"
 
-import { wp660Global } from "~/data/01-brands/waterpik/wp-660/wp-660-global"
-import { wp580Global } from "~/data/01-brands/waterpik/wp-580/wp-580-global"
 import { m6PlusGlobal } from "~/data/01-brands/synhope/m6-plus/m6-plus-global"
-import { ew1511wGlobal } from "../01-brands/panasonic/ew1511w/ew1511w-global"
-import { wp662Global } from "../01-brands/waterpik/wp-662/wp-662-global"
-import { wp667Global } from "../01-brands/waterpik/wp-667/wp-667-global"
+import { wp580Global } from "~/data/01-brands/waterpik/wp-580/wp-580-global"
+import { wp660Global } from "~/data/01-brands/waterpik/wp-660/wp-660-global"
+import { ew1511wGlobal } from "../../01-brands/panasonic/ew1511w/ew1511w-global"
+import { wp662Global } from "../../01-brands/waterpik/wp-662/wp-662-global"
+import { wp667Global } from "../../01-brands/waterpik/wp-667/wp-667-global"
 
 const slug = 'reviews'
 

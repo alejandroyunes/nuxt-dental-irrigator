@@ -1,6 +1,6 @@
-import { ref, onMounted } from 'vue'
+import { onMounted, ref } from 'vue'
+import { bestCounterReviewsDescription, slug } from '~/data/affortable/counter/reviews'
 import type { ReviewGrid } from "~/types/review-grid"
-import { bestCounterReviewsDescription, slug } from '~/data/counter/reviews'
 
 export function getCounterReviews() {
 
@@ -16,7 +16,6 @@ export function getCounterReviews() {
     try {
       bestCounterSlug.value = await slug
       bestCounterReviewDescription.value = await bestCounterReviewsDescription
-      bestCounterReviewDescription.value.sort((a, b) => a.id - b.id)
       loadingCounter.value = false
     } catch (e) {
       errorCounter.value = 'Failed to fetch posts'
