@@ -15,7 +15,6 @@ const fileRoute = route.params.id
 
 const { product, loading, error } = getProductDetails(fileRoute)
 
-
 watch([product, loading, error], ([newProduct, newLoading, newError]) => {
 
   return {

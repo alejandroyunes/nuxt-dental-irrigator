@@ -1,15 +1,19 @@
 import panasonicEW1511W from "~/data/01-brands/panasonic/ew1511w/ew1511w"
 import synhopeM6Plus from "~/data/01-brands/synhope/m6-plus/m6-plus"
 import waterpikwp580 from "~/data/01-brands/waterpik/wp-580/wp-580"
+import waterpikwp660 from "~/data/01-brands/waterpik/wp-660/wp-660"
 import waterpikwp662 from "~/data/01-brands/waterpik/wp-662/wp-662"
 import waterpikwp667 from "~/data/01-brands/waterpik/wp-667/wp-667"
-
 import type { ReviewGrid } from "~/types/review-grid"
 
-import { waterpikwp660 } from "~/data/01-brands/waterpik/wp-660/wp-660"
 import { wp660Global } from "~/data/01-brands/waterpik/wp-660/wp-660-global"
+import { wp580Global } from "~/data/01-brands/waterpik/wp-580/wp-580-global"
+import { m6PlusGlobal } from "~/data/01-brands/synhope/m6-plus/m6-plus-global"
+import { ew1511wGlobal } from "../01-brands/panasonic/ew1511w/ew1511w-global"
+import { wp662Global } from "../01-brands/waterpik/wp-662/wp-662-global"
+import { wp667Global } from "../01-brands/waterpik/wp-667/wp-667-global"
 
-const slug = 'reviews/'
+const slug = 'reviews'
 
 export const bestReviews: ReviewGrid[] = [
   {
@@ -25,7 +29,7 @@ export const bestReviews: ReviewGrid[] = [
   },
   {
     id: 2,
-    path: '',
+    path: `/${slug}/${wp580Global.brand}/${wp580Global.path}`,
     name: waterpikwp580.info.title,
     image: waterpikwp580.info.images[0].thumbnail,
     alt: waterpikwp580.info.alt,
@@ -36,7 +40,7 @@ export const bestReviews: ReviewGrid[] = [
   },
   {
     id: 3,
-    path: '',
+    path: `/${slug}/${m6PlusGlobal.brand}/${m6PlusGlobal.path}`,
     name: synhopeM6Plus.info.title,
     image: synhopeM6Plus.info.images[0].thumbnail,
     alt: synhopeM6Plus.info.alt,
@@ -47,7 +51,7 @@ export const bestReviews: ReviewGrid[] = [
   },
   {
     id: 4,
-    path: '',
+    path: `/${slug}/${ew1511wGlobal.brand}/${ew1511wGlobal.path}`,
     name: panasonicEW1511W.info.title,
     image: panasonicEW1511W.info.images[0].thumbnail,
     alt: panasonicEW1511W.info.alt,
@@ -58,7 +62,7 @@ export const bestReviews: ReviewGrid[] = [
   },
   {
     id: 5,
-    path: '',
+    path: `/${slug}/${wp662Global.brand}/${wp662Global.path}`,
     name: waterpikwp662.info.title,
     image: waterpikwp662.info.images[0].thumbnail,
     alt: waterpikwp662.info.alt,
@@ -69,7 +73,7 @@ export const bestReviews: ReviewGrid[] = [
   },
   {
     id: 6,
-    path: '',
+    path: `/${slug}/${wp667Global.brand}/${wp667Global.path}`,
     name: waterpikwp667.info.title,
     image: waterpikwp667.info.images[0].thumbnail,
     alt: waterpikwp667.info.alt,
