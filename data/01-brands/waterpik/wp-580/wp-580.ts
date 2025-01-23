@@ -11,7 +11,7 @@ const waterpikwp580: ProductDetails = {
     images: wp580Global.images,
     alt: "Waterpik Cordless WP 580 Advanced 2.0 Water Flosser",
     title: "Waterpik Cordless WP 580 Advanced 2.0 Water Flosser, 280 ml.",
-    description: "The Waterpik Cordless Advanced 2.0 Water Flosser is a rechargeable, portable water flosser designed for easy and effective dental care, featuring a 360-degree rotating tip, rechargeable battery, 3 safe and effective pressure settings with PrecisionPulse technology, and up to 2-year manufacturer's warranty.",
+    description: "The Waterpik Cordless WP 580 Advanced 2.0 Water Flosser is a rechargeable, portable water flosser designed for easy and effective dental care, featuring a 360-degree rotating tip, rechargeable battery, 3 safe and effective pressure settings with PrecisionPulse technology, and up to 2-year manufacturer's warranty.",
     price: wp580Global.productPrice,
     updatedDate: wp580Global.updatedDate,
     buyLink: wp580Global.amazonUrl,

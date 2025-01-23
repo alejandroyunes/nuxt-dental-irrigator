@@ -5,7 +5,6 @@ import { fc1592Global } from '~/data/01-brands/nicefeel/fc1592/fc1592-global'
 import { f5025Global } from '~/data/01-brands/nicwell/f5025/f5025-global'
 import { wf02Global } from './wf-02-global'
 
-
 const waterpikwf02: ProductDetails = {
   info: {
     images: wf02Global.images,

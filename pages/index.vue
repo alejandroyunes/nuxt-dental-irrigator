@@ -3,13 +3,13 @@ import { getBestReviews } from '~/components/composables/Affordable/getBest'
 import { getBestCounterReviews } from '~/components/composables/Affordable/getBestCounter'
 import { getBestWirelessReviews } from '~/components/composables/Affordable/getBestWireless'
 
-import TitleDescription from "~/components/atoms/title-description/index.vue"
-import QuestionsAndAnswers from '~/components/organisms-raw/questions.vue'
+import type { TitleInfo } from "~/types/title-info"
+
 import Hero from '~/components/organisms/hero.vue'
+import TitleDescription from "~/components/atoms/title-description/index.vue"
 import ProductScroll from '~/components/organisms/product-scroll.vue'
 import ReviewsGrid from '~/components/organisms/review-grid.vue'
-import TypeSection from '~/components/organisms/types.vue'
-import type { TitleInfo } from "~/types/title-info"
+import QuestionsAndAnswers from '~/components/organisms-raw/questions.vue'
 
 const title = 'Expert advice and products to improve your oral health'
 const description = 'Improve your oral health with our: ✓ Detailed user guides ✓ Expert advice ✓ Comparisons ✓ Reviews ✓ Promotions'
@@ -65,8 +65,5 @@ const bestCounterReviewsTitle: TitleInfo = {
   <TitleDescription :info="bestCounterReviewsTitle" />
   <ReviewsGrid :reviews="bestCounterAffortableReview" />
 
-  <!-- <TypeSection  /> -->
   <QuestionsAndAnswers />
 </template>
-
-<meta charset="UTF-8">

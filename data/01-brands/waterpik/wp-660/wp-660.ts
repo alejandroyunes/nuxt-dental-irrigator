@@ -10,7 +10,7 @@ const waterpikwp660: ProductDetails = {
     images: wp660Global.images,
     alt: "Waterpik WP 660 Aquarius Water Flosser",
     title: "Waterpik Aquarius WP 660  Water Flosser, 650 ml.",
-    description: "The Waterpik Aquarius Water Flosser is a professional-grade dental care device designed for teeth, gums, and braces. It features 10 pressure settings, a massage mode for gum stimulation, and a built-in timer/pacer. It includes a large reservoir for over 90 seconds of use, a maneuverable flossing wand, and a convenient water on/off switch. It's the #1 water flosser brand recommended by dental professionals and the first to earn the American Dental Association (ADA) Seal of Acceptance.",
+    description: "The Waterpik Aquarius Water Flosser WP 660 is a professional-grade dental care device designed for teeth, gums, and braces. It features 10 pressure settings, a massage mode for gum stimulation, and a built-in timer/pacer. It includes a large reservoir for over 90 seconds of use, a maneuverable flossing wand, and a convenient water on/off switch. It's the #1 water flosser brand recommended by dental professionals and the first to earn the American Dental Association (ADA) Seal of Acceptance.",
     price: wp660Global.productPrice,
     updatedDate: wp660Global.updatedDate,
     buyLink: wp660Global.amazonUrl,

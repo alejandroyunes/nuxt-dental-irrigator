@@ -9,7 +9,7 @@ const panasonicEW1511W: ProductDetails = {
     images: ew1511wGlobal.images,
     alt: "Panasonic EW1511W Portable Water Flosser",
     title: "Panasonic Portable EW1511W Water Flosser, 165 ml.",
-    description: "The Panasonic Portable Oral Irrigator with Ultrasonic Cleaning is a compact and powerful water flosser designed for effective dental hygiene. Featuring a 165 ml water tank, five pressure settings, rechargeable, IPX7 waterproof design provides 10 minutes of continuous use after a 60-minute charge, includes two rotating, tapered nozzles, and delivers 60 seconds of water flossing per fill.",
+    description: "The Panasonic Portable EW1511W Oral Irrigator with Ultrasonic Cleaning is a compact and powerful water flosser designed for effective dental hygiene. Featuring a 165 ml water tank, five pressure settings, rechargeable, IPX7 waterproof design provides 10 minutes of continuous use after a 60-minute charge, includes two rotating, tapered nozzles, and delivers 60 seconds of water flossing per fill.",
     price: ew1511wGlobal.productPrice,
     updatedDate: ew1511wGlobal.updatedDate,
     buyLink: ew1511wGlobal.amazonUrl,
