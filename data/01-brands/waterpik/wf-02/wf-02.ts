@@ -1,9 +1,10 @@
 import type { ProductDetails } from '~/types/product-details'
 
-import { c2Global } from '~/data/01-brands/bitvae/c2/c2-global'
-import { fc1592Global } from '~/data/01-brands/nicefeel/fc1592/fc1592-global'
-import { f5025Global } from '~/data/01-brands/nicwell/f5025/f5025-global'
 import { wf02Global } from './wf-02-global'
+import { wp580Global } from '../wp-580/wp-580-global'
+import { f5025Global } from '~/data/01-brands/nicwell/f5025/f5025-global'
+import { fc1592Global } from '~/data/01-brands/nicefeel/fc1592/fc1592-global'
+import { f5020eGlobal } from '~/data/01-brands/coslus/f5020e/f5020e-global'
 
 const slug = 'reviews'
 
@@ -61,6 +62,66 @@ const waterpikwf02: ProductDetails = {
         problem: "Requires regular battery replacement",
         price: wf02Global.productPrice,
         satisfaction: wf02Global.rating.stars,
+      },
+      {
+        id: 2,
+        path: `${slug}/${wp580Global.brand}/${wp580Global.path}`,
+        model: "Waterpik WP 580",
+        image: wp580Global.images[0].thumbnail,
+        alt: "Waterpik Cordless Express Water Flosser",
+        prime: false,
+        dimensions: "4 x 2.8 x 11.6 in, 12.8 oz",
+        tips: "4 tips",
+        capacity: "280 ml.",
+        highlight: "Most affordable",
+        problem: "Shorter battery life",
+        price: wp580Global.productPrice,
+        satisfaction: wp580Global.rating.stars,
+      },
+      {
+        id: 3,
+        path: `${slug}/${f5025Global.brand}/${f5025Global.path}`,
+        model: 'Nicwell F5025',
+        image: f5025Global.images[0].thumbnail,
+        alt: 'Nicwell 200 ml Oral Irrigator',
+        prime: true,
+        dimensions: '8.11 x 4.06 x 2.73 in, 7 oz',
+        tips: "5 tips",
+        capacity: "200 ml.",
+        highlight: "360° rotatable",
+        problem: "Slightly heavier",
+        price: f5025Global.productPrice,
+        satisfaction: f5025Global.rating.stars
+      },
+      {
+        id: 4,
+        path: `${slug}/${fc1592Global.brand}/${fc1592Global.path}`,
+        model: 'Nicefeel FC1592',
+        image: fc1592Global.images[0].thumbnail,
+        alt: 'Nicefeel FC1592 Oral Irrigator Image',
+        prime: true,
+        dimensions: '0.3 x 0.31 x 0.87 in, 10 oz',
+        tips: '4 Tips',
+        capacity: '300 ml.',
+        highlight: '3 Cleaning Modes',
+        problem: 'Not suitable for large families',
+        price: fc1592Global.productPrice,
+        satisfaction: fc1592Global.rating.stars,
+      },
+      {
+        id: 5,
+        path: `${slug}/${f5020eGlobal.brand}/${f5020eGlobal.path}`,
+        model: 'Coslus F5020E',
+        image: f5020eGlobal.images[0].thumbnail,
+        alt: 'Coslus F5020E Oral Irrigator',
+        prime: true,
+        dimensions: '2.17 x 2.74 x 12.2 in, 10 oz',
+        tips: '5',
+        capacity: '300 ml.',
+        highlight: 'Dual-thread stream, Child mode, IPX7 waterproof',
+        problem: 'Limited water capacity',
+        price: f5020eGlobal.productPrice,
+        satisfaction: f5020eGlobal.rating.stars,
       },
     ]
   },
