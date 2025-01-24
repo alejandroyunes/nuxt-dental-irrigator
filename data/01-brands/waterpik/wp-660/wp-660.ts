@@ -135,7 +135,7 @@ const waterpikwp660: ProductDetails = {
         satisfaction: fc165Global.rating.stars,
       },
       {
-        id: 1,
+        id: 5,
         path: `${slug}/${hf9Global.brand}/${hf9Global.path}`,
         model: 'H2ofloss HF9',
         image: hf9Global.images[0].thumbnail,
