@@ -89,6 +89,21 @@ const waterpikwp660: ProductDetails = {
         price: wp660Global.productPrice,
         satisfaction: wp660Global.rating.stars,
       },
+      {
+        id: 2,
+        path: `${slug}/${wp580Global.brand}/${wp580Global.path}`,
+        model: "Waterpik WP 580",
+        image: wp580Global.images[0].thumbnail,
+        alt: "Waterpik Cordless Express Water Flosser",
+        prime: false,
+        dimensions: "4 x 2.8 x 11.6 in, 12.8 oz",
+        tips: "4 tips",
+        capacity: "280 ml.",
+        highlight: "Most affordable",
+        problem: "Shorter battery life",
+        price: wp580Global.productPrice,
+        satisfaction: wp580Global.rating.stars,
+      }
     ],
   },
   proAndCons: {

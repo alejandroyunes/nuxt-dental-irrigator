@@ -25,7 +25,7 @@ const { reviews } = defineProps<{
               <span> ⭐ {{ review.rating }} Stars</span>
               <span> ❤️ {{ review.reviewCount }} reviews</span>
             </div>
-            <NuxtLink :to="`${review.path}`" class="button">
+            <NuxtLink :to="`/${review.path}`" class="button">
               Read Review
             </NuxtLink>
           </div>
