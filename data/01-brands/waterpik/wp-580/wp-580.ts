@@ -2,9 +2,6 @@ import type { ProductDetails } from '~/types/product-details'
 
 import { wp580Global } from './wp-580-global'
 
-import { ew1511wGlobal } from '~/data/01-brands/panasonic/ew1511w/ew1511w-global'
-import { m6PlusGlobal } from '~/data/01-brands/synhope/m6-plus/m6-plus-global'
-import { wp660Global } from '~/data/01-brands/waterpik/wp-660/wp-660-global'
 import { wf02Global } from '~/data/01-brands/waterpik/wf-02/wf-02-global'
 import { f5025Global } from '~/data/01-brands/nicwell/f5025/f5025-global'
 import { fc1592Global } from '~/data/01-brands/nicefeel/fc1592/fc1592-global'

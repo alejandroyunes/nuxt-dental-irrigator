@@ -1,9 +1,10 @@
 import type { ProductDetails } from '~/types/product-details'
 
 import { m6PlusGlobal } from './m6-plus-global'
-import { ew1511wGlobal } from '~/data/01-brands/panasonic/ew1511w/ew1511w-global'
 import { wp580Global } from '~/data/01-brands/waterpik/wp-580/wp-580-global'
-import { wp660Global } from '~/data/01-brands/waterpik/wp-660/wp-660-global'
+import { wf02Global } from '~/data/01-brands/waterpik/wf-02/wf-02-global'
+import { f5025Global } from '~/data/01-brands/nicwell/f5025/f5025-global'
+import { fc1592Global } from '~/data/01-brands/nicefeel/fc1592/fc1592-global'
 
 const slug = 'reviews'
 
@@ -71,6 +72,66 @@ const synhopeM6Plus: ProductDetails = {
         problem: "Limited water capacity compared to larger models",
         price: m6PlusGlobal.productPrice,
         satisfaction: m6PlusGlobal.rating.stars,
+      },
+      {
+        id: 2,
+        path: `${slug}/${wp580Global.brand}/${wp580Global.path}`,
+        model: "Waterpik WP 580",
+        image: wp580Global.images[0].thumbnail,
+        alt: "Waterpik Cordless Express Water Flosser",
+        prime: false,
+        dimensions: "4 x 2.8 x 11.6 in, 12.8 oz",
+        tips: "4 tips",
+        capacity: "280 ml.",
+        highlight: "Most affordable",
+        problem: "Shorter battery life",
+        price: wp580Global.productPrice,
+        satisfaction: wp580Global.rating.stars,
+      },
+      {
+        id: 3,
+        path: `${slug}/${wf02Global.brand}/${wf02Global.path}`,
+        model: 'Waterpik WF 02',
+        image: wf02Global.images[0].thumbnail,
+        alt: 'Waterpik Model WF 02',
+        prime: true,
+        dimensions: "3.6 x 2.5 x 11.75 in, 5 oz",
+        tips: "Includes 2 Classic Jet Tips",
+        capacity: "148 ml.",
+        highlight: "No outlets or charging needed",
+        problem: "Requires regular battery replacement",
+        price: wf02Global.productPrice,
+        satisfaction: wf02Global.rating.stars,
+      },
+      {
+        id: 4,
+        path: `${slug}/${f5025Global.brand}/${f5025Global.path}`,
+        model: 'Nicwell F5025',
+        image: f5025Global.images[0].thumbnail,
+        alt: 'Nicwell 200 ml Oral Irrigator',
+        prime: true,
+        dimensions: '8.11 x 4.06 x 2.73 in, 7 oz',
+        tips: "5 tips",
+        capacity: "200 ml.",
+        highlight: "360° rotatable",
+        problem: "Slightly heavier",
+        price: f5025Global.productPrice,
+        satisfaction: f5025Global.rating.stars
+      },
+      {
+        id: 5,
+        path: `${slug}/${fc1592Global.brand}/${fc1592Global.path}`,
+        model: 'Nicefeel FC1592',
+        image: fc1592Global.images[0].thumbnail,
+        alt: 'Nicefeel FC1592 Oral Irrigator Image',
+        prime: true,
+        dimensions: '0.3 x 0.31 x 0.87 in, 10 oz',
+        tips: '4 Tips',
+        capacity: '300 ml.',
+        highlight: '3 Cleaning Modes',
+        problem: 'Not suitable for large families',
+        price: fc1592Global.productPrice,
+        satisfaction: fc1592Global.rating.stars,
       },
     ],
   },
