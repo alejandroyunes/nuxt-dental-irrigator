@@ -1,10 +1,10 @@
 import type { ProductDetails } from '~/types/product-details'
 import { wp660Global } from './wp-660-global'
 
-
-import { ew1511wGlobal } from '~/data/01-brands/panasonic/ew1511w/ew1511w-global'
-import { m6PlusGlobal } from '~/data/01-brands/synhope/m6-plus/m6-plus-global'
-import { wp580Global } from "~/data/01-brands/waterpik/wp-580/wp-580-global"
+import { wp662Global } from "~/data/01-brands/waterpik/wp-662/wp-662-global"
+import { wp667Global } from "~/data/01-brands/waterpik/wp-667/wp-667-global"
+import { fc165Global } from "~/data/01-brands/turewell/fc-165/fc-165-global"
+import { hf9Global } from "~/data/01-brands/h20floss/hf9/hf9-global"
 
 
 const slug = 'reviews'
@@ -91,18 +91,63 @@ const waterpikwp660: ProductDetails = {
       },
       {
         id: 2,
-        path: `${slug}/${wp580Global.brand}/${wp580Global.path}`,
-        model: "Waterpik WP 580",
-        image: wp580Global.images[0].thumbnail,
-        alt: "Waterpik Cordless Express Water Flosser",
+        path: `${slug}/${wp662Global.brand}/${wp662Global.path}`,
+        model: "Waterpik WP 662",
+        image: wp662Global.images[0].thumbnail,
+        alt: "Waterpik Aquarius WP 662",
+        prime: true,
+        dimensions: "3.8 x 4.7 x 10.3 in, 22 oz",
+        tips: "7 Tips",
+        capacity: "650 ml.",
+        highlight: "Advanced pressure settings",
+        problem: "Requires corded power",
+        price: wp662Global.productPrice,
+        satisfaction: wp662Global.rating.stars,
+      },
+      {
+        id: 3,
+        path: `${slug}/${wp667Global.brand}/${wp667Global.path}`,
+        model: "Waterpik WP 667",
+        image: wp667Global.images[0].thumbnail,
+        alt: "Waterpik Aquarius WP-667 in Gray",
         prime: false,
-        dimensions: "4 x 2.8 x 11.6 in, 12.8 oz",
-        tips: "4 tips",
-        capacity: "280 ml.",
-        highlight: "Most affordable",
-        problem: "Shorter battery life",
-        price: wp580Global.productPrice,
-        satisfaction: wp580Global.rating.stars,
+        dimensions: "3.8 x 4.7 x 10.3 in, ",
+        tips: "7 Tips",
+        capacity: "650 ml.",
+        highlight: "10 Pressure Settings, ADA Accepted",
+        problem: "Requires power outlet.",
+        price: wp667Global.productPrice,
+        satisfaction: wp667Global.rating.stars,
+      },
+      {
+        id: 4,
+        path: `${slug}/${fc165Global.brand}/${fc165Global.path}`,
+        model: 'Turewell FC165',
+        image: fc165Global.images[0].thumbnail,
+        alt: 'Turewell FC165 Oral Irrigator',
+        prime: true,
+        dimensions: '5.7 x 4.9 x 8.07 in, 20 oz',
+        tips: '8',
+        capacity: '600 ml.',
+        highlight: '8 Nozzles',
+        problem: 'Water Resistance',
+        price: fc165Global.productPrice,
+        satisfaction: fc165Global.rating.stars,
+      },
+      {
+        id: 1,
+        path: `${slug}/${hf9Global.brand}/${hf9Global.path}`,
+        model: 'H2ofloss HF9',
+        image: hf9Global.images[0].thumbnail,
+        alt: 'H2ofloss HF 9 Oral Irrigator',
+        prime: true,
+        dimensions: '2.56 x 4 x 8.39 in, 28 oz',
+        tips: '13',
+        capacity: '800 ml.',
+        highlight: 'User-Friendly Design',
+        problem: 'Leaking Problems',
+        price: hf9Global.productPrice,
+        satisfaction: hf9Global.rating.stars,
       }
     ],
   },

@@ -53,7 +53,7 @@ const waterpikwp667: ProductDetails = {
     description: "See how the Waterpik Aquarius WP 667 stacks up against other popular water flossers.",
     models: [
       {
-        id: 0,
+        id: 1,
         path: `${slug}/${wp667Global.brand}/${wp667Global.path}`,
         model: "Waterpik WP 667",
         image: wp667Global.images[0].thumbnail,

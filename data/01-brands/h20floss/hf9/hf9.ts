@@ -88,7 +88,7 @@ const h2oflossHF9: ProductDetails = {
       {
         id: 1,
         path: `${slug}/${hf9Global.brand}/${hf9Global.path}`,
-        model: 'H2ofloss HF-9',
+        model: 'H2ofloss HF9',
         image: hf9Global.images[0].thumbnail,
         alt: 'H2ofloss HF 9 Oral Irrigator',
         prime: true,

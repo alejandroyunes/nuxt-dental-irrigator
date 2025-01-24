@@ -87,7 +87,6 @@ const coslusf5020e: ProductDetails = {
         price: f5020eGlobal.productPrice,
         satisfaction: f5020eGlobal.rating.stars,
       },
-
     ],
   },
   proAndCons: {

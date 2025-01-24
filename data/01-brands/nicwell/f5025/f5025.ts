@@ -63,7 +63,6 @@ const nicwellf5025: ProductDetails = {
         price: f5025Global.productPrice,
         satisfaction: f5025Global.rating.stars
       },
-
     ]
   },
   features: {

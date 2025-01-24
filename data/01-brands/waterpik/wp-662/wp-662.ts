@@ -54,7 +54,7 @@ const waterpikwp662: ProductDetails = {
     description: "Evaluate how the Waterpik Aquarius WP 662 stands out against similar products.",
     models: [
       {
-        id: 0,
+        id: 1,
         path: `${slug}/${wp662Global.brand}/${wp662Global.path}`,
         model: "Waterpik WP 662",
         image: wp662Global.images[0].thumbnail,
