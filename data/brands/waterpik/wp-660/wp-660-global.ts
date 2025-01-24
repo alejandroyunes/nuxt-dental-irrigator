@@ -20,6 +20,6 @@ export const wp660Global = {
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.6,
-    reviews: 144001,
+    reviews: 144240,
   },
 }

@@ -3,8 +3,8 @@ import { wp660Global } from './wp-660-global'
 
 import { hf9Global } from "~/data/brands/h20floss/hf9/hf9-global"
 import { fc165Global } from "~/data/brands/turewell/fc-165/fc-165-global"
-import { wp662Global } from "~/data/brands/waterpik/wp-662/wp-662-global"
-import { wp667Global } from "~/data/brands/waterpik/wp-667/wp-667-global"
+import { wf2302Global } from "~/data/brands/heyaxa/wf-2302/wf-2302-global"
+import { m01Global } from "~/data/brands/oeeter/m01/m01-global"
 
 
 const slug = 'reviews'
@@ -91,36 +91,6 @@ const waterpikwp660: ProductDetails = {
       },
       {
         id: 2,
-        path: `${slug}/${wp662Global.brand}/${wp662Global.path}`,
-        model: "Waterpik WP 662",
-        image: wp662Global.images[0].thumbnail,
-        alt: "Waterpik Aquarius WP 662",
-        prime: true,
-        dimensions: "3.8 x 4.7 x 10.3 in, 22 oz",
-        tips: "7 Tips",
-        capacity: "650 ml.",
-        highlight: "Advanced pressure settings",
-        problem: "Requires corded power",
-        price: wp662Global.productPrice,
-        satisfaction: wp662Global.rating.stars,
-      },
-      {
-        id: 3,
-        path: `${slug}/${wp667Global.brand}/${wp667Global.path}`,
-        model: "Waterpik WP 667",
-        image: wp667Global.images[0].thumbnail,
-        alt: "Waterpik Aquarius WP-667 in Gray",
-        prime: false,
-        dimensions: "3.8 x 4.7 x 10.3 in, ",
-        tips: "7 Tips",
-        capacity: "650 ml.",
-        highlight: "10 Pressure Settings, ADA Accepted",
-        problem: "Requires power outlet.",
-        price: wp667Global.productPrice,
-        satisfaction: wp667Global.rating.stars,
-      },
-      {
-        id: 4,
         path: `${slug}/${fc165Global.brand}/${fc165Global.path}`,
         model: 'Turewell FC165',
         image: fc165Global.images[0].thumbnail,
@@ -135,7 +105,7 @@ const waterpikwp660: ProductDetails = {
         satisfaction: fc165Global.rating.stars,
       },
       {
-        id: 5,
+        id: 3,
         path: `${slug}/${hf9Global.brand}/${hf9Global.path}`,
         model: 'H2ofloss HF9',
         image: hf9Global.images[0].thumbnail,
@@ -148,7 +118,37 @@ const waterpikwp660: ProductDetails = {
         problem: 'Leaking Problems',
         price: hf9Global.productPrice,
         satisfaction: hf9Global.rating.stars,
-      }
+      },
+      {
+        id: 4,
+        path: `${slug}/${wf2302Global.brand}/${wf2302Global.path}`,
+        model: "Heyaxa 2302WF",
+        image: wf2302Global.images[0].thumbnail,
+        alt: "Heyaxa 2302WF Water Flosser",
+        prime: true,
+        dimensions: "10 x 8 x 6 in, 34 oz",
+        tips: "6",
+        capacity: "1000 ml.",
+        highlight: "Large 1000ml Water Tank",
+        problem: "Noise level",
+        price: wf2302Global.productPrice,
+        satisfaction: wf2302Global.rating.stars,
+      },
+      {
+        id: 5,
+        path: `${slug}/${m01Global.brand}/${m01Global.path}`,
+        model: "Oeeter M01",
+        image: m01Global.images[0].thumbnail,
+        alt: "Oeeter M01 Water Dental Flosser",
+        prime: true,
+        dimensions: "8 x 6 x 4 in, 20 oz",
+        tips: "7 Tips",
+        capacity: "600 ml.",
+        highlight: "Compact and portable design with magnetic handle",
+        problem: "Lower water capacity compared to competitors",
+        price: m01Global.productPrice,
+        satisfaction: m01Global.rating.stars,
+      },
     ],
   },
   proAndCons: {

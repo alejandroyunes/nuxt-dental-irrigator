@@ -20,6 +20,6 @@ export const fc165Global = {
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.3,
-    reviews: 20539,
+    reviews: 20784,
   },
 }
