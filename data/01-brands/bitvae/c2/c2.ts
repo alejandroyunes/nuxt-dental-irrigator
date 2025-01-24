@@ -4,8 +4,11 @@ import { f5020eGlobal } from '~/data/01-brands/coslus/f5020e/f5020e-global'
 import { fc256Global } from '~/data/01-brands/inSmart/fc256/fc256-global'
 import { f5025Global } from '~/data/01-brands/nicwell/f5025/f5025-global'
 
+const slug = 'reviews'
+
 const bitvaeC2: ProductDetails = {
   info: {
+    slug: `${slug}/${c2Global.brand}/${c2Global.path}`,
     images: c2Global.images,
     alt: "Bitvae C2 Professional Water Dental Flosser, 260 ml.",
     title: "Bitvae C2 Water Dental Flosser for Teeth, 260 ml.",
@@ -82,7 +85,7 @@ const bitvaeC2: ProductDetails = {
     models: [
       {
         id: 1,
-        path: c2Global.path,
+        path: `${slug}/${c2Global.brand}/${c2Global.path}`,
         model: 'Bitvae C2',
         image: c2Global.images[0].thumbnail,
         alt: 'Bitvae C2 Oral Irrigator Image',
@@ -94,51 +97,6 @@ const bitvaeC2: ProductDetails = {
         problem: 'Water Resistance, Durability',
         price: c2Global.productPrice,
         satisfaction: c2Global.rating.stars,
-      },
-      {
-        id: 2,
-        path: f5020eGlobal.path,
-        model: 'Coslus F5020E',
-        image: f5020eGlobal.images[0].thumbnail,
-        alt: 'Coslus F5020E Oral Irrigator',
-        prime: true,
-        dimensions: '2.17 x 2.74 x 12.2 in, 10 oz',
-        tips: '5',
-        capacity: '300 ml.',
-        highlight: 'Dual-thread stream, Child mode, IPX7 waterproof',
-        problem: 'Limited water capacity',
-        price: f5020eGlobal.productPrice,
-        satisfaction: f5020eGlobal.rating.stars,
-      },
-      {
-        id: 3,
-        path: fc256Global.path,
-        model: 'InSmart FC256',
-        image: fc256Global.images[0].thumbnail,
-        alt: 'InSmart FC256 Oral Irrigator Image',
-        prime: true,
-        dimensions: '8.27 x 3.15 x 1.97 in, 14.07 oz',
-        tips: '6',
-        capacity: '300 ml.',
-        highlight: 'Travel Carrying bag, Ease of use, Size, 4 Water Pressure Modes',
-        problem: 'Battery Life, Durability, Nozzle Wear',
-        price: fc256Global.productPrice,
-        satisfaction: fc256Global.rating.stars,
-      },
-      {
-        id: 4,
-        path: f5025Global.path,
-        model: 'Nicwell F5025',
-        image: f5025Global.images[0].thumbnail,
-        alt: 'Nicwell 200 ml Oral Irrigator',
-        prime: true,
-        dimensions: '8.11 x 4.06 x 2.73 in, 7 oz',
-        tips: "5 tips",
-        capacity: "200 ml.",
-        highlight: "360° rotatable",
-        problem: "Slightly heavier",
-        price: f5025Global.productPrice,
-        satisfaction: f5025Global.rating.stars,
       },
     ]
   },

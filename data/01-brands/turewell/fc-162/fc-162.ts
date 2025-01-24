@@ -5,10 +5,12 @@ import { fc166Global } from '~/data/01-brands/sawgmore/fc166/fc166-global';
 import { fc165Global } from '~/data/01-brands/turewell/fc-165/fc-165-global';
 import { fc162Global } from './fc-162-global';
 
+const slug = 'reviews'
 
 const turewellfc162: ProductDetails = {
 
   info: {
+    slug: `${slug}/${fc162Global.brand}/${fc162Global.path}`,
     images: fc162Global.images,
     alt: "Turewell FC162 Water Dental Flosser",
     title: "Turewell FC162 Water Dental Flosser, 600ml.",
@@ -84,7 +86,7 @@ const turewellfc162: ProductDetails = {
     models: [
       {
         id: 1,
-        path: fc162Global.path,
+        path: `${slug}/${fc162Global.brand}/${fc162Global.path}`,
         model: "Turewell FC162",
         image: fc162Global.images[0].thumbnail,
         alt: "Turewell FC162 Water Dental Flosser",
@@ -96,51 +98,6 @@ const turewellfc162: ProductDetails = {
         problem: "Corded power source may limit portability",
         price: fc162Global.productPrice,
         satisfaction: fc162Global.rating.stars,
-      },
-      {
-        id: 2,
-        path: fc165Global.path,
-        model: 'Turewell FC165',
-        image: fc165Global.images[0].thumbnail,
-        alt: 'Turewell FC165 Oral Irrigator',
-        prime: true,
-        dimensions: '5.7 x 4.9 x 8.07 in, 1.7 lbs',
-        tips: '8',
-        capacity: '600 ml',
-        highlight: '8 Nozzles, Value, Ease of use',
-        problem: 'Water Resistance',
-        price: fc165Global.productPrice,
-        satisfaction: fc165Global.rating.stars,
-      },
-      {
-        id: 3,
-        path: m01Global.path,
-        model: "Oeeter M01",
-        image: m01Global.images[0].thumbnail,
-        alt: "Oeeter M01 Water Dental Flosser",
-        prime: true,
-        dimensions: "8 x 6 x 4 inches",
-        tips: "7 Tips",
-        capacity: "600ML",
-        highlight: "Compact and portable design with magnetic handle",
-        problem: "Lower water capacity compared to competitors",
-        price: m01Global.productPrice,
-        satisfaction: m01Global.rating.stars,
-      },
-      {
-        id: 4,
-        path: fc166Global.path,
-        model: "Sawgmore FC166",
-        image: fc166Global.images[0].thumbnail,
-        alt: "FC166 Water Flosser",
-        prime: true,
-        dimensions: "7.9 x 4.5 x 3.9 inches",
-        tips: "8",
-        capacity: "600ml",
-        highlight: "10 adjustable pressure levels",
-        problem: "May require frequent refills at high settings",
-        price: fc166Global.productPrice,
-        satisfaction: fc166Global.rating.stars,
       },
     ]
   },

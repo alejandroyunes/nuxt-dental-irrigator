@@ -4,8 +4,11 @@ import { m6PlusGlobal } from "~/data/01-brands/synhope/m6-plus/m6-plus-global"
 import { wp580Global } from '../../waterpik/wp-580/wp-580-global'
 import { ew1511wGlobal } from './ew1511w-global'
 
+const slug = 'reviews'
+
 const panasonicEW1511W: ProductDetails = {
   info: {
+    slug: `${slug}/${ew1511wGlobal.brand}/${ew1511wGlobal.path}`,
     images: ew1511wGlobal.images,
     alt: "Panasonic EW1511W Portable Water Flosser",
     title: "Panasonic Portable EW1511W Water Flosser, 165 ml.",
@@ -55,7 +58,7 @@ const panasonicEW1511W: ProductDetails = {
     models: [
       {
         id: 1,
-        path: ew1511wGlobal.path,
+        path: `${slug}/${ew1511wGlobal.brand}/${ew1511wGlobal.path}`,
         model: "Panasonic EW1511W",
         image: ew1511wGlobal.images[0].thumbnail,
         alt: "Panasonic Portable Water Flosser EW1511W",

@@ -2,8 +2,11 @@ import type { ProductDetails } from '~/types/product-details'
 
 import { wp662Global } from './wp-662-global'
 
+const slug = 'reviews'
+
 const waterpikwp662: ProductDetails = {
   info: {
+    slug: `${slug}/${wp662Global.brand}/${wp662Global.path}`,
     images: wp662Global.images,
     alt: "Waterpik Aquarius WP 662 Water Flosser, 650 ml.",
     title: "Waterpik Aquarius WP 662 Water Flosser, 650 ml.",
@@ -52,7 +55,7 @@ const waterpikwp662: ProductDetails = {
     models: [
       {
         id: 0,
-        path: wp662Global.path,
+        path: `${slug}/${wp662Global.brand}/${wp662Global.path}`,
         model: "Waterpik WP 662",
         image: wp662Global.images[0].thumbnail,
         alt: "Waterpik Aquarius WP 662",

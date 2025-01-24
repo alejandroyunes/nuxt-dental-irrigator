@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { ProductDetails } from '~/types/product-details'
+import type { ProductDetails } from '~/types/product-details';
 
 const { info } = defineProps<{
   info?: ProductDetails['comparison']
@@ -71,7 +71,7 @@ const { info } = defineProps<{
             <tr>
               <td>View</td>
               <td v-for="model in info?.models" :key="model.id">
-                <NuxtLink :href="model.path" class="view-price-btn">More</NuxtLink>
+                <NuxtLink :to="`/${model.path}`" class="view-price-btn">More</NuxtLink>
               </td>
             </tr>
           </tbody>

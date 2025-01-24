@@ -13,12 +13,11 @@ import { fc166Global } from '~/data/01-brands/sawgmore/fc166/fc166-global'
 import { fc162Global } from '~/data/01-brands/turewell/fc-162/fc-162-global'
 import { fc165Global } from '~/data/01-brands/turewell/fc-165/fc-165-global'
 
-export const slug = 'reviews'
 
 export const bestCounter: ReviewGrid[] = [
   {
     id: 1,
-    path: `/${slug}/${fc165Global.brand}/${fc165Global.path}`,
+    path: turewellFC165.info.slug,
     name: turewellFC165.info.title,
     image: turewellFC165.info.images[0].thumbnail,
     alt: turewellFC165.info.alt,
@@ -29,7 +28,7 @@ export const bestCounter: ReviewGrid[] = [
   },
   {
     id: 2,
-    path: `/${slug}/${hf9Global.brand}/${hf9Global.path}`,
+    path: h2oflossHF9.info.slug,
     name: h2oflossHF9.info.title,
     image: h2oflossHF9.info.images[0].thumbnail,
     alt: h2oflossHF9.info.alt,
@@ -40,7 +39,7 @@ export const bestCounter: ReviewGrid[] = [
   },
   {
     id: 3,
-    path: `/${slug}/${fc166Global.brand}/${fc166Global.path}`,
+    path: sawgmoreFC166.info.slug,
     name: sawgmoreFC166.info.title,
     image: sawgmoreFC166.info.images[0].thumbnail,
     alt: sawgmoreFC166.info.alt,
@@ -51,7 +50,7 @@ export const bestCounter: ReviewGrid[] = [
   },
   {
     id: 4,
-    path: `/${slug}/${m01Global.brand}/${m01Global.path}`,
+    path: oeeterM01.info.slug,
     name: oeeterM01.info.title,
     image: oeeterM01.info.images[0].thumbnail,
     alt: oeeterM01.info.alt,
@@ -62,7 +61,7 @@ export const bestCounter: ReviewGrid[] = [
   },
   {
     id: 5,
-    path: `/${slug}/${wf2302Global.brand}/${wf2302Global.path}`,
+    path: heyaxa2302WF.info.slug,
     name: heyaxa2302WF.info.title,
     image: heyaxa2302WF.info.images[0].thumbnail,
     alt: heyaxa2302WF.info.alt,
@@ -73,7 +72,7 @@ export const bestCounter: ReviewGrid[] = [
   },
   {
     id: 6,
-    path: `/${slug}/${fc162Global.brand}/${fc162Global.path}`,
+    path: turewellFC162.info.slug,
     name: turewellFC162.info.title,
     image: turewellFC162.info.images[0].thumbnail,
     alt: turewellFC162.info.alt,

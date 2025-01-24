@@ -5,8 +5,11 @@ import { ew1511wGlobal } from '~/data/01-brands/panasonic/ew1511w/ew1511w-global
 import { wp580Global } from '~/data/01-brands/waterpik/wp-580/wp-580-global'
 import { wp660Global } from '~/data/01-brands/waterpik/wp-660/wp-660-global'
 
+const slug = 'reviews'
+
 const synhopeM6Plus: ProductDetails = {
   info: {
+    slug: `${slug}/${m6PlusGlobal.brand}/${m6PlusGlobal.path}`,
     images: m6PlusGlobal.images,
     alt: "SynHope Mini Cordless Portable Water Flosser",
     title: "SynHope Mini Cordless Water Flosser, 140 ml.",
@@ -56,7 +59,7 @@ const synhopeM6Plus: ProductDetails = {
     models: [
       {
         id: 1,
-        path: m6PlusGlobal.path,
+        path: `${slug}/${m6PlusGlobal.brand}/${m6PlusGlobal.path}`,
         model: "Synhope Mini Cordless",
         image: m6PlusGlobal.images[0].thumbnail,
         alt: "Synhope Mini Cordless Water Flosser",
@@ -68,51 +71,6 @@ const synhopeM6Plus: ProductDetails = {
         problem: "Limited water capacity compared to larger models",
         price: m6PlusGlobal.productPrice,
         satisfaction: m6PlusGlobal.rating.stars,
-      },
-      {
-        id: 2,
-        path: ew1511wGlobal.path,
-        model: "EW-DJ10-W",
-        image: ew1511wGlobal.images[0].thumbnail,
-        alt: "Panasonic Portable Water Flosser EW-DJ10",
-        prime: true,
-        dimensions: "2 x 2.7 x 8.6 inches",
-        tips: "2 interchangeable tips",
-        capacity: "165ml.",
-        highlight: "Collapsible, travel-friendly design",
-        problem: "Short operating time of 20 minutes",
-        price: ew1511wGlobal.productPrice,
-        satisfaction: ew1511wGlobal.rating.stars,
-      },
-      {
-        id: 3,
-        path: wp580Global.path,
-        model: "Waterpik Cordless Express",
-        image: wp580Global.images[0].thumbnail,
-        alt: "Waterpik Cordless Express Water Flosser",
-        prime: false,
-        dimensions: "11.75 x 2.5 x 3.63 inches",
-        tips: "2 Precision (Classic)",
-        capacity: "280ml.",
-        highlight: "Most affordable",
-        problem: "Shorter battery life",
-        price: wp580Global.productPrice,
-        satisfaction: wp580Global.rating.stars,
-      },
-      {
-        id: 4,
-        path: wp660Global.path,
-        model: "Waterpik WP-660",
-        image: wp660Global.images[0].thumbnail,
-        alt: 'Waterpik WP-660 Oral Irrigator',
-        prime: true,
-        dimensions: '3.8 x 4.7 x 10.3 in, 1.46 lbs',
-        tips: "4 included tips",
-        capacity: "650 ml.",
-        highlight: '10 Nozzles, Best value',
-        problem: 'Noise, size',
-        price: wp660Global.productPrice,
-        satisfaction: wp660Global.rating.stars,
       },
     ],
   },
@@ -134,4 +92,4 @@ const synhopeM6Plus: ProductDetails = {
   },
 }
 
-export default synhopeM6Plus;
+export default synhopeM6Plus

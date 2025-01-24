@@ -8,7 +8,6 @@ import bitvaeC2 from '~/data/01-brands/bitvae/c2/c2'
 import coslusf5020e  from '~/data/01-brands/coslus/f5020e/f5020e'
 import inSmartfc256 from '~/data/01-brands/inSmart/fc256/fc256'
 
-
 import { c2Global } from '~/data/01-brands/bitvae/c2/c2-global'
 import { f5020eGlobal } from '~/data/01-brands/coslus/f5020e/f5020e-global'
 import { fc256Global } from "~/data/01-brands/inSmart/fc256/fc256-global"
@@ -16,12 +15,11 @@ import { fc1592Global } from '~/data/01-brands/nicefeel/fc1592/fc1592-global'
 import { f5025Global } from "~/data/01-brands/nicwell/f5025/f5025-global"
 import { wf02Global } from "~/data/01-brands/waterpik/wp-02/wf-02-global"
 
-export const slug = 'reviews'	
 
 export const bestWireless: ReviewGrid[] = [
   {
     id: 1,
-    path: `/${slug}/${wf02Global.brand}/${wf02Global.path}`,
+    path: waterpikwf02.info.slug,
     name: waterpikwf02.info.title,
     image: waterpikwf02.info.images[0].thumbnail,
     alt: waterpikwf02.info.alt,
@@ -32,7 +30,7 @@ export const bestWireless: ReviewGrid[] = [
   },
   {
     id: 2,
-    path: `/${slug}/${f5025Global.brand}/${f5025Global.path}`,
+    path: nicwellf5025.info.slug,
     name: nicwellf5025.info.title,
     image: nicwellf5025.info.images[0].thumbnail,
     alt: nicwellf5025.info.alt,
@@ -43,7 +41,7 @@ export const bestWireless: ReviewGrid[] = [
   },
   {
     id: 3,
-    path: `/${slug}/${fc1592Global.brand}/${fc1592Global.path}`,
+    path: nicefeelfc1592.info.slug,
     name: nicefeelfc1592.info.title,
     image: nicefeelfc1592.info.images[0].thumbnail,
     alt: nicefeelfc1592.info.alt,
@@ -54,7 +52,7 @@ export const bestWireless: ReviewGrid[] = [
   },
   {
     id: 4,
-    path: `/${slug}/${f5020eGlobal.brand}/${f5020eGlobal.path}`,
+    path: coslusf5020e.info.slug,
     name: coslusf5020e.info.title,
     image: coslusf5020e.info.images[0].thumbnail,
     alt: coslusf5020e.info.alt,
@@ -65,7 +63,7 @@ export const bestWireless: ReviewGrid[] = [
   },
   {
     id: 5,
-    path: `/${slug}/${fc256Global.brand}/${fc256Global.path}`,
+    path: inSmartfc256.info.slug,
     name: inSmartfc256.info.title,
     image: inSmartfc256.info.images[0].thumbnail,
     alt: inSmartfc256.info.alt,
@@ -76,7 +74,7 @@ export const bestWireless: ReviewGrid[] = [
   },
   {
     id: 6,
-    path: `/${slug}/${c2Global.brand}/${c2Global.path}`,
+    path: bitvaeC2.info.slug,
     name: bitvaeC2.info.title,
     image: bitvaeC2.info.images[0].thumbnail,
     alt: bitvaeC2.info.alt,

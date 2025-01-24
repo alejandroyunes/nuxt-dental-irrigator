@@ -4,9 +4,11 @@ import { fc256Global } from '~/data/01-brands/inSmart/fc256/fc256-global'
 import { fc1592Global } from '~/data/01-brands/nicefeel/fc1592/fc1592-global';
 import { f5025Global } from '~/data/01-brands/nicwell/f5025/f5025-global';
 
+const slug = 'reviews'
 
 const coslusf5020e: ProductDetails = {
   info: {
+    slug: `${slug}/${f5020eGlobal.brand}/${f5020eGlobal.path}`,
     images: f5020eGlobal.images,
     alt: 'Coslus Water Dental Flosser F5020E, 300 ml.',
     title: "Coslus F5020E Water Dental Flosser Teeth Pick, 300 ml.",
@@ -72,7 +74,7 @@ const coslusf5020e: ProductDetails = {
     models: [
       {
         id: 1,
-        path: f5020eGlobal.path,
+        path: `${slug}/${f5020eGlobal.brand}/${f5020eGlobal.path}`,
         model: 'Coslus F5020E',
         image: f5020eGlobal.images[0].thumbnail,
         alt: 'Coslus F5020E Oral Irrigator',
@@ -85,51 +87,7 @@ const coslusf5020e: ProductDetails = {
         price: f5020eGlobal.productPrice,
         satisfaction: f5020eGlobal.rating.stars,
       },
-      {
-        id: 2,
-        path: fc256Global.path,
-        model: 'InSmart FC256',
-        image: fc256Global.images[0].thumbnail,
-        alt: 'InSmart FC256 Oral Irrigator Image',
-        prime: true,
-        dimensions: '8.27 x 3.15 x 1.97 in, 14.07 oz',
-        tips: '6',
-        capacity: '300 ml.',
-        highlight: 'Travel Carrying bag, Ease of use, Size, 4 Water Pressure Modes',
-        problem: 'Battery Life, Durability, Nozzle Wear',
-        price: fc256Global.productPrice,
-        satisfaction: fc256Global.rating.stars,
-      },
-      {
-        id: 3,
-        path: f5025Global.path,
-        model: 'Nicwell F5025',
-        image: f5025Global.images[0].thumbnail,
-        alt: 'Nicwell 200 ml Oral Irrigator',
-        prime: true,
-        dimensions: '8.11 x 4.06 x 2.73 in, 7 oz',
-        tips: "5 tips",
-        capacity: "200 ml.",
-        highlight: "360° rotatable",
-        problem: "Slightly heavier",
-        price: f5025Global.productPrice,
-        satisfaction: f5025Global.rating.stars,
-      },
-      {
-        id: 4,
-        path: fc1592Global.path,
-        model: 'Nicefeel FC1592',
-        image: fc1592Global.images[0].thumbnail,
-        alt: 'Nicefeel FC1592 Oral Irrigator Image',
-        prime: true,
-        dimensions: '0.3 x 0.31 x 0.87 in, 10 oz',
-        tips: '4 Tips',
-        capacity: '300 ml.',
-        highlight: '3 Cleaning Modes',
-        problem: 'Not suitable for large families',
-        price: fc1592Global.productPrice,
-        satisfaction: fc1592Global.rating.stars,
-      },
+
     ],
   },
   proAndCons: {

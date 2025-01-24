@@ -4,8 +4,11 @@ import { fc1592Global } from './fc1592-global';
 import { f5020eGlobal } from '~/data/01-brands/coslus/f5020e/f5020e-global';
 import { wf02Global } from '~/data/01-brands/waterpik/wp-02/wf-02-global';
 
+const slug = 'reviews'
+
 const nicefeelfc1592: ProductDetails = {
   info: {
+    slug: `${slug}/${fc1592Global.brand}/${fc1592Global.path}`,
     images: fc1592Global.images,
     alt: 'Nicefeel FC1592 Cordless Water Flosser, 300 ml.',
     title: "Nicefeel FC1592 Cordless Water Flosser, 300 ml.",
@@ -43,7 +46,7 @@ const nicefeelfc1592: ProductDetails = {
     models: [
       {
         id: 1,
-        path: fc1592Global.path,
+        path: `${slug}/${fc1592Global.brand}/${fc1592Global.path}`,
         model: 'Nicefeel FC1592',
         image: fc1592Global.images[0].thumbnail,
         alt: 'Nicefeel FC1592 Oral Irrigator Image',
@@ -55,51 +58,6 @@ const nicefeelfc1592: ProductDetails = {
         problem: 'Not suitable for large families',
         price: fc1592Global.productPrice,
         satisfaction: fc1592Global.rating.stars,
-      },
-      {
-        id: 2,
-        path: fc1592Global.path,
-        model: 'Nicwell F5025',
-        image: fc1592Global.images[0].thumbnail,
-        alt: 'Nicwell 200 ml Oral Irrigator',
-        prime: true,
-        dimensions: '8.11 x 4.06 x 2.73 in, 7 oz',
-        tips: "5 tips",
-        capacity: "200 ml.",
-        highlight: "360° rotatable",
-        problem: "Slightly heavier",
-        price: fc1592Global.productPrice,
-        satisfaction: fc1592Global.rating.stars,
-      },
-      {
-        id: 3,
-        path: wf02Global.path,
-        model: 'Waterpik WF 02',
-        image: wf02Global.images[0].thumbnail,
-        alt: 'Waterpik Model WF 02',
-        prime: true,
-        dimensions: "3.6 x 2.5 x 11.75 in, 5 oz",
-        tips: "Includes 2 Classic Jet Tips",
-        capacity: "148 ml.",
-        highlight: "No outlets or charging needed",
-        problem: "Requires regular battery replacement",
-        price: wf02Global.productPrice,
-        satisfaction: wf02Global.rating.stars,
-      },
-      {
-        id: 4,
-        path: f5020eGlobal.path,
-        model: 'Coslus F5020E',
-        image: f5020eGlobal.images[0].thumbnail,
-        alt: 'Coslus F5020E Oral Irrigator',
-        prime: true,
-        dimensions: '2.17 x 2.74 x 12.2 in, 10 oz',
-        tips: '5',
-        capacity: '300 ml.',
-        highlight: 'Dual-thread stream, Child mode, IPX7 waterproof',
-        problem: 'Limited water capacity',
-        price: f5020eGlobal.productPrice,
-        satisfaction: f5020eGlobal.rating.stars,
       },
     ]
   },

@@ -1,12 +1,17 @@
 import type { ProductDetails } from '~/types/product-details'
 import { wp660Global } from './wp-660-global'
 
+
 import { ew1511wGlobal } from '~/data/01-brands/panasonic/ew1511w/ew1511w-global'
 import { m6PlusGlobal } from '~/data/01-brands/synhope/m6-plus/m6-plus-global'
 import { wp580Global } from "~/data/01-brands/waterpik/wp-580/wp-580-global"
 
+
+const slug = 'reviews'
+
 const waterpikwp660: ProductDetails = {
   info: {
+    slug: `${slug}/${wp660Global.brand}/${wp660Global.path}`,
     images: wp660Global.images,
     alt: "Waterpik WP 660 Aquarius Water Flosser",
     title: "Waterpik Aquarius WP 660  Water Flosser, 650 ml.",
@@ -71,7 +76,7 @@ const waterpikwp660: ProductDetails = {
     models: [
       {
         id: 1,
-        path: wp660Global.path,
+        path: `${slug}/${wp660Global.brand}/${wp660Global.path}`,
         model: "Waterpik WP 660",
         image: wp660Global.images[0].thumbnail,
         alt: 'Waterpik WP-660 Oral Irrigator',
@@ -83,51 +88,6 @@ const waterpikwp660: ProductDetails = {
         problem: 'Noise, size',
         price: wp660Global.productPrice,
         satisfaction: wp660Global.rating.stars,
-      },
-      {
-        id: 2,
-        path: wp580Global.path,
-        model: "Waterpik WP 580",
-        image: wp580Global.images[0].thumbnail,
-        alt: "Waterpik Cordless Express Water Flosser",
-        prime: false,
-        dimensions: "4 x 2.8 x 11.6 in, 12.8 oz",
-        tips: "4 tips",
-        capacity: "280 ml.",
-        highlight: "Most affordable",
-        problem: "Shorter battery life",
-        price: wp580Global.productPrice,
-        satisfaction: wp580Global.rating.stars,
-      },
-      {
-        id: 3,
-        path: m6PlusGlobal.path,
-        model: "Synhope Mini Cordless",
-        image: m6PlusGlobal.images[0].thumbnail,
-        alt: "Synhope Mini Cordless Water Flosser",
-        prime: true,
-        dimensions: " 4.88 x 2.44 x 1.26 in, 5 oz",
-        tips: "Includes 4 replacement jet tips",
-        capacity: "140 ml.",
-        highlight: "Portable design ideal for travel",
-        problem: "Limited water capacity compared to larger models",
-        price: m6PlusGlobal.productPrice,
-        satisfaction: m6PlusGlobal.rating.stars,
-      },
-      {
-        id: 4,
-        path: ew1511wGlobal.path,
-        model: "EW-DJ10-W",
-        image: ew1511wGlobal.images[0].thumbnail,
-        alt: "Panasonic Portable Water Flosser EW-DJ10",
-        prime: true,
-        dimensions: "2 x 2.7 x 8.6 inches",
-        tips: "2 interchangeable tips",
-        capacity: "165 ml.",
-        highlight: "Collapsible, travel-friendly design",
-        problem: "Short operating time of 20 minutes",
-        price: ew1511wGlobal.productPrice,
-        satisfaction: ew1511wGlobal.rating.stars,
       },
     ],
   },

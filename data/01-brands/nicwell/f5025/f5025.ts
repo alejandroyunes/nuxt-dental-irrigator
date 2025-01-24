@@ -5,8 +5,11 @@ import { fc1592Global } from '~/data/01-brands/nicefeel/fc1592/fc1592-global'
 import { wp660Global } from '~/data/01-brands/waterpik/wp-660/wp-660-global'
 import { c2Global } from '~/data/01-brands/bitvae/c2/c2-global'
 
+const slug = 'reviews'
+
 const nicwellf5025: ProductDetails = {
   info: {
+    slug: `${slug}/${f5025Global.brand}/${f5025Global.path}`,
     images: f5025Global.images,
     alt: 'Nicwell F5025 Water Dental Flosser Teeth Pick - Cordless, 200 ml.',
     title: 'Nicwell F5025 Water Dental Flosser Teeth Pick - Cordless, 200 ml.',
@@ -47,7 +50,7 @@ const nicwellf5025: ProductDetails = {
     models: [
       {
         id: 1,
-        path: f5025Global.path,
+        path: `${slug}/${f5025Global.brand}/${f5025Global.path}`,
         model: 'Nicwell F5025',
         image: f5025Global.images[0].thumbnail,
         alt: 'Nicwell 200 ml Oral Irrigator',
@@ -60,51 +63,7 @@ const nicwellf5025: ProductDetails = {
         price: f5025Global.productPrice,
         satisfaction: f5025Global.rating.stars
       },
-      {
-        id: 2,
-        path: wp660Global.path,
-        model: 'Waterpik WF 02',
-        image: wp660Global.images[0].thumbnail,
-        alt: 'Waterpik Model WF 02',
-        prime: true,
-        dimensions: "3.6 x 2.5 x 11.75 in, 5 oz",
-        tips: "Includes 2 Classic Jet Tips",
-        capacity: "148 ml.",
-        highlight: "No outlets or charging needed",
-        problem: "Requires regular battery replacement",
-        price: wp660Global.productPrice,
-        satisfaction: wp660Global.rating.stars,
-      },
-      {
-        id: 3,
-        path: fc1592Global.path,
-        model: 'Nicefeel FC1592',
-        image: fc1592Global.images[0].thumbnail,
-        alt: 'Nicefeel FC1592 Oral Irrigator Image',
-        prime: true,
-        dimensions: '0.3 x 0.31 x 0.87 in, 13 oz',
-        tips: '4',
-        capacity: '300 ml.',
-        highlight: 'Battery-powered, memory function, 3 cleaning modes',
-        problem: 'Not suitable for large families',
-        price: fc1592Global.productPrice,
-        satisfaction: fc1592Global.rating.stars,
-      },
-      {
-        id: 4,
-        path: c2Global.path,
-        model: 'Bitvae C2',
-        image: c2Global.images[0].thumbnail,
-        alt: 'Bitvae C2 Oral Irrigator Image',
-        prime: true,
-        dimensions: '2.6 x 3.7 x 8.78 inches; 9 oz',
-        tips: '6',
-        capacity: '260 ml.',
-        highlight: 'Effective Cleaning, Compact Design, Long Battery Life',
-        problem: 'Water Resistance, Durability',
-        price: c2Global.productPrice,
-        satisfaction: c2Global.rating.stars,
-      },
+
     ]
   },
   features: {

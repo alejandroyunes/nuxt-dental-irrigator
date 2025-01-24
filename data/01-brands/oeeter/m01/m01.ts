@@ -5,8 +5,11 @@ import { hf9Global } from '~/data/01-brands/h20floss/hf9/hf9-global'
 import { fc165Global } from '~/data/01-brands/turewell/fc-165/fc-165-global'
 import { fc166Global } from '~/data/01-brands/sawgmore/fc166/fc166-global'
 
+const slug = 'reviews'
+
 const oeeterM01: ProductDetails = {
   info: {
+    slug: `${slug}/${m01Global.brand}/${m01Global.path}`,
     images: m01Global.images,
     alt: "Oeeter M01 Water Dental Flosser",
     title: "Oeeter M01 Water Dental Flosser, 600 ml.",
@@ -76,7 +79,7 @@ const oeeterM01: ProductDetails = {
     models: [
       {
         id: 1,
-        path: m01Global.path,
+        path: `${slug}/${m01Global.brand}/${m01Global.path}`,
         model: "Oeeter M01",
         image: m01Global.images[0].thumbnail,
         alt: "Oeeter M01 Water Dental Flosser",
@@ -88,51 +91,6 @@ const oeeterM01: ProductDetails = {
         problem: "Lower water capacity compared to competitors",
         price: m01Global.productPrice,
         satisfaction: m01Global.rating.stars,
-      },
-      {
-        id: 2,
-        path: fc165Global.path,
-        model: 'Turewell FC165',
-        image: fc165Global.images[0].thumbnail,
-        alt: 'Turewell FC165 Oral Irrigator',
-        prime: true,
-        dimensions: '5.7 x 4.9 x 8.07 in, 20 oz',
-        tips: '8',
-        capacity: '600 ml.',
-        highlight: '8 Nozzles',
-        problem: 'Water Resistance',
-        price: fc165Global.productPrice,
-        satisfaction: fc165Global.rating.stars,
-      },
-      {
-        id: 3,
-        path: fc166Global.path,
-        model: "Sawgmore FC166",
-        image: fc166Global.images[0].thumbnail,
-        alt: "FC166 Water Flosser",
-        prime: true,
-        dimensions: "7.9 x 4.5 x 3.9 in, 20 oz",
-        tips: "8",
-        capacity: "600 ml.",
-        highlight: "10 adjustable pressure levels",
-        problem: "May require frequent refills at high settings",
-        price: fc166Global.productPrice,
-        satisfaction: fc166Global.rating.stars,
-      },
-      {
-        id: 4,
-        path: hf9Global.path,
-        model: 'H2ofloss HF-9',
-        image: hf9Global.images[0].thumbnail,
-        alt: 'H2ofloss HF 9 Oral Irrigator',
-        prime: true,
-        dimensions: '2.56 x 4 x 8.39 in, 28 oz',
-        tips: '13',
-        capacity: '800 ml.',
-        highlight: 'User-Friendly Design',
-        problem: 'Leaking Problems',
-        price: hf9Global.productPrice,
-        satisfaction: hf9Global.rating.stars,
       },
     ]
   },

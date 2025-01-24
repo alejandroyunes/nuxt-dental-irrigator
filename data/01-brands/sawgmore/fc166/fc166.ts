@@ -5,8 +5,11 @@ import { m01Global } from '../../oeeter/m01/m01-global'
 import { fc165Global } from '../../turewell/fc-165/fc-165-global'
 import { fc166Global } from './fc166-global'
 
+const slug = 'reviews'
+
 const sawgmoreFC166: ProductDetails = {
   info: {
+    slug: `${slug}/${fc166Global.brand}/${fc166Global.path}`,
     images: fc166Global.images,
     alt: "Sawgmore FC166 Water Flosser Oral Irrigator ",
     title: "Sawgmore FC166 Water Flosser Oral Irrigator, 600 ml.",
@@ -56,7 +59,7 @@ const sawgmoreFC166: ProductDetails = {
     models: [
       {
         id: 1,
-        path: fc166Global.path,
+        path: `${slug}/${fc166Global.brand}/${fc166Global.path}`,
         model: "Sawgmore FC166",
         image: fc166Global.images[0].thumbnail,
         alt: "FC166 Water Flosser",
@@ -68,51 +71,6 @@ const sawgmoreFC166: ProductDetails = {
         problem: "May require frequent refills at high settings",
         price: fc166Global.productPrice,
         satisfaction: fc166Global.rating.stars,
-      },
-      {
-        id: 2,
-        path: fc165Global.path,
-        model: 'Turewell FC165',
-        image: fc165Global.images[0].thumbnail,
-        alt: 'Turewell FC165 Oral Irrigator',
-        prime: true,
-        dimensions: '5.7 x 4.9 x 8.07 in, 20 oz',
-        tips: '8',
-        capacity: '600 ml.',
-        highlight: '8 Nozzles',
-        problem: 'Water Resistance',
-        price: fc165Global.productPrice,
-        satisfaction: fc165Global.rating.stars,
-      },
-      {
-        id: 3,
-        path: hf9Global.path,
-        model: 'H2ofloss HF-9',
-        image: hf9Global.images[0].thumbnail,
-        alt: 'H2ofloss HF 9 Oral Irrigator',
-        prime: true,
-        dimensions: '2.56 x 4 x 8.39 in, 28 oz',
-        tips: '13',
-        capacity: '800 ml.',
-        highlight: 'User-Friendly Design',
-        problem: 'Leaking Problems',
-        price: hf9Global.productPrice,
-        satisfaction: hf9Global.rating.stars,
-      },
-      {
-        id: 4,
-        path: m01Global.path,
-        model: "Oeeter M01",
-        image: m01Global.images[0].thumbnail,
-        alt: "Oeeter M01 Water Dental Flosser",
-        prime: true,
-        dimensions: "8 x 6 x 4 in, 20 oz",
-        tips: "7 Tips",
-        capacity: "600 ml.",
-        highlight: "Compact and portable design with magnetic handle",
-        problem: "Lower water capacity compared to competitors",
-        price: m01Global.productPrice,
-        satisfaction: m01Global.rating.stars,
       },
     ],
   },

@@ -1,5 +1,6 @@
 export interface ProductDetails {
   info: {
+    slug: string
     images: { url: string; thumbnail: string }[],
     alt: string
     title: string
