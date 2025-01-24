@@ -2,9 +2,6 @@ import type { ProductDetails } from '~/types/product-details'
 
 import { fc256Global } from './fc256-global'
 
-import { fc1592Global } from '~/data/01-brands/nicefeel/fc1592/fc1592-global'
-import { f5025Global } from '~/data/01-brands/nicwell/f5025/f5025-global'
-import { wf02Global } from '~/data/01-brands/waterpik/wp-02/wf-02-global'
 
 const slug = 'reviews'
 

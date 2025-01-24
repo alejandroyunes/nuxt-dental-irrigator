@@ -1,8 +1,6 @@
 import type { ProductDetails } from '~/types/product-details';
 import { fc1592Global } from './fc1592-global';
 
-import { f5020eGlobal } from '~/data/01-brands/coslus/f5020e/f5020e-global';
-import { wf02Global } from '~/data/01-brands/waterpik/wp-02/wf-02-global';
 
 const slug = 'reviews'
 
