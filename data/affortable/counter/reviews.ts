@@ -1,17 +1,11 @@
-import h2oflossHF9 from '~/data/01-brands/h20floss/hf9/hf9'
-import heyaxa2302WF from '~/data/01-brands/heyaxa/wf-2302/wf-2302'
-import oeeterM01 from '~/data/01-brands/oeeter/m01/m01'
-import sawgmoreFC166 from '~/data/01-brands/sawgmore/fc166/fc166'
-import turewellFC162 from '~/data/01-brands/turewell/fc-162/fc-162'
-import turewellFC165 from '~/data/01-brands/turewell/fc-165/fc-165'
+import h2oflossHF9 from '~/data/brands/h20floss/hf9/hf9'
+import heyaxa2302WF from '~/data/brands/heyaxa/wf-2302/wf-2302'
+import oeeterM01 from '~/data/brands/oeeter/m01/m01'
+import sawgmoreFC166 from '~/data/brands/sawgmore/fc166/fc166'
+import turewellFC162 from '~/data/brands/turewell/fc-162/fc-162'
+import turewellFC165 from '~/data/brands/turewell/fc-165/fc-165'
 import type { ReviewGrid } from "~/types/review-grid"
 
-import { hf9Global } from "~/data/01-brands/h20floss/hf9/hf9-global"
-import { wf2302Global } from "~/data/01-brands/heyaxa/wf-2302/wf-2302-global"
-import { m01Global } from '~/data/01-brands/oeeter/m01/m01-global'
-import { fc166Global } from '~/data/01-brands/sawgmore/fc166/fc166-global'
-import { fc162Global } from '~/data/01-brands/turewell/fc-162/fc-162-global'
-import { fc165Global } from '~/data/01-brands/turewell/fc-165/fc-165-global'
 
 
 export const bestCounter: ReviewGrid[] = [

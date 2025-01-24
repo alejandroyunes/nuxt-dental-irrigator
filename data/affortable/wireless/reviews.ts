@@ -1,11 +1,11 @@
 import type { ReviewGrid } from "~/types/review-grid"
 
-import waterpikwf02 from '~/data/01-brands/waterpik/wf-02/wf-02'
-import nicwellf5025 from '~/data/01-brands/nicwell/f5025/f5025'
-import nicefeelfc1592 from '~/data/01-brands/nicefeel/fc1592/fc1592'
-import coslusf5020e from '~/data/01-brands/coslus/f5020e/f5020e'
-import inSmartfc256 from '~/data/01-brands/inSmart/fc256/fc256'
-import bitvaeC2 from '~/data/01-brands/bitvae/c2/c2'
+import bitvaeC2 from '~/data/brands/bitvae/c2/c2'
+import coslusf5020e from '~/data/brands/coslus/f5020e/f5020e'
+import inSmartfc256 from '~/data/brands/inSmart/fc256/fc256'
+import nicefeelfc1592 from '~/data/brands/nicefeel/fc1592/fc1592'
+import nicwellf5025 from '~/data/brands/nicwell/f5025/f5025'
+import waterpikwf02 from '~/data/brands/waterpik/wf-02/wf-02'
 
 export const bestWireless: ReviewGrid[] = [
   {

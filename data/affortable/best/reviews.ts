@@ -1,9 +1,9 @@
-import panasonicEW1511W from "~/data/01-brands/panasonic/ew1511w/ew1511w"
-import synhopeM6Plus from "~/data/01-brands/synhope/m6-plus/m6-plus"
-import waterpikwp580 from "~/data/01-brands/waterpik/wp-580/wp-580"
-import waterpikwp660 from "~/data/01-brands/waterpik/wp-660/wp-660"
-import waterpikwp662 from "~/data/01-brands/waterpik/wp-662/wp-662"
-import waterpikwp667 from "~/data/01-brands/waterpik/wp-667/wp-667"
+import panasonicEW1511W from "~/data/brands/panasonic/ew1511w/ew1511w"
+import synhopeM6Plus from "~/data/brands/synhope/m6-plus/m6-plus"
+import waterpikwp580 from "~/data/brands/waterpik/wp-580/wp-580"
+import waterpikwp660 from "~/data/brands/waterpik/wp-660/wp-660"
+import waterpikwp662 from "~/data/brands/waterpik/wp-662/wp-662"
+import waterpikwp667 from "~/data/brands/waterpik/wp-667/wp-667"
 import type { ReviewGrid } from "~/types/review-grid"
 
 

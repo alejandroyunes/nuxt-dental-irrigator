@@ -9,7 +9,7 @@ export const getProductDetails = (fileRoutes: string[] | string) => {
   const fetchProductDetails = async () => {
     loading.value = true
     try {
-      product.value = (await import(`~/data/01-brands/${fileRoutes[0]}/${fileRoutes[1]}/${fileRoutes[1]}.ts`)).default
+      product.value = (await import(`~/data/brands/${fileRoutes[0]}/${fileRoutes[1]}/${fileRoutes[1]}.ts`)).default
 
     } catch (e) {
       error.value = 'Failed to fetch product details'
