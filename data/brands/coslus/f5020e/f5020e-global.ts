@@ -19,6 +19,6 @@ export const f5020eGlobal = {
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.4,
-    reviews: 28578,
+    reviews: 30088,
   },
 }

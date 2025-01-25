@@ -18,6 +18,6 @@ export const fc256Global = {
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.2,
-    reviews: 16184,
+    reviews: 16244,
   },
 }

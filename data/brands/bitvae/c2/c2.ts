@@ -14,7 +14,7 @@ const bitvaeC2: ProductDetails = {
     images: c2Global.images,
     alt: "Bitvae C2 Professional Water Dental Flosser, 260 ml.",
     title: "Bitvae C2 Water Dental Flosser for Teeth, 260 ml.",
-    description: "The Bitvae C2 provides advanced oral care with customizable cleaning options, a large-capacity reservoir, and a sleek design suitable for travel. Portable, with a 300 ml tank, ergonomic design, 6 nozzles, and special pressure frequency for a brighter smile.",
+    description: "The Bitvae C2 provides advanced oral care with customizable cleaning options and a sleek design suitable for travel. Portable, with a 300 ml tank, ergonomic design, 6 nozzles, 3 modes and 5 intensity setting.",
     price: c2Global.productPrice,
     updatedDate: c2Global.updatedDate,
     buyLink: c2Global.amazonUrl,

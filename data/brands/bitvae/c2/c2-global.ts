@@ -19,6 +19,6 @@ export const c2Global = {
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.4,
-    reviews: 16974,
+    reviews: 17484,
   },
 }

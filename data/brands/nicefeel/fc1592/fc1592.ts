@@ -14,7 +14,7 @@ const nicefeelfc1592: ProductDetails = {
     images: fc1592Global.images,
     alt: 'Nicefeel FC1592 Cordless Water Flosser, 300 ml.',
     title: "Nicefeel FC1592 Cordless Water Flosser, 300 ml.",
-    description: "The Nicefeel Cordless Water Flosser packs a punch with its 300 ml water tank, offering uninterrupted flossing. With its IPX7 waterproof design, you can even use it in the shower for added convenience. It boasts three modes—Normal, Soft, and Pulse—allowing you to customize the flossing experience to suit your needs.",
+    description: "The Nicefeel Cordless Water Flosser packs a punch with its 300 ml water tank, 1800 pulses/minute, pressure range of 30-120psi, and a memory function to remember your preferred cleaning mode.",
     price: fc1592Global.productPrice,
     updatedDate: fc1592Global.updatedDate,
     buyLink: fc1592Global.amazonUrl,

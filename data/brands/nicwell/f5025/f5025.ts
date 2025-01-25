@@ -14,7 +14,7 @@ const nicwellf5025: ProductDetails = {
     images: f5025Global.images,
     alt: 'Nicwell F5025 Water Dental Flosser Teeth Pick - Cordless, 200 ml.',
     title: 'Nicwell F5025 Water Dental Flosser Teeth Pick - Cordless, 200 ml.',
-    description: 'The Nicwell Professional Water Flosser F5025, 200 ml, with upgraded unique pulsation technique, Nicwell water dental flosser can offer high pressure water pulse 1400-1800 pulses/min, 30-110PSI strong water pressure to remove 99.99% food residue hidden deep, massage the gum effectively and promoting blood circulation.',
+    description: 'The Nicwell F5025 Portable Water Flosser with a 200 ml reservoir for about 30 seconds of flossing time, 5 jet tips, 1400-1800 pulses/min, pressure range 30-110psi, and 4 cleaning modes.',
     price: f5025Global.productPrice,
     updatedDate: f5025Global.updatedDate,
     buyLink: f5025Global.amazonUrl,
