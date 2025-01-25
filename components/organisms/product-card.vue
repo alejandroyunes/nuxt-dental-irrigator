@@ -39,7 +39,7 @@ const { info } = defineProps<{
         </ul>
       </div>
 
-      <NuxtLink :to="info?.buyLink" class="buy-button">👉 {{ info?.cta }}</NuxtLink>
+      <NuxtLink :to="info?.buyLink" class="buy-button" target="_blank">👉 {{ info?.cta }}</NuxtLink>
     </div>
   </div>
 

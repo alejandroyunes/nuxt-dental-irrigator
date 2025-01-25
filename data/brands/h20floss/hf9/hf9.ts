@@ -14,7 +14,7 @@ const h2oflossHF9: ProductDetails = {
     images: hf9Global.images,
     alt: "H2ofloss HF 9 Dental Water Flosser",
     title: "H2ofloss HF 9 Dental Water Flosser, 800 ml.",
-    description: "Elevate your oral hygiene with 13 multifunctional tips, 800 ml capacity, and a quiet design. Removes up to 99.9% of plaque and offers a customizable cleaning experience.",
+    description: "Th H2ofloss HF 9 is a  budget friendly counter top water flosser with 13 multifunctional tips, 800 ml capacity water tank, and a quiet design. Water pulsation up to 5-110psi, 1200 pulses/min and a 24-month warranty.",
     price: hf9Global.productPrice,
     updatedDate: hf9Global.updatedDate,
     buyLink: hf9Global.amazonUrl,

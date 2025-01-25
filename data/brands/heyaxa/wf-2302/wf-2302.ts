@@ -15,7 +15,7 @@ const heyaxa2302WF: ProductDetails = {
     alt: "Heyaxa 2302WF Water Dental Flosser",
     title: "Heyaxa 2302WF Water Dental Flosser, 1000 ml.",
     description:
-      "Efficient and deep cleaning for gum health and oral hygiene. Featuring a 1000 ml tank, 10 adjustable pressure levels, and 7 nozzles for family use. Ideal for gum health and braces.",
+      "The Heyaxa 2302WF counter top water flosser features a 1000 ml tank for 180 seconds of use, 10 adjustable pressure levels, 7 nozzles for family use, up to 30-125psi pressure range, pulsation of up to 1700 pulses/min, and 360° rotating nozzles for thorough cleaning.",
     price: wf2302Global.productPrice,
     updatedDate: wf2302Global.updatedDate,
     buyLink: wf2302Global.amazonUrl,
@@ -28,7 +28,7 @@ const heyaxa2302WF: ProductDetails = {
       "7 nozzles for various oral care needs",
       "Unique UV storage compartment for hygiene",
       "Corded electric design for consistent power",
-      "High pulsation frequency (1250-1700 times/min)",
+      "High pulsation frequency (1250-1700 pulses/min)",
       "360° rotating nozzles for thorough cleaning",
     ],
   },
@@ -51,7 +51,7 @@ const heyaxa2302WF: ProductDetails = {
       {
         title: "Ultra-Powerful Water Flosser for Deep Clean",
         description:
-          "Pulses up to 1700 times/min with 360° rotating nozzles for thorough cleaning, massaging gums, and preventing tooth stains.",
+          "Pulses up to 1700 pulses/min with 360° rotating nozzles for thorough cleaning, massaging gums, and preventing tooth stains.",
       },
       {
         title: "Large 1000ml Water Tank",

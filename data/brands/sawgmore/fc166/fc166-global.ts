@@ -1,5 +1,4 @@
 export const fc166Global = {
-  // id: 3,
   brand: 'sawgmore',
   path: 'fc166',
   images: [
@@ -19,6 +18,6 @@ export const fc166Global = {
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.3,
-    reviews: 3834,
+    reviews: 3884,
   },
 }

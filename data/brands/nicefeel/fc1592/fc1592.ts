@@ -154,7 +154,7 @@ const nicefeelfc1592: ProductDetails = {
     buyLink: fc1592Global.amazonUrl,
     pros: [
       { title: 'Large Water Tank: 300ml capacity for uninterrupted use.' },
-      { title: 'Efficient Cleaning: 1800 times/minute high pressure water pulse for effective removal of food residues.' },
+      { title: 'Efficient Cleaning: 1800 pulses/minute high pressure water pulse for effective removal of food residues.' },
       { title: 'Memory Function: Allows presetting and remembering preferred cleaning modes.' },
       { title: 'Orthodontic Tip: Great for users with braces and orthodontic appliances.' }
     ],

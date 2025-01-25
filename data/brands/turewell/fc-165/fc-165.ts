@@ -1,9 +1,9 @@
 import type { ProductDetails } from '~/types/product-details'
 
 import { hf9Global } from "~/data/brands/h20floss/hf9/hf9-global"
+import { fc166Global } from "~/data/brands/sawgmore/fc166/fc166-global"
 import { fc162Global } from "~/data/brands/turewell/fc-162/fc-162-global"
 import { wp660Global } from '~/data/brands/waterpik/wp-660/wp-660-global'
-import { fc166Global } from "~/data/brands/sawgmore/fc166/fc166-global"
 import { fc165Global } from './fc-165-global'
 
 const slug = 'reviews'
@@ -14,7 +14,7 @@ const turewellFC165: ProductDetails = {
     images: fc165Global.images,
     alt: 'Turewell Water Flossing Oral Irrigator',
     title: "Turewell FC165 Water Flossing Oral Irrigator, 600 ml.",
-    description: "The Turewell FC165 is A budget-friendly water flosser with 8 nozzles, a 600 ml tank for 90 seconds water flows, up to 1700 times/min, water pulsation up to 30-125psi and 10 adjustable water pressure settings that can reach deep hidden parts. Provides a clean and hygienic experience for your teeth and gums.",
+    description: "The Turewell FC165 is A budget-friendly water flosser with 8 nozzles, a 600 ml tank for 90 seconds water flows, up to 1700 pulses/min, water pulsation up to 30-125psi and 10 adjustable water pressure settings that can reach deep hidden parts. Provides a clean and hygienic experience for your teeth and gums.",
     price: fc165Global.productPrice,
     updatedDate: fc165Global.updatedDate,
     buyLink: fc165Global.amazonUrl,

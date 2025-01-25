@@ -1,11 +1,10 @@
-import type { ProductDetails } from '~/types/product-details';
+import type { ProductDetails } from '~/types/product-details'
 
-import { hf9Global } from "~/data/brands/h20floss/hf9/hf9-global";
-import { fc165Global } from '~/data/brands/turewell/fc-165/fc-165-global';
-import { wp660Global } from '~/data/brands/waterpik/wp-660/wp-660-global';
-import { wp662Global } from "~/data/brands/waterpik/wp-662/wp-662-global";
-import { fc162Global } from './fc-162-global';
-
+import { hf9Global } from "~/data/brands/h20floss/hf9/hf9-global"
+import { fc165Global } from '~/data/brands/turewell/fc-165/fc-165-global'
+import { wp660Global } from '~/data/brands/waterpik/wp-660/wp-660-global'
+import { wp662Global } from "~/data/brands/waterpik/wp-662/wp-662-global"
+import { fc162Global } from './fc-162-global'
 
 const slug = 'reviews'
 
@@ -15,8 +14,8 @@ const turewellfc162: ProductDetails = {
     slug: `${slug}/${fc162Global.brand}/${fc162Global.path}`,
     images: fc162Global.images,
     alt: "Turewell FC162 Water Dental Flosser",
-    title: "Turewell FC162 Water Dental Flosser, 600ml.",
-    description: "The Turewell FC162 is a powerful and efficient water dental flosser that improves gum health, removes plaque, and whitens teeth. It features 10 adjustable pressure levels, 8 specialized water jet tips for family use, a 600ml water tank, and a leakproof design. Ideal for braces, implants, crowns, and periodontal pockets.",
+    title: "Turewell FC162 Water Dental Flosser, 600 ml.",
+    description: "The Turewell FC162 counter top water flosser improves gum health and removes plaque. Featuring 10 adjustable pressure levels, 8 specialized water jet tips for family use, a 600ml water tank for 90 seconds of use, 30-125psi pressure range and pulses of up to 1250-1700 pulses/min.",
     price: fc162Global.productPrice,
     updatedDate: fc162Global.updatedDate,
     buyLink: fc162Global.amazonUrl,
