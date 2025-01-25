@@ -144,7 +144,7 @@ const waterpikwp660: ProductDetails = {
         dimensions: "8 x 6 x 4 in, 20 oz",
         tips: "7 Tips",
         capacity: "600 ml.",
-        highlight: "Compact and portable design with magnetic handle",
+        highlight: "Price",
         problem: "Lower water capacity compared to competitors",
         price: m01Global.productPrice,
         satisfaction: m01Global.rating.stars,

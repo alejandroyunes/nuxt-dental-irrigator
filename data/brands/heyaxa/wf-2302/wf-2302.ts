@@ -15,7 +15,7 @@ const heyaxa2302WF: ProductDetails = {
     alt: "Heyaxa 2302WF Water Dental Flosser",
     title: "Heyaxa 2302WF Water Dental Flosser, 1000 ml.",
     description:
-      "The Heyaxa 2302WF counter top water flosser features a 1000 ml tank for 180 seconds of use, 10 adjustable pressure levels, 7 nozzles for family use, up to 30-125psi pressure range, pulsation of up to 1700 pulses/min, and 360° rotating nozzles for thorough cleaning.",
+      "The Heyaxa 2302WF counter top water flosser features a 1000 ml tank for 180 seconds of use, 10 adjustable pressure levels, 7 nozzles for family use, up to 1700 pulses/min, pressure range 30-125psi, and 360° rotating nozzles for thorough cleaning.",
     price: wf2302Global.productPrice,
     updatedDate: wf2302Global.updatedDate,
     buyLink: wf2302Global.amazonUrl,
