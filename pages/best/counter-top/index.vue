@@ -1,12 +1,12 @@
 <script setup lang="ts">
 
-import Hero from '~/components/organisms/hero.vue'
-import ReviewsGrid from '~/components/organisms/review-grid.vue'
+import Hero from '~/components/organisms/hero.vue';
+import ReviewsGrid from '~/components/organisms/review-grid.vue';
 
 const title = 'Top 6 Best Countertop Water Flossers for Healthy Teeth & Gums in 2025';
 const description = 'Discover the best countertop water flossers to maintain optimal oral hygiene. Explore our expert reviews and comparisons of the top dental irrigators for healthier teeth and gums.';
 
-import { getBestCounterReviews } from '~/components/composables/best/getBest'
+import { getBestCounterReviews } from '~/components/composables/best/getBestCounter';
 
 const { bestCounterReview } = getBestCounterReviews()
 

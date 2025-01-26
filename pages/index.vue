@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { getBestReviews } from '~/components/composables/affordable/getBest'
 import { getBestCounterReviews } from '~/components/composables/affordable/getBestCounter'
-import { getBestWirelessReviews } from '~/components/composables/affordable/getBestWireless'
+import { getBestPortableReviews } from '~/components/composables/affordable/getBestPortable'
 
 import type { TitleInfo } from "~/types/title-info"
 
@@ -30,7 +30,7 @@ useSeoMeta({
 })
 
 const { bestReview } = getBestReviews()
-const { bestWirelessAffortableReview } = getBestWirelessReviews()
+const { bestPortableAffortableReview } = getBestPortableReviews()
 const { bestCounterAffortableReview } = getBestCounterReviews()
 
 const heroData = {
@@ -60,7 +60,7 @@ const bestCounterReviewsTitle: TitleInfo = {
   <ProductScroll :reviews="bestReview" />
 
   <TitleDescription :info="bestWirelessReviewsTitle" />
-  <ReviewsGrid :reviews="bestWirelessAffortableReview" />
+  <ReviewsGrid :reviews="bestPortableAffortableReview" />
 
   <TitleDescription :info="bestCounterReviewsTitle" />
   <ReviewsGrid :reviews="bestCounterAffortableReview" />

@@ -11,17 +11,17 @@ const itemClicked = () => {
   }, 100)
 }
 
-const bestCounterTopLinks = [
+const bestTopLinks = [
   {
     title: 'Counter Top',
     link: '/best/counter-top',
     iconAlt: 'Counter Top'
   },
-  // {
-  //   title: 'Counter Top',
-  //   link: '/',
-  //   iconAlt: 'Counter Top'
-  // },
+  {
+    title: 'Portable',
+    link: '/best/portable',
+    iconAlt: 'Portable'
+  },
   // {
   //   title: 'Wireless',
   //   link: '/',
@@ -91,7 +91,7 @@ const affortableLinks = [
         <ArrowDownSvg class="icon arrow-icon" />
 
         <ul :class="['sub-items', { 'clicked': isClicked }]" @click="itemClicked">
-          <li v-for="(item, index) in bestCounterTopLinks" :key="index" class="sub-item">
+          <li v-for="(item, index) in bestTopLinks" :key="index" class="sub-item">
             <NuxtLink class="link" :to="item.link">
               <component :alt="item.iconAlt" />
               <p>{{ item.title }}</p>

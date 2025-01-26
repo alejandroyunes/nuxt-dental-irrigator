@@ -7,7 +7,7 @@ import nicefeelfc1592 from '~/data/brands/nicefeel/fc1592/fc1592'
 import nicwellf5025 from '~/data/brands/nicwell/f5025/f5025'
 import waterpikwf02 from '~/data/brands/waterpik/wf-02/wf-02'
 
-export const bestWireless: ReviewGrid[] = [
+export const bestPortable: ReviewGrid[] = [
   {
     id: 1,
     path: waterpikwf02.info.slug,
