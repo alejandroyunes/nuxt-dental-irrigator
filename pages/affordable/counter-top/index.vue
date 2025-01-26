@@ -1,16 +1,16 @@
 <script setup lang="ts">
 
+import TitleDescription from "~/components/atoms/title-description/index.vue"
 import Hero from '~/components/organisms/hero.vue'
 import ReviewsGrid from '~/components/organisms/review-grid.vue'
 import TypeSection from '~/components/organisms/types.vue'
-import TitleDescription from "~/components/atoms/title-description/index.vue"
 import type { TitleInfo } from "~/types/title-info"
 
-import { getBestCounterReviews } from '~/components/composables/Affordable/getBestCounter'
+import { getBestCounterReviews } from '~/components/composables/affordable/getBestCounter'
 
 const { bestCounterAffortableReview } = getBestCounterReviews()
 
-const title = 'Top 6 Best Affordable Counter top Water Flossers for Healthy Teeth & Gums in 2025';
+const title = 'Top 6 Best Affordable Counter top Water Flossers for Healthy Teeth & Gums in 2025'
 const description = 'Discover the best affordable counter top water flossers to maintain optimal oral hygiene. Explore our expert reviews and comparisons of the top dental irrigators for healthier teeth and gums.';
 
 useSeoMeta({
@@ -31,7 +31,7 @@ useSeoMeta({
 const heroData = {
   titleH2: "Discover the Top Choices for",
   title: "Best Affordable Counter tops Water Flossers of 2025",
-  subtitle: "Upgrade your home with stunning counter tops! We've reviewed the top countertops of 2025 based on durability, style, and customer feedback. Find the perfect countertop to enhance your oral health today!",
+  subtitle: "Upgrade your home with stunning counter tops water flossers! We've reviewed the top countertops of 2025 based on durability, style, and customer feedback. Find the perfect countertop to enhance your oral health today!",
   buttonText: "Browse Best Countertops",
   cta: ""
 }

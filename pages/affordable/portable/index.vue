@@ -1,12 +1,12 @@
 <script setup lang="ts">
 
+import TitleDescription from "~/components/atoms/title-description/index.vue"
 import Hero from '~/components/organisms/hero.vue'
 import ReviewsGrid from '~/components/organisms/review-grid.vue'
 import TypeSection from '~/components/organisms/types.vue'
-import TitleDescription from "~/components/atoms/title-description/index.vue"
 import type { TitleInfo } from "~/types/title-info"
 
-import { getBestWirelessReviews } from '~/components/composables/Affordable/getBestWireless'
+import { getBestWirelessReviews } from '~/components/composables/affordable/getBestWireless'
 
 const { bestWirelessAffortableReview } = getBestWirelessReviews()
 

@@ -14,7 +14,7 @@ const itemClicked = () => {
 const bestCounterTopLinks = [
   {
     title: 'Counter Top',
-    link: '/',
+    link: '/best/counter-top',
     iconAlt: 'Counter Top'
   },
   // {

@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import { getBestReviews } from '~/components/composables/Affordable/getBest'
-import { getBestCounterReviews } from '~/components/composables/Affordable/getBestCounter'
-import { getBestWirelessReviews } from '~/components/composables/Affordable/getBestWireless'
+import { getBestReviews } from '~/components/composables/affordable/getBest'
+import { getBestCounterReviews } from '~/components/composables/affordable/getBestCounter'
+import { getBestWirelessReviews } from '~/components/composables/affordable/getBestWireless'
 
 import type { TitleInfo } from "~/types/title-info"
 
-import Hero from '~/components/organisms/hero.vue'
 import TitleDescription from "~/components/atoms/title-description/index.vue"
+import QuestionsAndAnswers from '~/components/organisms-raw/questions.vue'
+import Hero from '~/components/organisms/hero.vue'
 import ProductScroll from '~/components/organisms/product-scroll.vue'
 import ReviewsGrid from '~/components/organisms/review-grid.vue'
-import QuestionsAndAnswers from '~/components/organisms-raw/questions.vue'
 
 const title = 'Expert advice and products to improve your oral health'
 const description = 'Improve your oral health with our: ✓ Detailed user guides ✓ Expert advice ✓ Comparisons ✓ Reviews ✓ Promotions'
