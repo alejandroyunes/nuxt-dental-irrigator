@@ -42,14 +42,14 @@ const heroData = {
 }
 
 const bestWirelessReviewsTitle: TitleInfo = {
-  title: "Affordable Wireless Oral Irrigators",
+  title: "Affordable Wireless Water Flossers",
   description: "Upgrade your smile game without breaking the bank! Dive into the coolest portable and affordable oral irrigators on Amazon. We've rounded up the best brands for easy, breezy dental care.",
-  subtext: "Click on view more to read our review of the top-rated wireless oral Irrigators.",
+  subtext: "Click on view more to read our review of the top-rated wireless water flossers of 2025.",
 }
 
 const bestCounterReviewsTitle: TitleInfo = {
-  title: 'Affordable CounterTop Irrigators',
-  description: 'Explore the best budget-friendly countertop oral irrigators that provide superior dental care with high water pulsation, multiple pressure settings, and various tips for different needs.',
+  title: 'Affordable Counter Top Dental Irrigators',
+  description: 'Explore the best budget-friendly counter top oral irrigators that provide superior dental care with high water pulsation, multiple pressure settings, and various tips for different needs.',
   subtext: 'Achieve effective, professional-level cleaning without the high cost. Perfect for families and individuals looking for a reliable and affordable oral care solution.',
 }
 
