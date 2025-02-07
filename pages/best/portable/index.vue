@@ -10,7 +10,7 @@ import type { TitleInfo } from "~/types/title-info"
 const { bestPortableReview } = getBestPortableReviews()
 
 const title = 'Top 6 Best Portable Water Flossers for Healthy Teeth & Gums in 2025';
-const description = 'Discover the best portable/wireless water flossers to maintain optimal oral hygiene. Explore our expert reviews and comparisons of the top dental irrigators for healthier teeth and gums.';
+const description = 'Discover the best portable / wireless water flossers to maintain optimal oral hygiene. Explore our expert reviews and comparisons of the top dental irrigators for healthier teeth and gums.';
 
 useSeoMeta({
   title: title,

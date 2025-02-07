@@ -30,7 +30,7 @@ useSeoMeta({
 
 const heroData = {
   titleH2: "Discover the Top Choices for",
-  title: "Best Affordable Wireless/Portable Water Flossers of 2025",
+  title: "Best Affordable Wireless / Portable Water Flossers of 2025",
   subtitle: "These are the best affordable wireless and portable dental irrigators of 2025 based on affordability, durability, style, and customer feedback. Find the perfect one for your dental care needs!",
   buttonText: "Browse Best Wireless/Portable Water Flossers",
   cta: ""
