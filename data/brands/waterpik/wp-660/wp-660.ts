@@ -1,10 +1,10 @@
 import type { ProductDetails } from '~/types/product-details'
 import { wp660Global } from './wp-660-global'
 
-import { hf9Global } from "~/data/brands/h20floss/hf9/hf9-global"
-import { fc165Global } from "~/data/brands/turewell/fc-165/fc-165-global"
+import { hf9Global } from "~/data/brands/h20floss/hf-9/hf-9-global"
 import { wf2302Global } from "~/data/brands/heyaxa/wf-2302/wf-2302-global"
 import { m01Global } from "~/data/brands/oeeter/m01/m01-global"
+import { fc165Global } from "~/data/brands/turewell/fc-165/fc-165-global"
 
 
 const slug = 'reviews'

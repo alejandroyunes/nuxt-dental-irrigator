@@ -1,4 +1,4 @@
-import h2oflossHF9 from '~/data/brands/h20floss/hf9/hf9'
+import h2oflossHF9 from '~/data/brands/h20floss/hf-9/hf-9'
 import heyaxa2302WF from '~/data/brands/heyaxa/wf-2302/wf-2302'
 import oeeterM01 from '~/data/brands/oeeter/m01/m01'
 import sawgmoreFC166 from '~/data/brands/sawgmore/fc166/fc166'

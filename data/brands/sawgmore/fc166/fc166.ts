@@ -1,6 +1,6 @@
 import type { ProductDetails } from '~/types/product-details'
 
-import { hf9Global } from '~/data/brands/h20floss/hf9/hf9-global'
+import { hf9Global } from '~/data/brands/h20floss/hf-9/hf-9-global'
 import { fc165Global } from "~/data/brands/turewell/fc-165/fc-165-global"
 import { wp660Global } from "~/data/brands/waterpik/wp-660/wp-660-global"
 import { wp662Global } from "~/data/brands/waterpik/wp-662/wp-662-global"

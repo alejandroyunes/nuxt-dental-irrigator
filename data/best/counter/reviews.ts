@@ -1,7 +1,7 @@
 
 import waterpikwp660 from "~/data/brands/waterpik/wp-660/wp-660"
 
-import h2oflossHF9 from '~/data/brands/h20floss/hf9/hf9'
+import h2oflossHF9 from '~/data/brands/h20floss/hf-9/hf-9'
 import turewellFC165 from '~/data/brands/turewell/fc-165/fc-165'
 import type { ReviewGrid } from "~/types/review-grid"
 

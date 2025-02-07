@@ -6,6 +6,7 @@ import inSmartfc256 from '~/data/brands/inSmart/fc256/fc256'
 import nicefeelfc1592 from '~/data/brands/nicefeel/fc1592/fc1592'
 import nicwellf5025 from '~/data/brands/nicwell/f5025/f5025'
 import waterpikwf02 from '~/data/brands/waterpik/wf-02/wf-02'
+import panasonicEW1511W from "~/data/brands/panasonic/ew1511w/ew1511w"
 
 export const bestPortable: ReviewGrid[] = [
   {
@@ -30,4 +31,15 @@ export const bestPortable: ReviewGrid[] = [
     reviewCount: nicwellf5025.info.rating.reviews,
     updatedDate: nicwellf5025.info.updatedDate
   },
+  {
+    id: 3,
+    path: panasonicEW1511W.info.slug,
+    name: panasonicEW1511W.info.title,
+    image: panasonicEW1511W.info.images[0].thumbnail,
+    alt: panasonicEW1511W.info.alt,
+    price: panasonicEW1511W.info.price,
+    rating: panasonicEW1511W.info.rating.stars,
+    reviewCount: panasonicEW1511W.info.rating.reviews,
+    updatedDate: panasonicEW1511W.info.updatedDate
+  }
 ]

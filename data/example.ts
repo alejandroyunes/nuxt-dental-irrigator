@@ -1,18 +1,18 @@
 // import type { ProductDetails } from '~/types/product-details'
-// import { waterpikwpGlobalData } from './01-global'
+// import { productGlobalData } from './01-global'
 
-// const waterpikwp: ProductDetails = {
+// const product: ProductDetails = {
 //   info: {
-//     image: waterpikwpGlobalData.image,
+//     image: productGlobalData.image,
 //     alt: "",
 //     title: "",
 //     subtitle: "",
 //     description: "",
-//     price: waterpikwpGlobalData.productPrice,
-//     updatedDate: waterpikwpGlobalData.updatedDate,
-//     buyLink: waterpikwpGlobalData.amazonUrl,
+//     price: productGlobalData.productPrice,
+//     updatedDate: productGlobalData.updatedDate,
+//     buyLink: productGlobalData.amazonUrl,
 //     cta: "Buy on Amazon",
-//     rating: waterpikwpGlobalData.rating,
+//     rating: productGlobalData.rating,
 //     characteristics: [
 //       "",
 //       "",
@@ -51,9 +51,9 @@
 //     models: [
 //       {
 //         id: 0,
-//         path: waterpikwpGlobalData.path,
+//         path: productGlobalData.path,
 //         model: "",
-//         image: waterpikwpGlobalData.image,
+//         image: productGlobalData.image,
 //         alt: "",
 //         prime: false,
 //         dimensions: "",
@@ -61,8 +61,8 @@
 //         capacity: "",
 //         highlight: "",
 //         problem: "",
-//         price: waterpikwpGlobalData.productPrice,
-//         satisfaction: waterpikwpGlobalData.rating.stars,
+//         price: productGlobalData.productPrice,
+//         satisfaction: productGlobalData.rating.stars,
 //       }
 //     ]
 //   },
@@ -71,7 +71,7 @@
 //     title: "",
 //     description: "",
 //     cta: "Buy on Amazon",
-//     buyLink: waterpikwpGlobalData.amazonUrl,
+//     buyLink: productGlobalData.amazonUrl,
 //     pros: [
 //       { title: "" },
 //       { title: "" },
@@ -85,4 +85,4 @@
 //   },
 // }
 
-// export default waterpikwp
+// export default product

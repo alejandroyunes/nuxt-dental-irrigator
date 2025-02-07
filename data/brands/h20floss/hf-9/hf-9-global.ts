@@ -1,6 +1,6 @@
 export const hf9Global = {
   brand: 'h20floss',
-  path: 'hf9',
+  path: 'hf-9',
   images: [
     {
       url: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735530396/irrigators/h2ofloss/H2ofloss_o0ugrq.webp',

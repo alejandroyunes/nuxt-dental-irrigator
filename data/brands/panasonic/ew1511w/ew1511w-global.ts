@@ -20,6 +20,6 @@ export const ew1511wGlobal = {
   updatedDate: '11/23/2023',
   rating: {
     stars: 4.4,
-    reviews: 534,
+    reviews: 6752,
   },
 }

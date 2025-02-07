@@ -1,11 +1,11 @@
-import panasonicEW1511W from "~/data/brands/panasonic/ew1511w/ew1511w"
 import synhopeM6Plus from "~/data/brands/synhope/m6-plus/m6-plus"
 import waterpikwp580 from "~/data/brands/waterpik/wp-580/wp-580"
 import waterpikwp660 from "~/data/brands/waterpik/wp-660/wp-660"
 import waterpikwp662 from "~/data/brands/waterpik/wp-662/wp-662"
-import waterpikwp667 from "~/data/brands/waterpik/wp-667/wp-667"
-import type { ReviewGrid } from "~/types/review-grid"
+import h2oflossHF9 from "~/data/brands/h20floss/hf-9/hf-9"
+import h2oflossHF6 from "~/data/brands/h20floss/hf-6/hf-6"
 
+import type { ReviewGrid } from "~/types/review-grid"
 
 export const bestReviews: ReviewGrid[] = [
   {
@@ -43,14 +43,14 @@ export const bestReviews: ReviewGrid[] = [
   },
   {
     id: 4,
-    path: panasonicEW1511W.info.slug,
-    name: panasonicEW1511W.info.title,
-    image: panasonicEW1511W.info.images[0].thumbnail,
-    alt: panasonicEW1511W.info.alt,
-    price: panasonicEW1511W.info.price,
-    rating: panasonicEW1511W.info.rating.stars,
-    reviewCount: panasonicEW1511W.info.rating.reviews,
-    updatedDate: panasonicEW1511W.info.updatedDate
+    path: h2oflossHF9.info.slug,
+    name: h2oflossHF9.info.title,
+    image: h2oflossHF9.info.images[0].thumbnail,
+    alt: h2oflossHF9.info.alt,
+    price: h2oflossHF9.info.price,
+    rating: h2oflossHF9.info.rating.stars,
+    reviewCount: h2oflossHF9.info.rating.reviews,
+    updatedDate: h2oflossHF9.info.updatedDate
   },
   {
     id: 5,
@@ -65,13 +65,13 @@ export const bestReviews: ReviewGrid[] = [
   },
   {
     id: 6,
-    path: waterpikwp667.info.slug,
-    name: waterpikwp667.info.title,
-    image: waterpikwp667.info.images[0].thumbnail,
-    alt: waterpikwp667.info.alt,
-    price: waterpikwp667.info.price,
-    rating: waterpikwp667.info.rating.stars,
-    reviewCount: waterpikwp667.info.rating.reviews,
-    updatedDate: waterpikwp667.info.updatedDate
+    path: h2oflossHF6.info.slug,
+    name: h2oflossHF6.info.title,
+    image: h2oflossHF6.info.images[0].thumbnail,
+    alt: h2oflossHF6.info.alt,
+    price: h2oflossHF6.info.price,
+    rating: h2oflossHF6.info.rating.stars,
+    reviewCount: h2oflossHF6.info.rating.reviews,
+    updatedDate: h2oflossHF6.info.updatedDate
   }
 ]

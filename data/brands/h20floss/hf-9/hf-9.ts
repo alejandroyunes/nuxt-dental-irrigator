@@ -4,7 +4,7 @@ import { fc166Global } from '~/data/brands/sawgmore/fc166/fc166-global'
 import { fc165Global } from '~/data/brands/turewell/fc-165/fc-165-global'
 import { wp660Global } from '~/data/brands/waterpik/wp-660/wp-660-global'
 import { wp662Global } from "~/data/brands/waterpik/wp-662/wp-662-global"
-import { hf9Global } from './hf9-global'
+import { hf9Global } from './hf-9-global'
 
 const slug = 'reviews'
 
@@ -14,7 +14,7 @@ const h2oflossHF9: ProductDetails = {
     images: hf9Global.images,
     alt: "H2ofloss HF 9 Dental Water Flosser",
     title: "H2ofloss HF 9 Dental Water Flosser, 800 ml.",
-    description: "Th H2ofloss HF 9 is a  budget friendly counter top water flosser with 13 multifunctional tips, 800 ml water tank for 90 seconds of use, and a quiet design. Up to 1200 pulses/min, pressure range 5-110psi and a 24-month warranty.",
+    description: "The H2ofloss HF 9 is a budget friendly counter top water flosser with 13 multifunctional tips, 800 ml water tank for 90 seconds of use, and a quiet design. Up to 1200 pulses/min, pressure range 5-110psi and a 24-month warranty.",
     price: hf9Global.productPrice,
     updatedDate: hf9Global.updatedDate,
     buyLink: hf9Global.amazonUrl,
