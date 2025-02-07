@@ -1,12 +1,11 @@
 import type { ReviewGrid } from "~/types/review-grid"
 
 import bitvaeC2 from '~/data/brands/bitvae/c2/c2'
-import coslusf5020e from '~/data/brands/coslus/f5020e/f5020e'
 import inSmartfc256 from '~/data/brands/inSmart/fc256/fc256'
 import nicefeelfc1592 from '~/data/brands/nicefeel/fc1592/fc1592'
 import nicwellf5025 from '~/data/brands/nicwell/f5025/f5025'
 import waterpikwf02 from '~/data/brands/waterpik/wf-02/wf-02'
-import panasonicEW1511W from "~/data/brands/panasonic/ew1511w/ew1511w"
+import coslusf5020e from "~/data/brands/coslus/f5020e/f5020e"
 
 export const bestPortable: ReviewGrid[] = [
   {
@@ -33,13 +32,13 @@ export const bestPortable: ReviewGrid[] = [
   },
   {
     id: 3,
-    path: panasonicEW1511W.info.slug,
-    name: panasonicEW1511W.info.title,
-    image: panasonicEW1511W.info.images[0].thumbnail,
-    alt: panasonicEW1511W.info.alt,
-    price: panasonicEW1511W.info.price,
-    rating: panasonicEW1511W.info.rating.stars,
-    reviewCount: panasonicEW1511W.info.rating.reviews,
-    updatedDate: panasonicEW1511W.info.updatedDate
+    path: coslusf5020e.info.slug,
+    name: coslusf5020e.info.title,
+    image: coslusf5020e.info.images[0].thumbnail,
+    alt: coslusf5020e.info.alt,
+    price: coslusf5020e.info.price,
+    rating: coslusf5020e.info.rating.stars,
+    reviewCount: coslusf5020e.info.rating.reviews,
+    updatedDate: coslusf5020e.info.updatedDate
   }
 ]

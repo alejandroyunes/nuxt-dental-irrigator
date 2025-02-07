@@ -12,9 +12,9 @@ const nicefeelfc1592: ProductDetails = {
   info: {
     slug: `${slug}/${fc1592Global.brand}/${fc1592Global.path}`,
     images: fc1592Global.images,
-    alt: 'Nicefeel FC1592 Cordless Water Flosser, 300 ml.',
-    title: "Nicefeel FC1592 Cordless Water Flosser, 300 ml.",
-    description: "The Nicefeel Cordless Water Flosser packs a punch with its 300 ml water tank, 1800 pulses/minute, pressure range of 30-120psi, and a memory function to remember your preferred cleaning mode.",
+    alt: 'Nicefeel FC1592 Portable Water Flosser, 300 ml.',
+    title: "Nicefeel FC1592 Portable Water Flosser, 300 ml.",
+    description: "The Nicefeel Portable Water Flosser packs a punch with its 300 ml water tank, 1800 pulses/minute, pressure range of 30-120psi, and a memory function to remember your preferred cleaning mode.",
     price: fc1592Global.productPrice,
     updatedDate: fc1592Global.updatedDate,
     buyLink: fc1592Global.amazonUrl,

@@ -12,8 +12,8 @@ const coslusf5020e: ProductDetails = {
   info: {
     slug: `${slug}/${f5020eGlobal.brand}/${f5020eGlobal.path}`,
     images: f5020eGlobal.images,
-    alt: 'Coslus Water Dental Flosser F5020E, 300 ml.',
-    title: "Coslus F5020E Water Dental Flosser Teeth Pick, 300 ml.",
+    alt: 'Coslus F5020E Portable Water Dental Flosser, 300 ml.',
+    title: "Coslus F5020E Portable Water Dental Flosser, 300 ml.",
     description: 'The Coslus F5020E water dental flosser stands out with its advanced 0.3mm+0.3mm ultra-fine dual-thread water pulse technology, delivering high-pressure pulses at 1400-1800 times per minute. The upgraded 300 ml water tank allows for fewer refills, making your oral cleaning routine more convenient and efficient.',
     price: f5020eGlobal.productPrice,
     updatedDate: f5020eGlobal.updatedDate,

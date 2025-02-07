@@ -12,9 +12,9 @@ const inSmartfc256: ProductDetails = {
   info: {
     slug: `${slug}/${fc256Global.brand}/${fc256Global.path}`,
     images: fc256Global.images,
-    alt: 'InSmart Professional Cordless Water Dental Flosser FC256, 300 ml.',
-    title: "InSmart FC256 Professional Cordless Water Dental Flosser, 300 ml.",
-    description: 'Upgrade your oral care routine with the InSmart Professional Cordless Water Dental Flosser. Featuring a 300 ml detachable tank, up to 1800 pulses/minute, 4 cleaning modes, this rechargeable flosser ensures efficient plaque removal and gum health. Perfect for home and travel.',
+    alt: 'InSmart FC256 Portable Water Dental Flosser, 300 ml.',
+    title: "InSmart FC256 Portable Water Dental Flosser, 300 ml.",
+    description: 'Upgrade your oral care routine with the InSmart Professional Portable Water Dental Flosser. Featuring a 300 ml detachable tank, up to 1800 pulses/minute, 4 cleaning modes, this rechargeable flosser ensures efficient plaque removal and gum health. Perfect for home and travel.',
     price: fc256Global.productPrice,
     updatedDate: fc256Global.updatedDate,
     buyLink: fc256Global.amazonUrl,
