@@ -27,7 +27,7 @@ useSeoMeta({
 
 const heroData = {
   titleH2: "Discover the Top Choices for",
-  title: "Best Countertops Water Flossers of 2025",
+  title: "Best Portable Water Flossers of 2025",
   subtitle: "These are the best water flossers of 2025 for their price, value, portability and overall feeling of the users.",
   buttonText: "Browse Best Countertops",
   cta: ""

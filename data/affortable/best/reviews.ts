@@ -3,7 +3,7 @@ import waterpikwp580 from "~/data/brands/waterpik/wp-580/wp-580"
 import waterpikwp660 from "~/data/brands/waterpik/wp-660/wp-660"
 import waterpikwp662 from "~/data/brands/waterpik/wp-662/wp-662"
 import h2oflossHF9 from "~/data/brands/h20floss/hf-9/hf-9"
-import h2oflossHF6 from "~/data/brands/h20floss/hf-6/hf-6"
+import nicwellf5025 from "~/data/brands/nicwell/f5025/f5025"
 
 import type { ReviewGrid } from "~/types/review-grid"
 
@@ -65,13 +65,13 @@ export const bestReviews: ReviewGrid[] = [
   },
   {
     id: 6,
-    path: h2oflossHF6.info.slug,
-    name: h2oflossHF6.info.title,
-    image: h2oflossHF6.info.images[0].thumbnail,
-    alt: h2oflossHF6.info.alt,
-    price: h2oflossHF6.info.price,
-    rating: h2oflossHF6.info.rating.stars,
-    reviewCount: h2oflossHF6.info.rating.reviews,
-    updatedDate: h2oflossHF6.info.updatedDate
+    path: nicwellf5025.info.slug,
+    name: nicwellf5025.info.title,
+    image: nicwellf5025.info.images[0].thumbnail,
+    alt: nicwellf5025.info.alt,
+    price: nicwellf5025.info.price,
+    rating: nicwellf5025.info.rating.stars,
+    reviewCount: nicwellf5025.info.rating.reviews,
+    updatedDate: nicwellf5025.info.updatedDate
   }
 ]
