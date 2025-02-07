@@ -13,7 +13,7 @@ const sawgmoreFC166: ProductDetails = {
     slug: `${slug}/${fc166Global.brand}/${fc166Global.path}`,
     images: fc166Global.images,
     alt: "Sawgmore FC166 Water Flosser Oral Irrigator ",
-    title: "Sawgmore FC166 Water Flosser Oral Irrigator, 600 ml.",
+    title: "Sawgmore FC166 Water Flosser, 600 ml.",
     description: "The Sawgmore FC166 counter top water flosser comes with 8 kinds of unique tips and 10 adjustable pressure levels, up to 1250-1700 pulses/min, pressure range 30-125psi, a 600 ml tank for 90 seconds of use and a 360° nozzle rotation. The water flosser is perfect for cleaning teeth and gums, and is available in black and white.",
     price: fc166Global.productPrice,
     updatedDate: fc166Global.updatedDate,

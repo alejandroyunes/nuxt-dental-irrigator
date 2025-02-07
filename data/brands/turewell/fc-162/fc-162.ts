@@ -13,8 +13,8 @@ const turewellfc162: ProductDetails = {
   info: {
     slug: `${slug}/${fc162Global.brand}/${fc162Global.path}`,
     images: fc162Global.images,
-    alt: "Turewell FC162 Water Dental Flosser",
-    title: "Turewell FC162 Water Dental Flosser, 600 ml.",
+    alt: "Turewell FC162 Water Flosser, 600 ml.",
+    title: "Turewell FC162 Water Flosser, 600 ml.",
     description: "The Turewell FC162 counter top water flosser improves gum health and removes plaque. Featuring 10 adjustable pressure levels, 8 specialized water jet tips for family use, a 600ml water tank for 90 seconds of use, 30-125psi pressure range and pulses of up to 1250-1700 pulses/min.",
     price: fc162Global.productPrice,
     updatedDate: fc162Global.updatedDate,

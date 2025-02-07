@@ -12,8 +12,8 @@ const oeeterM01: ProductDetails = {
   info: {
     slug: `${slug}/${m01Global.brand}/${m01Global.path}`,
     images: m01Global.images,
-    alt: "Oeeter M01 Water Dental Flosser",
-    title: "Oeeter M01 Water Dental Flosser, 600 ml.",
+    alt: "Oeeter M01 Water Flosser, 600 ml.",
+    title: "Oeeter M01 Water Flosser, 600 ml.",
     description: "The Oeeter M01 counter top water dental flosser offers 10 adjustable pressure settings, 3 cleaning modes, 7 tips, up to 1250-1700 pulses/min, pressure of 125psi,  and a 600 ml water reservoir for effective oral hygiene. Designed for effective teeth cleaning and gum health.",
     price: m01Global.productPrice,
     updatedDate: m01Global.updatedDate,
