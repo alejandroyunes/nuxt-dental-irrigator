@@ -14,7 +14,7 @@ const waterpikwp660: ProductDetails = {
     slug: `${slug}/${wp660Global.brand}/${wp660Global.path}`,
     images: wp660Global.images,
     alt: "Waterpik WP 660 Aquarius Water Flosser",
-    title: "Waterpik Aquarius WP 660  Water Flosser, 650 ml.",
+    title: "Waterpik WP 660 Water Flosser, 650 ml.",
     description: "The Waterpik WP 660 Counter top Water Flosser is a professional-grade dental care device designed for teeth, gums, and braces. It features 650 ml reservoir for 90+ seconds of flossing time, 7 tips for a variety of dental needs, 10 pressure settings, a massage mode for gum stimulation, and a built-in timer/pacer. It's the #1 water flosser brand recommended by dental professionals and the first to earn the American Dental Association (ADA) Seal of Acceptance.",
     price: wp660Global.productPrice,
     updatedDate: wp660Global.updatedDate,

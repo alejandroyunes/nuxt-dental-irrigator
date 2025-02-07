@@ -12,8 +12,8 @@ const waterpikwp667: ProductDetails = {
   info: {
     slug: `${slug}/${wp667Global.brand}/${wp667Global.path}`,
     images: wp667Global.images,
-    alt: "Waterpik Aquarius Water Flosser WP 667 in Gray",
-    title: "Waterpik Aquarius WP-667 Water Flosser Professional, 650 ml.",
+    alt: "Waterpik Water Flosser WP 667 in Gray",
+    title: "Waterpik WP-667 Water Flosser, 650 ml.",
     description: "The Waterpik Aquarius WP 667 Water Flosser is a fully featured water flosser with enhanced pressure, 10 customizable settings for a thorough clean, a gum-stimulating massage mode, and a built-in timer/pacer that pauses at 30 seconds and 1 minute to track flossing time. It includes a large reservoir for 90+ seconds of use without refilling, 7 tips for multiple users, a dishwasher-safe 22 oz removable reservoir, 360-degree tip rotation, and 10 safe and effective pressure settings.",
     price: wp667Global.productPrice,
     updatedDate: wp667Global.updatedDate,

@@ -13,8 +13,8 @@ const waterpikwp662: ProductDetails = {
   info: {
     slug: `${slug}/${wp662Global.brand}/${wp662Global.path}`,
     images: wp662Global.images,
-    alt: "Waterpik Aquarius WP 662 Water Flosser, 650 ml.",
-    title: "Waterpik Aquarius WP 662 Water Flosser, 650 ml.",
+    alt: "Waterpik WP 662 Water Flosser, 650 ml.",
+    title: "Waterpik WP 662 Water Flosser, 650 ml.",
     description: "The Waterpik Aquarius WP 662 features 10 pressure settings, a massage mode for gum stimulation, and a built-in timer/pacer. The device includes a large reservoir for over 90 seconds of use, a small maneuverable flossing wand, and 7 tips for multiple users and needs. It is ADA accepted for safety and effectiveness, and it uses PrecisionPulse technology to remove up to 99.9% of plaque bacteria from treated areas.",
     price: wp662Global.productPrice,
     updatedDate: wp662Global.updatedDate,

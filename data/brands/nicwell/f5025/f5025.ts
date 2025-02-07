@@ -13,7 +13,7 @@ const nicwellf5025: ProductDetails = {
     slug: `${slug}/${f5025Global.brand}/${f5025Global.path}`,
     images: f5025Global.images,
     alt: 'Nicwell F5025 Portable Water Dental Flosser, 200 ml.',
-    title: 'Nicwell F5025 Portable Water Dental Flosser, 200 ml.',
+    title: 'Nicwell F5025 Portable Water Flosser, 200 ml.',
     description: 'The Nicwell F5025 Portable Water Flosser with a 200 ml reservoir for about 30 seconds of flossing time, 5 jet tips, 1400-1800 pulses/min, pressure range 30-110psi, and 4 cleaning modes.',
     price: f5025Global.productPrice,
     updatedDate: f5025Global.updatedDate,

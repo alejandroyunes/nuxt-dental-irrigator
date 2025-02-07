@@ -12,8 +12,8 @@ const h2oflossHF9: ProductDetails = {
   info: {
     slug: `${slug}/${hf9Global.brand}/${hf9Global.path}`,
     images: hf9Global.images,
-    alt: "H2ofloss HF 9 Dental Water Flosser",
-    title: "H2ofloss HF 9 Dental Water Flosser, 800 ml.",
+    alt: "H2ofloss HF 9 Water Flosser",
+    title: "H2ofloss HF 9 Water Flosser, 800 ml.",
     description: "The H2ofloss HF 9 is a budget friendly counter top water flosser with 13 multifunctional tips, 800 ml water tank for 90 seconds of use, and a quiet design. Up to 1200 pulses/min, pressure range 5-110psi and a 24-month warranty.",
     price: hf9Global.productPrice,
     updatedDate: hf9Global.updatedDate,
