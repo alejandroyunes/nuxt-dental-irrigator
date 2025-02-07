@@ -64,7 +64,6 @@ const bestAffordableTypes =  [
   <ReviewsGrid :reviews="bestCounterAffortableReview" />
   <TitleDescription :info="typeTitle" />
   <TypeSection :types="bestAffordableTypes" />
-
 </template>
 
 <style scoped></style>
