@@ -14,7 +14,7 @@ const waterpikwf02: ProductDetails = {
     images: wf02Global.images,
     alt: "Waterpik WF 02 Cordless Express Portable Water Flosser, 148 ml.",
     title: "Waterpik WF 02 Cordless Express Portable Water Flosser, 148 ml.",
-    description: "The Waterpik WF 02 Cordless Express Water Flosser is a portable, battery-operated device designed to enhance oral hygiene by effectively. It includes two Classic Jet Tips and a removable 5-ounce 148 ml water reservoir up to 30 seconds of flossing time. Up to 1200 pulses/min with 2 pressure settings",
+    description: "The Waterpik WF 02 Cordless Express Water Flosser is a portable, battery-operated device designed to enhance oral hygiene by effectively. It includes two Classic Jet Tips and a removable 5-ounce 148 ml water reservoir up to 30 seconds of flossing time. Up to 1200 pulses/min with 2 pressure settings.",
     price: wf02Global.productPrice,
     updatedDate: wf02Global.updatedDate,
     buyLink: wf02Global.amazonUrl,

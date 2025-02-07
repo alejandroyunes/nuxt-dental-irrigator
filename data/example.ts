@@ -1,9 +1,7 @@
-import type { ProductDetails } from '~/types/product-details'
+// import type { ProductDetails } from '~/types/product-details'
 // import { waterpikwpGlobalData } from './01-global'
 
 // const waterpikwp: ProductDetails = {
-//   id: waterpikwpGlobalData.id,
-//   fileName: 'waterpikwp662',
 //   info: {
 //     image: waterpikwpGlobalData.image,
 //     alt: "",
@@ -88,7 +86,3 @@ import type { ProductDetails } from '~/types/product-details'
 // }
 
 // export default waterpikwp
-
-// waterpikwp660GlobalData
-// waterpikwp580GlobalData second  most bought
-// mini portable

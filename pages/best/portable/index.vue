@@ -1,7 +1,7 @@
 <script setup lang="ts">
 
-import Hero from '~/components/organisms/hero.vue';
-import ReviewsGrid from '~/components/organisms/review-grid.vue';
+import Hero from '~/components/organisms/hero.vue'
+import ReviewsGrid from '~/components/organisms/review-grid.vue'
 
 import { getBestPortableReviews } from '~/components/composables/best/getBestPortable'
 
@@ -28,7 +28,7 @@ useSeoMeta({
 const heroData = {
   titleH2: "Discover the Top Choices for",
   title: "Best Countertops Water Flossers of 2025",
-  subtitle: "Upgrade your home with stunning portable water flossers! We've reviewed the top countertops of 2025 based on durability, style, and customer feedback. Find the perfect countertop to enhance your oral health today!",
+  subtitle: "These are the best water flossers of 2025 for their price, value, portability and overall feeling of the users.",
   buttonText: "Browse Best Countertops",
   cta: ""
 }

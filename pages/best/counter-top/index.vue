@@ -28,7 +28,7 @@ useSeoMeta({
 const heroData = {
   titleH2: "Discover the Top Choices for",
   title: "Best Countertops Water Flossers of 2025",
-  subtitle: "Upgrade your home with stunning counter tops water flossers! We've reviewed the top countertops of 2025 based on durability, style, and customer feedback. Find the perfect countertop to enhance your oral health today!",
+  subtitle: "These are the best water flossers of 2025 for their price, durability and overall feeling of users.",
   buttonText: "Browse Best Countertops",
   cta: ""
 }
