@@ -11,42 +11,6 @@ const itemClicked = () => {
   }, 100)
 }
 
-const bestTopLinks = [
-  {
-    title: 'Counter Top',
-    link: '/best/counter-top',
-    iconAlt: 'Counter Top'
-  },
-  {
-    title: 'Portable',
-    link: '/best/portable',
-    iconAlt: 'Portable'
-  },
-  // {
-  //   title: 'Wireless',
-  //   link: '/',
-  //   iconAlt: 'Sugerencias'
-  // }
-]
-
-const comparisonLinks = [
-  {
-    title: 'Counter Top',
-    link: '/',
-    iconAlt: 'Counter Top',
-  },
-  // {
-  //   title: 'Wireless',
-  //   link: '/',
-  //   iconAlt: 'Wireless'
-  // },
-  // {
-  //   title: 'Portable',
-  //   link: '/',
-  //   iconAlt: 'Portable'
-  // },
-]
-
 const affortableLinks = [
   {
     title: 'Top Best of 2025',
@@ -63,6 +27,32 @@ const affortableLinks = [
     link: '/affordable/portable',
     iconAlt: 'Portable'
   }
+]
+
+const bestTopLinks = [
+  {
+    title: 'Counter Top',
+    link: '/best/counter-top',
+    iconAlt: 'Counter Top'
+  },
+  {
+    title: 'Portable',
+    link: '/best/portable',
+    iconAlt: 'Portable'
+  },
+]
+
+const allOralIrrigators = [
+  {
+    title: 'Counter Top',
+    link: '/all-brands/counter-top',
+    iconAlt: 'Counter Top',
+  },
+  {
+    title: 'Portable',
+    link: '/all-brands/portable',
+    iconAlt: 'Portable'
+  },
 ]
 
 </script>
@@ -101,11 +91,11 @@ const affortableLinks = [
       </li>
 
       <li class="item">
-        <h3 class="title">Comparisons</h3>
+        <h3 class="title">All Brands</h3>
         <ArrowDownSvg class="icon arrow-icon" />
 
-        <ul :class="['sub-items', { 'clicked': isClicked }]">
-          <li v-for="(item, index) in comparisonLinks" :key="index" class="sub-item" @click="itemClicked">
+        <ul :class="['sub-items', { 'clicked': isClicked }]" @click="itemClicked">
+          <li v-for="(item, index) in allOralIrrigators" :key="index" class="sub-item">
             <NuxtLink class="link" :to="item.link">
               <component :alt="item.iconAlt" />
               <p>{{ item.title }}</p>
@@ -113,6 +103,7 @@ const affortableLinks = [
           </li>
         </ul>
       </li>
+
 
     </ul>
   </nav>
