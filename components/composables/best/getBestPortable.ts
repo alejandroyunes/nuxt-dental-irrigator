@@ -9,11 +9,19 @@ export function getBestPortableReviews() {
   const bestPortableLoading = ref(false)
   const bestPortableError = ref(false)
 
+  const filterByPrice = (filter: string) => {
+    if (filter === 'price') {
+      return bestPortableReview.value.sort((a, b) => Number(a.price) - Number(b.price))
+    } else if (filter === 'reviews') {
+      return bestPortableReview.value.sort((a, b) => Number(b.reviewCount) - Number(a.reviewCount))
+    }
+  }
+
   const fetchPosts = async () => {
     bestPortableLoading.value = true
     try {
       bestPortableReview.value = await bestPortable
-      
+
       bestPortableLoading.value = false
       bestPortableError.value = false
     } catch (e) {
@@ -27,6 +35,7 @@ export function getBestPortableReviews() {
   return {
     bestPortableReview,
     bestPortableLoading,
-    bestPortableError
+    bestPortableError,
+    filterByPrice
   }
 }

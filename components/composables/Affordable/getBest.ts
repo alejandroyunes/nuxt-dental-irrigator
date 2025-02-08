@@ -9,6 +9,14 @@ export function getBestReviews() {
   const bestReviewLoading = ref(false)
   const bestReviewError = ref(false)
 
+  const filterByPrice = (filter: string) => {
+    if (filter === 'price') {
+      return bestReview.value.sort((a, b) => Number(a.price) - Number(b.price))
+    } else if (filter === 'reviews') {
+      return bestReview.value.sort((a, b) => Number(b.reviewCount) - Number(a.reviewCount))
+    }
+  }
+
   const fetchPosts = async () => {
     bestReviewLoading.value = true
     try {
@@ -27,6 +35,7 @@ export function getBestReviews() {
   return {
     bestReview,
     bestReviewLoading,
-    bestReviewError
+    bestReviewError,
+    filterByPrice
   }
 }

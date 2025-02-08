@@ -2,13 +2,14 @@
 
 import TitleDescription from "~/components/atoms/title-description/index.vue"
 import Hero from '~/components/organisms/hero.vue'
+import Filter from '~/components/organisms/filter.vue'
 import ReviewsGrid from '~/components/organisms/review-grid.vue'
 import TypeSection from '~/components/organisms/types.vue'
 import type { TitleInfo } from "~/types/title-info"
 
 import { getBestCounterReviews } from '~/components/composables/affordable/getBestCounter'
 
-const { bestCounterAffortableReview } = getBestCounterReviews()
+const { bestCounterAffortableReview, filterByPrice } = getBestCounterReviews()
 
 const title = 'Top 6 Best Affordable Counter top Water Flossers for Healthy Teeth & Gums in 2025'
 const description = 'Find the best affordable counter top water flossers to maintain optimal oral hygiene. Explore our expert reviews and comparisons of the top dental irrigators for healthier teeth and gums.';
@@ -42,7 +43,7 @@ const typeTitle: TitleInfo = {
   subtext: 'Check out our reviews and comparisons of the top affordable water flossers for healthier teeth and gums.',
 }
 
-const bestAffordableTypes =  [
+const bestAffordableTypes = [
   {
     title: 'Best Affordable Water Flossers',
     description: 'Best affordable dental irrigators are the ideal solution for those looking for a reliable and efficient way to maintain healthy teeth and gums. These irrigators are known for their affordability, durability, and user-friendly design, making them a popular choice for those seeking a budget-friendly way to improve oral hygiene.',
@@ -61,6 +62,7 @@ const bestAffordableTypes =  [
 
 <template>
   <Hero :heroData="heroData" />
+  <Filter :filterByPrice="filterByPrice" />
   <ReviewsGrid :reviews="bestCounterAffortableReview" />
   <TitleDescription :info="typeTitle" />
   <TypeSection :types="bestAffordableTypes" />

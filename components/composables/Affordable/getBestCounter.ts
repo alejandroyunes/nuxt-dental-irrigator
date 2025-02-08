@@ -9,6 +9,14 @@ export function getBestCounterReviews() {
   const bestCounterAffortableLoading = ref(false)
   const bestCounterAffortableLoadingeError = ref(false)
 
+  const filterByPrice = (filter: string) => {
+    if (filter === 'price') {
+      return bestCounterAffortableReview.value.sort((a, b) => Number(a.price) - Number(b.price))
+    } else if (filter === 'reviews') {
+      return bestCounterAffortableReview.value.sort((a, b) => Number(b.reviewCount) - Number(a.reviewCount))
+    }
+  }
+
   const fetchPosts = async () => {
     bestCounterAffortableLoading.value = true
     try {
@@ -27,6 +35,7 @@ export function getBestCounterReviews() {
   return {
     bestCounterAffortableReview,
     bestCounterAffortableLoading,
-    bestCounterAffortableLoadingeError
+    bestCounterAffortableLoadingeError,
+    filterByPrice
   }
 }

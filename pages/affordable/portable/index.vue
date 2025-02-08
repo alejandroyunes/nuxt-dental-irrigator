@@ -2,13 +2,14 @@
 
 import TitleDescription from "~/components/atoms/title-description/index.vue"
 import Hero from '~/components/organisms/hero.vue'
+import Filter from '~/components/organisms/filter.vue'
 import ReviewsGrid from '~/components/organisms/review-grid.vue'
 import TypeSection from '~/components/organisms/types.vue'
 import type { TitleInfo } from "~/types/title-info"
 
 import { getBestPortableReviews } from '~/components/composables/affordable/getBestPortable'
 
-const { bestPortableAffortableReview } = getBestPortableReviews()
+const { bestPortableAffortableReview, filterByPrice } = getBestPortableReviews()
 
 const title = 'Top Best Affordable Portable Wireless Water Flossers for Healthy Teeth & Gums in 2025';
 const description = 'Discover the best affordable wireless/portable water flossers to maintain optimal oral hygiene. Explore our expert reviews and comparisons of the top dental irrigators for healthier teeth and gums.';
@@ -62,6 +63,7 @@ const bestAffordableTypes =  [
 
 <template>
   <Hero :heroData="heroData" />
+  <Filter :filterByPrice="filterByPrice" />
   <ReviewsGrid :reviews="bestPortableAffortableReview" />
   <TitleDescription :info="typeTitle" />
   <TypeSection :types="bestAffordableTypes" />

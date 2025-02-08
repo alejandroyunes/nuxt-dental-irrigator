@@ -9,6 +9,14 @@ export function getBestCounterReviews() {
   const bestCounterLoading = ref(false)
   const bestCounterLoadingeError = ref(false)
 
+  const filterByPrice = (filter: string) => {
+    if(filter === 'price') {
+      return bestCounterReview.value.sort((a, b) => Number(a.price) - Number(b.price))
+    } else if(filter === 'reviews') {
+      return bestCounterReview.value.sort((a, b) => Number(b.reviewCount) - Number(a.reviewCount))
+    }
+  }
+
   const fetchPosts = async () => {
     bestCounterLoading.value = true
     try {
@@ -27,6 +35,7 @@ export function getBestCounterReviews() {
   return {
     bestCounterReview,
     bestCounterLoading,
-    bestCounterLoadingeError
+    bestCounterLoadingeError,
+    filterByPrice
   }
 }
