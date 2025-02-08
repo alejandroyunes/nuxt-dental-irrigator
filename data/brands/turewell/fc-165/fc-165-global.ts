@@ -1,5 +1,4 @@
 export const fc165Global = {
-  // id: 1,
   brand: 'turewell',
   path: 'fc-165',
   images: [

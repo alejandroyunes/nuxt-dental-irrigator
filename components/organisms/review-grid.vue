@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { ReviewGrid } from "~/types/review-grid"
+import Filter from '~/components/organisms/filter.vue'
 
 const { reviews } = defineProps<{
   reviews: ReviewGrid[]
@@ -9,6 +10,8 @@ const { reviews } = defineProps<{
 
 <template>
   <section class="irrigator-grid">
+
+    <Filter />
 
     <div class="cards">
       <div v-for="review in reviews" :key="review.id" class="card">
