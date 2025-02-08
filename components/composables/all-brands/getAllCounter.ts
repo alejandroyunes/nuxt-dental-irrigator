@@ -17,7 +17,6 @@ export function getAllCounterReviews() {
     }
   }
 
-
   const fetchPosts = async () => {
     allCounterLoading.value = true
     try {

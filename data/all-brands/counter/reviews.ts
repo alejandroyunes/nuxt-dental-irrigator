@@ -1,8 +1,14 @@
 
 import waterpikwp660 from "~/data/brands/waterpik/wp-660/wp-660"
 
-import h2oflossHF9 from '~/data/brands/h20floss/hf-9/hf-9'
 import turewellFC165 from '~/data/brands/turewell/fc-165/fc-165'
+import waterpikwp662 from "~/data/brands/waterpik/wp-662/wp-662"
+import heyaxa2302WF from '~/data/brands/heyaxa/wf-2302/wf-2302'
+import oeeterM01 from '~/data/brands/oeeter/m01/m01'
+import sawgmoreFC166 from '~/data/brands/sawgmore/fc166/fc166'
+import turewellFC162 from '~/data/brands/turewell/fc-162/fc-162'
+import h2oflossHF9 from '~/data/brands/h20floss/hf-9/hf-9'
+
 import type { ReviewGrid } from "~/types/review-grid"
 
 
@@ -39,5 +45,59 @@ export const allCounter: ReviewGrid[] = [
     rating: h2oflossHF9.info.rating.stars,
     reviewCount: h2oflossHF9.info.rating.reviews,
     updatedDate: h2oflossHF9.info.updatedDate
+  },
+  {
+    id: 4,
+    path: waterpikwp662.info.slug,
+    name: waterpikwp662.info.title,
+    image: waterpikwp662.info.images[0].thumbnail,
+    alt: waterpikwp662.info.alt,
+    price: waterpikwp662.info.price,
+    rating: waterpikwp662.info.rating.stars,
+    reviewCount: waterpikwp662.info.rating.reviews,
+    updatedDate: waterpikwp662.info.updatedDate
+  },
+  {
+    id: 5,
+    path: turewellFC162.info.slug,
+    name: turewellFC162.info.title,
+    image: turewellFC162.info.images[0].thumbnail,
+    alt: turewellFC162.info.alt,
+    price: turewellFC162.info.price,
+    rating: turewellFC162.info.rating.stars,
+    reviewCount: turewellFC162.info.rating.reviews,
+    updatedDate: turewellFC162.info.updatedDate
+  }, {
+    id: 6,
+    path: sawgmoreFC166.info.slug,
+    name: sawgmoreFC166.info.title,
+    image: sawgmoreFC166.info.images[0].thumbnail,
+    alt: sawgmoreFC166.info.alt,
+    price: sawgmoreFC166.info.price,
+    rating: sawgmoreFC166.info.rating.stars,
+    reviewCount: sawgmoreFC166.info.rating.reviews,
+    updatedDate: sawgmoreFC166.info.updatedDate
+  },
+  {
+    id: 7,
+    path: oeeterM01.info.slug,
+    name: oeeterM01.info.title,
+    image: oeeterM01.info.images[0].thumbnail,
+    alt: oeeterM01.info.alt,
+    price: oeeterM01.info.price,
+    rating: oeeterM01.info.rating.stars,
+    reviewCount: oeeterM01.info.rating.reviews,
+    updatedDate: oeeterM01.info.updatedDate
+  },
+  {
+    id: 8,
+    path: heyaxa2302WF.info.slug,
+    name: heyaxa2302WF.info.title,
+    image: heyaxa2302WF.info.images[0].thumbnail,
+    alt: heyaxa2302WF.info.alt,
+    price: heyaxa2302WF.info.price,
+    rating: heyaxa2302WF.info.rating.stars,
+    reviewCount: heyaxa2302WF.info.rating.reviews,
+    updatedDate: heyaxa2302WF.info.updatedDate
   },
 ]
