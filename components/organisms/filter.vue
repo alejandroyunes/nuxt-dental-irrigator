@@ -53,6 +53,10 @@ const toggleFilter = (filter) => {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  background-color: var(--primary);
+  border-radius: 2rem;
+  padding: .3rem 1rem;
+  color: var(--white);
 }
 
 .filters {
