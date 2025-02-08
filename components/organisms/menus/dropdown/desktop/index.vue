@@ -33,12 +33,10 @@ const bestTopLinks = [
   {
     title: 'Counter Top',
     link: '/best/counter-top',
-    iconAlt: 'Counter Top'
   },
   {
     title: 'Portable',
     link: '/best/portable',
-    iconAlt: 'Portable'
   },
 ]
 
@@ -46,12 +44,10 @@ const allOralIrrigators = [
   {
     title: 'Counter Top',
     link: '/all-brands/counter-top',
-    iconAlt: 'Counter Top',
   },
   {
     title: 'Portable',
     link: '/all-brands/portable',
-    iconAlt: 'Portable'
   },
 ]
 
@@ -69,7 +65,6 @@ const allOralIrrigators = [
         <ul :class="['sub-items', { 'clicked': isClicked }]" @click="itemClicked">
           <li v-for="(item, index) in affortableLinks" :key="index" class="sub-item">
             <NuxtLink class="link" :to="item.link">
-              <component :alt="item.iconAlt" />
               <p>{{ item.title }}</p>
             </NuxtLink>
           </li>
@@ -83,7 +78,6 @@ const allOralIrrigators = [
         <ul :class="['sub-items', { 'clicked': isClicked }]" @click="itemClicked">
           <li v-for="(item, index) in bestTopLinks" :key="index" class="sub-item">
             <NuxtLink class="link" :to="item.link">
-              <component :alt="item.iconAlt" />
               <p>{{ item.title }}</p>
             </NuxtLink>
           </li>
@@ -97,13 +91,11 @@ const allOralIrrigators = [
         <ul :class="['sub-items', { 'clicked': isClicked }]" @click="itemClicked">
           <li v-for="(item, index) in allOralIrrigators" :key="index" class="sub-item">
             <NuxtLink class="link" :to="item.link">
-              <component :alt="item.iconAlt" />
               <p>{{ item.title }}</p>
             </NuxtLink>
           </li>
         </ul>
       </li>
-
 
     </ul>
   </nav>
@@ -193,7 +185,7 @@ const allOralIrrigators = [
 
             p {
               font-weight: 500;
-              
+
             }
           }
 

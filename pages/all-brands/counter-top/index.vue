@@ -29,7 +29,7 @@ useSeoMeta({
 
 const heroData = {
   titleH2: "Discover the Top Choices for",
-  title: "Best Countertops Water Flossers of 2025 from All Brands",
+  title: "Best Counter tops Water Flossers of 2025 from All Brands",
   subtitle: "These are the best counter tops water flossers of 2025 from all brands for their price, durability and overall feeling of users.",
   buttonText: "Browse Best Countertops",
   cta: ""
@@ -55,7 +55,6 @@ const bestPortableTypes = [
     link: '/best/counter-top'
   },
 ]
-
 
 </script>
 

@@ -5,12 +5,12 @@ import ReviewsGrid from '~/components/organisms/review-grid.vue'
 import TypeSection from '~/components/organisms/types.vue'
 import type { TitleInfo } from "~/types/title-info"
 
-import { getBestCounterReviews } from '~/components/composables/best/getBestCounter'
+import { getAllPortableReviews } from '~/components/composables/all-brands/getAllPortable'
 
-const { bestCounterReview } = getBestCounterReviews()
+const { allPortableReview } = getAllPortableReviews()
 
-const title = 'Top 6 Best Counter top Water Flossers for Healthy Teeth & Gums in 2025'
-const description = 'Discover the best counter top water flossers to maintain optimal oral hygiene. Explore our expert reviews and comparisons of the top dental irrigators for healthier teeth and gums.';
+const title = 'Top Best Portable Water Flossers for Healthy Teeth & Gums in 2025'
+const description = 'Discover the best Portable water flossers to maintain optimal oral hygiene. Explore our expert reviews and comparisons of the top dental irrigators for healthier teeth and gums.';
 
 useSeoMeta({
   title: title,
@@ -29,9 +29,9 @@ useSeoMeta({
 
 const heroData = {
   titleH2: "Discover the Top Choices for",
-  title: "Best Countertops Water Flossers of 2025",
-  subtitle: "These are the best counter tops water flossers of 2025 for their price, durability and overall feeling of users.",
-  buttonText: "Browse Best Countertops",
+  title: "Best Portable Water Flossers of 2025",
+  subtitle: "These are the best Portables water flossers of 2025 for their price, durability and overall feeling of users.",
+  buttonText: "Browse Best Portable",
   cta: ""
 }
 
@@ -50,14 +50,12 @@ const bestPortableTypes =  [
   },
 ]
 
-
 </script>
 
 <template>
   <Hero :heroData="heroData" />
-  <ReviewsGrid :reviews="bestCounterReview" />
+  <ReviewsGrid :reviews="allPortableReview" />
   <TitleDescription :info="typeTitle" />
-
   <TypeSection :types="bestPortableTypes" />
 </template>
 

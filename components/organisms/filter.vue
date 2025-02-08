@@ -1,6 +1,5 @@
 <script setup>
 import { ref } from 'vue'
-import ExitSvg from '~/components/icons/ExitSvg.vue'
 import { getAllCounterReviews } from '~/components/composables/all-brands/getAllCounter'
 
 const selectedFilters = ref([])
