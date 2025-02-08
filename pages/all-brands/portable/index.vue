@@ -1,13 +1,14 @@
 <script setup lang="ts">
 import TitleDescription from "~/components/atoms/title-description/index.vue"
 import Hero from '~/components/organisms/hero.vue'
+import Filter from '~/components/organisms/filter.vue'
 import ReviewsGrid from '~/components/organisms/review-grid.vue'
 import TypeSection from '~/components/organisms/types.vue'
 import type { TitleInfo } from "~/types/title-info"
 
 import { getAllPortableReviews } from '~/components/composables/all-brands/getAllPortable'
 
-const { allPortableReview } = getAllPortableReviews()
+const { allPortableReview, filterByPrice } = getAllPortableReviews()
 
 const title = 'Top Best Portable Water Flossers for Healthy Teeth & Gums in 2025'
 const description = 'Discover the best Portable water flossers to maintain optimal oral hygiene. Explore our expert reviews and comparisons of the top dental irrigators for healthier teeth and gums.';
@@ -54,6 +55,7 @@ const bestPortableTypes =  [
 
 <template>
   <Hero :heroData="heroData" />
+  <Filter :filterByPrice="filterByPrice" />
   <ReviewsGrid :reviews="allPortableReview" />
   <TitleDescription :info="typeTitle" />
   <TypeSection :types="bestPortableTypes" />

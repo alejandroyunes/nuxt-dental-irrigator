@@ -1,13 +1,15 @@
 <script setup lang="ts">
 import TitleDescription from "~/components/atoms/title-description/index.vue"
 import Hero from '~/components/organisms/hero.vue'
+import Filter from '~/components/organisms/filter.vue'
 import ReviewsGrid from '~/components/organisms/review-grid.vue'
 import TypeSection from '~/components/organisms/types.vue'
 import type { TitleInfo } from "~/types/title-info"
 
 import { getAllCounterReviews } from '~/components/composables/all-brands/getAllCounter'
 
-const { allCounterReview } = getAllCounterReviews()
+const { allCounterReview, filterByPrice } = getAllCounterReviews()
+
 
 const title = 'Best Counter top Water Flossers from All Brands for Healthy Teeth & Gums in 2025'
 const description = 'Find the best counter top water flossers from all brands to maintain optimal oral hygiene. Explore our expert reviews and comparisons of the top dental irrigators for healthier teeth and gums.';
@@ -60,6 +62,7 @@ const bestPortableTypes = [
 
 <template>
   <Hero :heroData="heroData" />
+  <Filter :filterByPrice="filterByPrice" />
   <ReviewsGrid :reviews="allCounterReview" />
   <TitleDescription :info="typeTitle" />
   <TypeSection :types="bestPortableTypes" />

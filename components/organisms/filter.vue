@@ -1,11 +1,10 @@
 <script setup>
 import { ref } from 'vue'
-import { getAllCounterReviews } from '~/components/composables/all-brands/getAllCounter'
+
+const { filterByPrice } = defineProps(['filterByPrice'])
 
 const selectedFilters = ref([])
 const filters = ['reviews', 'price',]
-
-const { filterByPrice } = getAllCounterReviews()
 
 const toggleFilter = (filter) => {
   const oppositeFilter = filter === 'price' ? 'reviews' : 'price';
@@ -43,7 +42,9 @@ const toggleFilter = (filter) => {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.3rem 1rem;
 }
 
 .title {
