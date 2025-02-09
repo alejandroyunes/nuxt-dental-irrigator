@@ -64,6 +64,10 @@ const tips = [
     title: 'Guide for Bleeding Gums',
     link: '/tips/gum-bleed-care',
   },
+  {
+    title: 'Avoid Bad Habits',
+    link: '/tips/bad-dental-habits',
+  },
 ]
 
 </script>
