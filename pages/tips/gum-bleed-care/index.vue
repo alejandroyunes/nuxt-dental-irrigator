@@ -10,7 +10,7 @@ const steps = ref([
   'Activate the jet, directing it towards the gum line above the teeth.',
   'For approximately 2 seconds, clean each tooth, slightly increasing the power of the jet to the normal level or level 3-4 at most.',
   'Rinse your mouth with a mouthwash that does not contain alcohol, to eliminate bacteria. Remember not to drink or eat anything for the next 30 minutes.'
-]);
+])
 
 const tips = ref([
   'Start using a soft-bristled toothbrush at least twice a day, ideally after meals.',
@@ -20,7 +20,7 @@ const tips = ref([
   'Visit your dentist if bleeding persists after several days of using the irrigator.',
   'Have braces adjusted if you wear them.',
   'Consult a specialist before using any specific mouthwash.'
-]);
+])
 
 const bleedingCauses = ref([
   'Accumulation of bacterial plaque on the gum line',
@@ -30,7 +30,7 @@ const bleedingCauses = ref([
   'Brushing teeth too hard',
   'Using hard-bristled toothbrushes',
   'Poorly fitted dentures or dental appliances'
-]);
+])
 </script>
 
 <template>
@@ -133,6 +133,7 @@ const bleedingCauses = ref([
 
   section {
     margin-bottom: 3rem;
+    padding: 0;
   }
 
   .intro {

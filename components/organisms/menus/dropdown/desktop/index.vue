@@ -53,6 +53,10 @@ const allOralIrrigators = [
 
 const tips = [
   {
+    title: 'How to Use',
+    link: '/tips/how-to-use',
+  },
+  {
     title: 'Oral Hygiene Guide',
     link: '/tips/oral-hygiene-guide',
   },
