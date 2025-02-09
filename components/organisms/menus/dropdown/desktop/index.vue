@@ -51,6 +51,17 @@ const allOralIrrigators = [
   },
 ]
 
+const tips = [
+  {
+    title: 'Oral Hygiene Guide',
+    link: '/tips/oral-hygiene-guide',
+  },
+  {
+    title: 'Guide for Bleeding Gums',
+    link: '/tips/gum-bleed-care',
+  },
+]
+
 </script>
 
 <template>
@@ -90,6 +101,19 @@ const allOralIrrigators = [
 
         <ul :class="['sub-items', { 'clicked': isClicked }]" @click="itemClicked">
           <li v-for="(item, index) in allOralIrrigators" :key="index" class="sub-item">
+            <NuxtLink class="link" :to="item.link">
+              <p>{{ item.title }}</p>
+            </NuxtLink>
+          </li>
+        </ul>
+      </li>
+
+      <li class="item">
+        <h3 class="title">Tips</h3>
+        <ArrowDownSvg class="icon arrow-icon" />
+
+        <ul :class="['sub-items', { 'clicked': isClicked }]" @click="itemClicked">
+          <li v-for="(item, index) in tips" :key="index" class="sub-item">
             <NuxtLink class="link" :to="item.link">
               <p>{{ item.title }}</p>
             </NuxtLink>
