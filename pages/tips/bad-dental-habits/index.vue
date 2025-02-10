@@ -150,7 +150,7 @@ Choose a mouthwash suited to your specific needs and use it as a complement to b
 
         .habit-text {
           color: var(--text);
-          font-size: 1.1rem;
+          font-size: 1.125rem;
         }
       }
     }
@@ -174,7 +174,7 @@ Choose a mouthwash suited to your specific needs and use it as a complement to b
 
       p {
         color: var(--text);
-        font-size: 1.1rem;
+        font-size: 1.125rem;
       }
     }
   }

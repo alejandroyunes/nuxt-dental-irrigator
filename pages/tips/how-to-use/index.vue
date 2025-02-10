@@ -88,7 +88,7 @@ const tips = ref([
 <template>
   <article class="blog-post">
     <h1>How to Use a Dental Irrigator</h1>
-    
+
     <section class="intro">
       <p>This guide shows the correct procedure to follow to effectively use a dental irrigator.</p>
     </section>
@@ -120,7 +120,9 @@ const tips = ref([
       <h2>Important Tips</h2>
       <div class="tips-container">
         <div v-for="(tip, index) in tips" :key="index" class="tip-card">
-          {{ tip }}
+          <p>
+            {{ tip }}
+          </p>
         </div>
       </div>
     </section>
@@ -128,8 +130,10 @@ const tips = ref([
     <section class="dental-checkup">
       <h2>Regular Dental Check-ups</h2>
       <div class="checkup-box">
-        <p>Make an appointment for a check-up at least once a year. The irrigator helps reduce dental plaque and reach corners of your mouth that you couldn't reach with a toothbrush or dental floss.</p>
-        <p>If you notice discomfort or excessive dental sensitivity despite using the lowest power, visit your dentist to check your gums and prevent periodontitis or gingivitis.</p>
+        <p>Make an appointment for a check-up at least once a year. The irrigator helps reduce dental plaque and reach
+          corners of your mouth that you couldn't reach with a toothbrush or dental floss.</p>
+        <p>If you notice discomfort or excessive dental sensitivity despite using the lowest power, visit your dentist
+          to check your gums and prevent periodontitis or gingivitis.</p>
       </div>
     </section>
   </article>
@@ -162,9 +166,12 @@ const tips = ref([
     margin-bottom: 0.5rem;
   }
 
+  p {
+    font-size: 1.125rem;
+  }
+
   section {
     margin-bottom: 3rem;
-    padding: 0;
   }
 
   .intro {
@@ -262,9 +269,11 @@ const tips = ref([
 
     p {
       margin: 0.5rem 0;
+
       &:first-child {
         margin-top: 0;
       }
+
       &:last-child {
         margin-bottom: 0;
       }

@@ -124,6 +124,10 @@ const tips = ref([
     text-align: center;
   }
 
+  p {
+    font-size: 1.25rem;
+  }
+
   .intro {
     font-size: 1.2rem;
     color: var(--text);
@@ -160,13 +164,25 @@ const tips = ref([
   }
 
   .tips {
-    h2, p {
+    h2 {
+      text-align: center;
+      font-size: 1.8rem;
+
+    }
+    p {
+      font-size: 1.25rem;
       text-align: center;
     }
   }
 
   .food-choice {
-    h2, p {
+    h2 {
+      text-align: center;
+      font-size: 1.8rem;
+
+    }
+    p {
+      font-size: 1.25rem;
       text-align: center;
     }
   }

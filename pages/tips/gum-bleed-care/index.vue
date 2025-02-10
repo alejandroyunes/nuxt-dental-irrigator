@@ -126,9 +126,13 @@ const bleedingCauses = ref([
   }
 
   h3 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: var(--heading);
     margin: 1.5rem 0 1rem;
+  }
+
+  p {
+    font-size: 1.125rem;
   }
 
   section {
@@ -138,11 +142,13 @@ const bleedingCauses = ref([
 
   .intro {
     text-align: center;
+    font-size: 1.25rem;
   }
 
   .causes {
     h2 {
       text-align: center;
+      font-size: 1.5rem;
     }
   }
 
@@ -158,6 +164,7 @@ const bleedingCauses = ref([
       
       li {
         margin: 0.5rem 0;
+        font-size: 1.125rem;
       }
     }
   }
@@ -173,6 +180,7 @@ const bleedingCauses = ref([
       
       li {
         margin: 0.8rem 0;
+        font-size: 1.25rem;
       }
     }
   }
@@ -197,7 +205,7 @@ const bleedingCauses = ref([
       border-radius: 8px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       border-left: 4px solid #4caf50;
-
+      font-size: 1.25rem;
       &:hover {
         transform: translateY(-2px);
         transition: transform 0.2s ease;
@@ -216,6 +224,7 @@ const bleedingCauses = ref([
       
       li {
         margin: 0.8rem 0;
+        font-size: 1.25rem;
       }
     }
   }
@@ -226,6 +235,7 @@ const bleedingCauses = ref([
     border-radius: 8px;
     margin: 1.5rem 0;
     border-left: 4px solid #ff9800;
+    font-size: 1.25rem;
   }
 }
 

@@ -68,6 +68,10 @@ const tips = [
     title: 'Avoid Bad Habits',
     link: '/tips/bad-dental-habits',
   },
+  {
+    title: 'Braces Care',
+    link: '/tips/braces-guide',
+  },
 ]
 
 </script>

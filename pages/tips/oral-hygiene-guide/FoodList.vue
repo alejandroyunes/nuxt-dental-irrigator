@@ -34,7 +34,7 @@ defineProps<{
     h3 {
       color: var(--heading);
       margin-bottom: 0.5rem;
-      font-size: 1.2rem;
+      font-size: 1.25rem;
       border-bottom: 2px solid var(--primary);
       padding-bottom: 0.5rem;
     }
@@ -42,6 +42,7 @@ defineProps<{
     p {
       color: var(--text);
       margin: 0;
+      font-size: 1.125rem;
     }
   }
 }

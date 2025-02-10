@@ -34,12 +34,13 @@ defineProps<{
     h3 {
       color: var(--heading);
       margin-bottom: 0.5rem;
-      font-size: 1.2rem;
+      font-size: 1.3rem;
     }
 
     p {
       color: var(--text);
       margin: 0;
+      font-size: 1.125rem;
     }
 
     &:hover {
