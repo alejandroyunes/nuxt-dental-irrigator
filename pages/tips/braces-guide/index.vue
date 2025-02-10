@@ -1,6 +1,24 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
+const title = 'How to Use a Dental Irrigator with Braces?'
+const description = 'Using a dental irrigator with braces is beneficial and widely recommended by dentists.'
+
+useSeoMeta({
+  title: title,
+  description: description,
+  ogSiteName: 'https://dental-irrigator.net/tips/braces-guide',
+  ogTitle: title,
+  ogDescription: description,
+  ogImage: '/open-graph.webp',
+  ogUrl: 'https://dental-irrigator.net/tips/braces-guide',
+  ogLocale: 'en_US',
+  twitterTitle: title,
+  twitterDescription: description,
+  twitterImage: '/open-graph.webp',
+  twitterCard: 'summary_large_image',
+})
+
 const preCleaningSteps = ref([
   'Clean braces with an orthodontic toothbrush',
   'Use fluoride toothpaste to prevent tartar buildup',
@@ -68,7 +86,7 @@ const dentalVisits = ref([
 
 <template>
   <article class="blog-post">
-    <h1>How to Use a Dental Irrigator with Braces</h1>
+    <h1>How to Use a Dental Irrigator with Braces?</h1>
 
     <section class="intro">
       <p>Using a dental irrigator with braces is beneficial and widely recommended by dentists. This guide will help you

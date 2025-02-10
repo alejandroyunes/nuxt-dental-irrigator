@@ -3,6 +3,24 @@ import { ref } from 'vue'
 import FoodList from './FoodList.vue'
 import TipsList from './TipsList.vue'
 
+const title = 'The three key elements for a good hygiene routine'
+const description = 'Maintaining good oral hygiene is essential for overall health, and an effective daily routine is key to achieving it.'
+
+useSeoMeta({
+  title: title,
+  description: description,
+  ogSiteName: 'https://dental-irrigator.net/tips/oral-hygiene-guide',
+  ogTitle: title,
+  ogDescription: description,
+  ogImage: '/open-graph.webp',
+  ogUrl: 'https://dental-irrigator.net/tips/oral-hygiene-guide',
+  ogLocale: 'en_US',
+  twitterTitle: title,
+  twitterDescription: description,
+  twitterImage: '/open-graph.webp',
+  twitterCard: 'summary_large_image',
+})
+
 const keyElements = ref([
   {
     title: 'Effective Brushing',

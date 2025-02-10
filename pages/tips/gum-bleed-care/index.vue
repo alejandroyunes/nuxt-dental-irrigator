@@ -1,6 +1,24 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
+const title = 'Dental Irrigator Guide for Bleeding Gums'
+const description = 'The irrigator is very useful to reduce bleeding gums, since the jet penetrates the periodontal pockets and removes any remaining dirt.'
+
+useSeoMeta({
+  title: title,
+  description: description,
+  ogSiteName: 'https://dental-irrigator.net/tips/gum-bleed-care',
+  ogTitle: title,
+  ogDescription: description,
+  ogImage: '/open-graph.webp',
+  ogUrl: 'https://dental-irrigator.net/tips/gum-bleed-care',
+  ogLocale: 'en_US',
+  twitterTitle: title,
+  twitterDescription: description,
+  twitterImage: '/open-graph.webp',
+  twitterCard: 'summary_large_image',
+})
+
 const steps = ref([
   'First brush your teeth using a soft-bristled toothbrush.',
   'Fill the reservoir with warm water (use hot water if you have very sensitive teeth).',

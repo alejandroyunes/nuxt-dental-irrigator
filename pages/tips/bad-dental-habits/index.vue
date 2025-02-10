@@ -1,5 +1,24 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref } from 'vue'
+
+const title = '5 Bad Dental Habits to Avoid'
+const description = 'Your dental health is crucial, and avoiding these common bad habits can make a significant difference in maintaining a healthy smile.'
+
+useSeoMeta({
+  title: title,
+  description: description,
+  ogSiteName: 'https://dental-irrigator.net/tips/bad-dental-habits',
+  ogTitle: title,
+  ogDescription: description,
+  ogImage: '/open-graph.webp',
+  ogUrl: 'https://dental-irrigator.net/tips/bad-dental-habits',
+  ogLocale: 'en_US',
+  twitterTitle: title,
+  twitterDescription: description,
+  twitterImage: '/open-graph.webp',
+  twitterCard: 'summary_large_image',
+})
+
 
 const habits = ref([
   {

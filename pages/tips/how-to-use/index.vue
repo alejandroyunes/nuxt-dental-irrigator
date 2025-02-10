@@ -1,5 +1,23 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref } from 'vue'
+
+const title = 'How to Use a Dental Irrigator?'
+const description = 'This guide shows the correct procedure to follow to effectively use a dental irrigator.'
+
+useSeoMeta({
+  title: title,
+  description: description,
+  ogSiteName: 'https://dental-irrigator.net/tips/how-to-use',
+  ogTitle: title,
+  ogDescription: description,
+  ogImage: '/open-graph.webp',
+  ogUrl: 'https://dental-irrigator.net/tips/how-to-use',
+  ogLocale: 'en_US',
+  twitterTitle: title,
+  twitterDescription: description,
+  twitterImage: '/open-graph.webp',
+  twitterCard: 'summary_large_image',
+})
 
 const setupSteps = ref([
   {
@@ -87,7 +105,7 @@ const tips = ref([
 
 <template>
   <article class="blog-post">
-    <h1>How to Use a Dental Irrigator</h1>
+    <h1>How to Use a Dental Irrigator?</h1>
 
     <section class="intro">
       <p>This guide shows the correct procedure to follow to effectively use a dental irrigator.</p>
