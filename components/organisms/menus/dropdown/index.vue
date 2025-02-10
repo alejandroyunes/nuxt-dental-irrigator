@@ -15,17 +15,14 @@ const affortableLinks = [
   {
     title: 'Top Best of 2025',
     link: '/affordable/best',
-    iconAlt: 'Top Best of 2025'
   },
   {
     title: 'Counter Top',
     link: '/affordable/counter-top',
-    iconAlt: 'Counter Top'
   },
   {
     title: 'Portable',
     link: '/affordable/portable',
-    iconAlt: 'Portable'
   }
 ]
 

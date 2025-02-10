@@ -2,10 +2,10 @@
 import { ref } from 'vue'
 import { setDarkMode } from '~/utils/utils'
 
-import SliderTopNav from '~/components/organisms/menus/sliders/top-nav/index.vue'
-import Dropdown from '~/components/organisms/menus/dropdown/desktop/index.vue'
-import SunSvg from '~/components/icons/header/SunSvg.vue'
 import MoonSvg from '~/components/icons/header/MoonSvg.vue'
+import SunSvg from '~/components/icons/header/SunSvg.vue'
+import Dropdown from '~/components/organisms/menus/dropdown/index.vue'
+import SliderTopNav from '~/components/organisms/menus/sliders/index.vue'
 
 import HamburgerVerticalSvg from '~/components/icons/header/HamburgerSvg.vue'
 
@@ -36,12 +36,11 @@ const toggleSliderTopNav = () => {
     <div class="container">
       <div class="logo-and-title">
         <NuxtLink to="/" class="logo">
-          <NuxtPicture src="/logo.png" alt="Logo de páginas profesionales" densities="x1"
-            sizes="xs:56px md:56px xl:56px" format="png" />
+          <NuxtPicture src="/logo.png" alt="Denatl Irrigator" densities="x1" sizes="xs:56px md:56px xl:56px"
+            format="png" />
+          <h1>Dental Irrigator</h1>
         </NuxtLink>
-        <h1>Dental Irrigator</h1>
       </div>
-
 
       <div class="details">
 
@@ -50,7 +49,7 @@ const toggleSliderTopNav = () => {
           <SunSvg v-else class="icon moon" aria-label="Cambiar tema del sitio web" />
         </div>
 
-        <Dropdown class="desktop-only" />
+        <Dropdown class="dropdown" />
 
         <div class="hamburger-menu mobile-only" @click="toggleSliderTopNav">
           <HamburgerVerticalSvg class="icon" aria-label="Abrir menú de navegación" />
@@ -95,7 +94,9 @@ const toggleSliderTopNav = () => {
       }
 
       .logo {
-        max-width: 56px;
+        display: flex;
+        align-items: center;
+
 
         img {
           display: flex;
@@ -131,6 +132,12 @@ const toggleSliderTopNav = () => {
         }
       }
 
+      .dropdown {
+        @media (max-width: 800px) {
+          display: none;
+        }
+      }
+
       .hamburger-menu {
         padding: 10px 10px 10px 0;
         cursor: pointer;
@@ -143,7 +150,7 @@ const toggleSliderTopNav = () => {
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1268px) {
     padding: 0;
 
     .container {
