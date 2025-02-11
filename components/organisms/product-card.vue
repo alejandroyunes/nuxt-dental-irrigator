@@ -90,7 +90,6 @@ console.log('info: ',info?.rating.reviews)
       gap: .5rem;
 
       @media (max-width: 768px) {
-        outline: 3px solid red;
         flex-direction: column;
         align-items: flex-start;
         gap: 0;

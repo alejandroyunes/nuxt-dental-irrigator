@@ -42,7 +42,7 @@ if (product.value) {
   <section class="product-section">
     <ProductCard :info="product?.info" />
     <Accordion :info="product?.tableOfContent" />
-    <Title :info="product?.title" marginTop />
+    <Title :info="product?.title" />
     <Video :videoUrl="product?.info.video" />
     <Video v-if="product?.info.video2" :videoUrl="product?.info.video2" />
     <TableComparison :info="product?.comparison" />
