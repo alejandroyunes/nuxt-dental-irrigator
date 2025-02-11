@@ -17,7 +17,7 @@ const { toggle, isOpen } = defineProps<{
   isOpen: boolean | undefined
 }>()
 
-const navLinks = [
+const links = [
   {
     title: 'Top Best of 2025',
     link: '/affordable/best',
@@ -46,7 +46,7 @@ const socialLinks = [
   { icon: InstagramSvg, to: 'https://instagram.com' },
 ]
 
-const tipsSubmenu = [
+const tipsLinks = [
 {
     title: 'How to Use',
     link: '/tips/how-to-use',
@@ -92,8 +92,8 @@ const tipsSubmenu = [
 
       <nav class="top-nav-list">
         <ul>
-          <li v-for="(link, index) in navLinks" :key="index">
-            <NuxtLink :to="link.link" @click="toggle()">
+          <li v-for="(link, index) in links" :key="index" @click="toggle()">
+            <NuxtLink :to="link.link" >
               <p>{{ link.title }}</p>
             </NuxtLink>
           </li>
@@ -101,8 +101,8 @@ const tipsSubmenu = [
               
             <p class="submenu-title"><ArrowDownSvg />Tips</p>
             <ul v-if="isSubMenuOpen">
-              <li v-for="(link, index) in tipsSubmenu" :key="index">
-                <NuxtLink class="item" :to="link.link" @click="toggle()">
+              <li v-for="(link, index) in tipsLinks" :key="index"  @click="toggle()">
+                <NuxtLink class="item" :to="link.link">
                   <p>{{ link.title }}</p>
                 </NuxtLink>
               </li>

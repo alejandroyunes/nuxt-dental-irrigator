@@ -17,7 +17,7 @@ export const ew1511wGlobal = {
   videoUrl2: 'https://www.youtube.com/embed/1VpwNDm0GLA?si=Tqgkmz8Z8_2swFYa',
   productPrice: '104.99',
   amazonPrime: 'https://www.amazon.com',
-  updatedDate: '11/23/2023',
+  updatedDate: '02/10/2025',
   rating: {
     stars: 4.4,
     reviews: 6752,

@@ -9,7 +9,7 @@ import SliderTopNav from '~/components/organisms/menus/sliders/index.vue'
 
 import HamburgerVerticalSvg from '~/components/icons/header/HamburgerSvg.vue'
 
-const isSliderTopNavOpen = ref<boolean | undefined>(undefined)
+const isSliderOpen = ref<boolean | undefined>(undefined)
 const isDarkMode = ref(false)
 
 onMounted(() => {
@@ -25,8 +25,8 @@ const handleTheme = () => {
   setDarkMode(isDarkMode.value)
 }
 
-const toggleSliderTopNav = () => {
-  isSliderTopNavOpen.value = !isSliderTopNavOpen.value
+const toggleSlider = () => {
+  isSliderOpen.value = !isSliderOpen.value
 }
 
 </script>
@@ -51,11 +51,11 @@ const toggleSliderTopNav = () => {
 
         <Dropdown class="dropdown" />
 
-        <div class="hamburger-menu mobile-only" @click="toggleSliderTopNav">
+        <div class="hamburger-menu mobile-only" @click="toggleSlider">
           <HamburgerVerticalSvg class="icon" aria-label="Abrir menú de navegación" />
         </div>
 
-        <SliderTopNav :toggle="toggleSliderTopNav" :isOpen="isSliderTopNavOpen" />
+        <SliderTopNav :toggle="toggleSlider" :isOpen="isSliderOpen" />
       </div>
     </div>
   </header>

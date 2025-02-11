@@ -16,7 +16,7 @@ export const hf6Global = {
   videoUrl2: 'https://www.youtube.com/embed/p6MqcvmmWyA?si=gOcUUJmtG86dYK2f',
   productPrice: '36.99',
   amazonPrime: 'https://www.amazon.com',
-  updatedDate: '11/23/2023',
+  updatedDate: '02/10/2025',
   rating: {
     stars: 4.3,
     reviews: 16178,

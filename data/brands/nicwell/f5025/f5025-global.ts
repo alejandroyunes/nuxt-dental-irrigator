@@ -20,7 +20,7 @@ export const f5025Global = {
   videoUrl2: 'https://www.youtube.com/embed/z52qAIuX3jk?si=ZK9ucquTlB-4pAik',
   productPrice: '39.89',
   amazonPrime: 'https://www.amazon.com',
-  updatedDate: '11/23/2023',
+  updatedDate: '02/10/2025',
   rating: {
     stars: 4.3,
     reviews: 48550,

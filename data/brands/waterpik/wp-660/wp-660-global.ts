@@ -17,7 +17,7 @@ export const wp660Global = {
   videoUrl2: 'https://www.youtube.com/embed/GgSbp6agyFA?si=p6g-wTlBXkSI4oo9',
   productPrice: '79.99',
   amazonPrime: 'https://www.amazon.com',
-  updatedDate: '11/23/2023',
+  updatedDate: '02/10/2025',
   rating: {
     stars: 4.6,
     reviews: 144240,
