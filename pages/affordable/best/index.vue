@@ -7,7 +7,8 @@ import ReviewsGrid from '~/components/organisms/review-grid.vue'
 import TypeSection from '~/components/organisms/types.vue'
 import type { TitleInfo } from "~/types/title-info"
 
-import { getBest } from '~/components/composables/affordable/getBest'
+// import { getBest } from '~/components/composables/affordable/getBest'
+const { getBest } = await import('~/components/composables/affordable/getBest');
 
 const { bestReview, filterByPrice } = getBest()
 
@@ -43,7 +44,7 @@ const typeTitle: TitleInfo = {
   subtext: 'Check out our reviews and comparisons of the top affordable water flossers for healthier teeth and gums.',
 }
 
-const bestAffordableTypes =  [
+const bestAffordableTypes = [
   {
     title: 'Best Affordable Counter Tops Water Flossers',
     description: 'Countertop dental irrigators are characterized by their stationary design and larger water tank capacity. Unlike portable models, they offer multiple pressure settings and interchangeable nozzles, allowing for more precise and customized cleaning based on individual needs. Their size and features make them ideal for intensive and personalized use at home, providing comprehensive and professional oral hygiene.',
@@ -63,7 +64,7 @@ const bestAffordableTypes =  [
 <template>
   <Hero :heroData="heroData" />
   <Filter :filterByPrice="filterByPrice" />
-  <ReviewsGrid :reviews="bestReview"  />
+  <ReviewsGrid :reviews="bestReview" />
   <TitleDescription :info="typeTitle" />
   <TypeSection :types="bestAffordableTypes" />
 </template>
