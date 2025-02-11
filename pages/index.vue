@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { getBestReviews } from '~/components/composables/affordable/getBest'
+import { getBest } from '~/components/composables/affordable/getBest'
 import { getBestCounterReviews } from '~/components/composables/affordable/getBestCounter'
 import { getBestPortableReviews } from '~/components/composables/affordable/getBestPortable'
 
@@ -29,7 +29,7 @@ useSeoMeta({
   twitterCard: 'summary_large_image',
 })
 
-const { bestReview } = getBestReviews()
+const { bestReview } = getBest()
 const { bestPortableAffortableReview } = getBestPortableReviews()
 const { bestCounterAffortableReview } = getBestCounterReviews()
 

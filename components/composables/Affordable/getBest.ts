@@ -2,7 +2,7 @@ import { onMounted, ref } from 'vue'
 import { bestReviews } from "~/data/affortable/best/reviews"
 import type { ReviewGrid } from "~/types/review-grid"
 
-export function getBestReviews() {
+export function getBest() {
 
   const bestReview = ref<ReviewGrid[]>([])
 
