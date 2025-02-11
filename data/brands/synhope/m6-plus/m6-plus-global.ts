@@ -16,7 +16,7 @@ export const m6PlusGlobal = {
   videoUrl2: 'https://www.youtube.com/embed/HQ-qVwfQ0iI?si=4RCv_Id8jKDWC4rt',
   productPrice: '34.99',
   amazonPrime: 'https://www.amazon.com',
-  updatedDate: '02/10/2025',
+  updatedDate: '02/11/2025',
   rating: {
     stars: 4.2,
     reviews: 15958,

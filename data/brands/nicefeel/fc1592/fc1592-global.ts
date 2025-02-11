@@ -16,7 +16,7 @@ export const fc1592Global = {
   videoUrl: 'https://www.youtube.com/embed/HTnrB3ME3y8?si=G_BZFa70Gc8cZDOM',
   productPrice: '15.99',
   amazonPrime: 'https://www.amazon.com',
-  updatedDate: '02/10/2025',
+  updatedDate: '02/11/2025',
   rating: {
     stars: 4.3,
     reviews: 22323,

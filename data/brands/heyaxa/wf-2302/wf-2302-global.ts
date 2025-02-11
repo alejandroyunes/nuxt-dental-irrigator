@@ -15,7 +15,7 @@ export const wf2302Global = {
   videoUrl: 'https://www.youtube.com/embed/UxKmRyKAwAA?si=IdSUc1waHcFEFqFK',
   productPrice: '49.99',
   amazonPrime: 'https://www.amazon.com',
-  updatedDate: '02/10/2025',
+  updatedDate: '02/11/2025',
   rating: {
     stars: 4.2,
     reviews: 161,

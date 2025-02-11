@@ -16,7 +16,7 @@ export const wp580Global = {
   videoUrl2: 'https://www.youtube.com/embed/kEwJEdrv-Sk',
   productPrice: '71.63',
   amazonPrime: 'https://www.amazon.com',
-  updatedDate: '02/10/2025',
+  updatedDate: '02/11/2025',
   rating: {
     stars: 4.3,
     reviews: 66549,
