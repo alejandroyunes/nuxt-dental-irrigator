@@ -54,10 +54,6 @@ const { reviews } = defineProps<{
       background-color: var(--background-soft);
       box-shadow: var(--shadow-card);
 
-      @media (max-width: 768px) {
-        justify-content: center;
-      }
-
       .image {
         object-fit: cover;
         transition: transform 0.3s ease;
@@ -75,6 +71,10 @@ const { reviews } = defineProps<{
         padding: 1.5rem;
         height: 100%;
 
+        @media (max-width: 768px) {
+          justify-content: center;
+          padding: 0 1.5rem 1.5rem;
+        }
 
         h3 {
           font-size: 1.25rem;

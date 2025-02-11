@@ -77,6 +77,7 @@ const { types } = defineProps<{types: Type[]}>()
         margin-bottom: 1.5rem;
         line-height: 1.7;
         color: var(--white);
+        font-size: 1.125rem;
       }
 
       .learn-more {
