@@ -5,7 +5,7 @@ import Filter from '~/components/organisms/filter.vue'
 import ReviewsGrid from '~/components/organisms/review-grid.vue'
 import TypeSection from '~/components/organisms/types.vue'
 
-import { getBestPortable } from '../../../components/composables/best/getBestPortable'
+import { getBestPortable } from '@/components/composables/best/getBestPortable'
 import type { TitleInfo } from "~/types/title-info"
 
 const { bestPortableReview, filterByPrice } = getBestPortable()

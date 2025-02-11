@@ -6,7 +6,7 @@ import ReviewsGrid from '~/components/organisms/review-grid.vue'
 import TypeSection from '~/components/organisms/types.vue'
 import type { TitleInfo } from "~/types/title-info"
 
-import { getAllPortable } from '../../../components/composables/all-brands/getAllPortable'
+import { getAllPortable } from '@/components/composables/all-brands/getAllPortable'
 
 const { allPortableReview, filterByPrice } = getAllPortable()
 
