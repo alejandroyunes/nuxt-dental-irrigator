@@ -11,7 +11,7 @@ export const c2Global = {
       thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735459903/irrigators/bitvae/bitvae-C2-2_tqd703.webp'
     }
   ],
-  amazonUrl: 'https://amzn.to/3R3veFS',
+  amazonUrl: 'https://amzn.to/418RGUy',
   videoUrl: 'https://www.youtube.com/embed/xCdAcy6jiMw?si=LPz6UoKRKzJC4puP',
   videoUrl2: 'https://www.youtube.com/embed/-G5yefrlxr4',
   amazonPrime: 'https://www.amazon.com',

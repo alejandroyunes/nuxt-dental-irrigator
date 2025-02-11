@@ -12,7 +12,7 @@ export const ew1511wGlobal = {
       thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735617816/irrigators/panasonic/EW1511W/Pnasonic2-x_hikvr8.webp'
     },
   ],
-  amazonUrl: 'https://www.amazon.com/dp/B07R7RJMKP?ref=emc_s_m_5_i_atc',
+  amazonUrl: 'https://amzn.to/4b3bjRi',
   videoUrl: 'https://www.youtube.com/embed/NC0w7bLLQ3w?si=W88ob15cXPjGTojR',
   videoUrl2: 'https://www.youtube.com/embed/1VpwNDm0GLA?si=Tqgkmz8Z8_2swFYa',
   productPrice: '104.99',

@@ -11,7 +11,7 @@ export const fc166Global = {
       thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735534902/irrigators/sawgmore/sawgmore-FC166-2-x_plaljx.webp'
     },
   ],
-  amazonUrl: 'https://amzn.to/4826pBe',
+  amazonUrl: 'https://amzn.to/4hVFR9R',
   videoUrl: 'https://www.youtube.com/embed/TaXaA5CxwQI?si=bwowYT9u88s_SHDE',
   productPrice: '30.77',
   amazonPrime: 'https://www.amazon.com',

@@ -15,7 +15,7 @@ export const f5025Global = {
       thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735203578/irrigators/nicwell/nicwell-F5025_gs9yjj.webp'
     }
   ],
-  amazonUrl: 'https://amzn.to/3GsK58d',
+  amazonUrl: 'https://amzn.to/419q3ut',
   videoUrl: 'https://www.youtube.com/embed/F5TExCCDCxY?si=VfRqWBLDOlBbVUhX',
   videoUrl2: 'https://www.youtube.com/embed/z52qAIuX3jk?si=ZK9ucquTlB-4pAik',
   productPrice: '39.89',
@@ -23,6 +23,6 @@ export const f5025Global = {
   updatedDate: '02/11/2025',
   rating: {
     stars: 4.3,
-    reviews: 48767,
+    reviews: 48773,
   },
 }

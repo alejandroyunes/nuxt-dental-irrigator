@@ -11,7 +11,7 @@ export const wp580Global = {
       thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735618759/irrigators/waterpik/waterpik-wp-580/waterpikwp580-2-x_eczdte.webp'
     },
   ],
-  amazonUrl: 'https://amzn.to/46O8vDQ',
+  amazonUrl: 'https://amzn.to/3ELYSwQ',
   videoUrl: 'https://www.youtube.com/embed/BryQWjm1JyU?si=3LB72fkMvsT2G3XM',
   videoUrl2: 'https://www.youtube.com/embed/kEwJEdrv-Sk',
   productPrice: '71.63',
@@ -19,6 +19,6 @@ export const wp580Global = {
   updatedDate: '02/11/2025',
   rating: {
     stars: 4.3,
-    reviews: 66549,
+    reviews: 66570,
   },
 }

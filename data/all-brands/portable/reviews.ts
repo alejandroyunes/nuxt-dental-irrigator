@@ -26,6 +26,17 @@ export const allPortable: ReviewGrid[] = [
   },
   {
     id: 2,
+    path: waterpikwp580.info.slug,
+    name: waterpikwp580.info.title,
+    image: waterpikwp580.info.images[0].thumbnail,
+    alt: waterpikwp580.info.alt,
+    price: waterpikwp580.info.price,
+    rating: waterpikwp580.info.rating.stars,
+    reviewCount: waterpikwp580.info.rating.reviews,
+    updatedDate: waterpikwp580.info.updatedDate
+  },
+  {
+    id: 3,
     path: nicwellf5025.info.slug,
     name: nicwellf5025.info.title,
     image: nicwellf5025.info.images[0].thumbnail,
@@ -36,7 +47,7 @@ export const allPortable: ReviewGrid[] = [
     updatedDate: nicwellf5025.info.updatedDate
   },
   {
-    id: 3,
+    id: 4,
     path: nicefeelfc1592.info.slug,
     name: nicefeelfc1592.info.title,
     image: nicefeelfc1592.info.images[0].thumbnail,
@@ -47,7 +58,7 @@ export const allPortable: ReviewGrid[] = [
     updatedDate: nicefeelfc1592.info.updatedDate
   },
   {
-    id: 4,
+    id: 5,
     path: coslusf5020e.info.slug,
     name: coslusf5020e.info.title,
     image: coslusf5020e.info.images[0].thumbnail,
@@ -58,7 +69,7 @@ export const allPortable: ReviewGrid[] = [
     updatedDate: coslusf5020e.info.updatedDate
   },
   {
-    id: 5,
+    id: 6,
     path: inSmartfc256.info.slug,
     name: inSmartfc256.info.title,
     image: inSmartfc256.info.images[0].thumbnail,
@@ -69,7 +80,7 @@ export const allPortable: ReviewGrid[] = [
     updatedDate: inSmartfc256.info.updatedDate
   },
   {
-    id: 6,
+    id: 7,
     path: bitvaeC2.info.slug,
     name: bitvaeC2.info.title,
     image: bitvaeC2.info.images[0].thumbnail,
@@ -79,17 +90,7 @@ export const allPortable: ReviewGrid[] = [
     reviewCount: bitvaeC2.info.rating.reviews,
     updatedDate: bitvaeC2.info.updatedDate
   },
-  {
-    id: 7,
-    path: waterpikwp580.info.slug,
-    name: waterpikwp580.info.title,
-    image: waterpikwp580.info.images[0].thumbnail,
-    alt: waterpikwp580.info.alt,
-    price: waterpikwp580.info.price,
-    rating: waterpikwp580.info.rating.stars,
-    reviewCount: waterpikwp580.info.rating.reviews,
-    updatedDate: waterpikwp580.info.updatedDate
-  },
+
   {
     id: 8,
     path: synhopeM6Plus.info.slug,

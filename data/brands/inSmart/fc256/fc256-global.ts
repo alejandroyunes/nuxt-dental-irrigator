@@ -11,13 +11,13 @@ export const fc256Global = {
       thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735459134/irrigators/insmart/inSmart-FC256-2-xs_qjduuh.webp'
     },
   ],
-  amazonUrl: 'https://amzn.to/3Nbst4b',
+  amazonUrl: 'https://amzn.to/42RypYR',
   videoUrl: 'https://www.youtube.com/embed/7BegXWHgKHM?si=Zs1tOCTCMEGbXovv',
   productPrice: '27.99',
   amazonPrime: 'https://www.amazon.com',
   updatedDate: '02/11/2025',
   rating: {
     stars: 4.3,
-    reviews: 16276,
+    reviews: 16278,
   },
 }

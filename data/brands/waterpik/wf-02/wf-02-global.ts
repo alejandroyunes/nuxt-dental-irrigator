@@ -11,7 +11,7 @@ export const wf02Global = {
       thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735183548/irrigators/waterpik/waterpik-wf-02/waterpik-w-02x2-xs_phlwfe.webp'
     },
   ],
-  amazonUrl: 'https://amzn.to/3TjtFqp',
+  amazonUrl: 'https://amzn.to/40Ubf1B',
   videoUrl: 'https://www.youtube.com/embed/oijS5814cVg?si=91iHyYw79l9F8PIC',
   videoUrl2: 'https://www.youtube.com/embed/_pI9UgJs1zw?si=_qQXR412SCnkP-oK',
   productPrice: '31.55',

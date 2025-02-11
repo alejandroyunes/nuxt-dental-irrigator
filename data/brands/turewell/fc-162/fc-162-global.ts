@@ -12,7 +12,7 @@ export const fc162Global = {
       thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735598367/irrigators/turewell/FC162/turewell-FC162-2-x_knc2e5.webp'
     },
   ],
-  amazonUrl: 'https://www.amazon.com/TUREWELL-FC162-Irrigator10-Adjustable-Replaceable/dp/B0876YT6RW/ref=sr_1_3_sspa?crid=3I5D5TLGJ0VLJ&dib=eyJ2IjoiMSJ9.WX-kO1B3iHSu_Kfy5dZcIO9lKZrfuQr3WyiiAOuiy2Y.Q48-jZLEYogdISvepYTX_3T67o5jAcI9Q-cgpYB_9P0&dib_tag=se&keywords=turewell+162&qid=1734152803&sprefix=turewell+162%2Caps%2C222&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1',
+  amazonUrl: 'https://amzn.to/3WXAxdV',
   videoUrl: 'https://www.youtube.com/embed/VSFXQ6T9Y9o?si=n1zGbmQVfCRXJW_Z',
   videoUrl2: 'https://www.youtube.com/embed/ifV--IooByU?si=2vevHWuE7_pPOe7-',
   productPrice: '39.99',

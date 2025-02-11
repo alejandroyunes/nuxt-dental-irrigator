@@ -1,11 +1,9 @@
 import type { ReviewGrid } from "~/types/review-grid"
 
-import bitvaeC2 from '~/data/brands/bitvae/c2/c2'
-import inSmartfc256 from '~/data/brands/inSmart/fc256/fc256'
-import nicefeelfc1592 from '~/data/brands/nicefeel/fc1592/fc1592'
 import nicwellf5025 from '~/data/brands/nicwell/f5025/f5025'
 import waterpikwf02 from '~/data/brands/waterpik/wf-02/wf-02'
 import coslusf5020e from "~/data/brands/coslus/f5020e/f5020e"
+import waterpikwp580 from "~/data/brands/waterpik/wp-580/wp-580"
 
 export const bestPortable: ReviewGrid[] = [
   {
@@ -21,6 +19,17 @@ export const bestPortable: ReviewGrid[] = [
   },
   {
     id: 2,
+    path: waterpikwp580.info.slug,
+    name: waterpikwp580.info.title,
+    image: waterpikwp580.info.images[0].thumbnail,
+    alt: waterpikwp580.info.alt,
+    price: waterpikwp580.info.price,
+    rating: waterpikwp580.info.rating.stars,
+    reviewCount: waterpikwp580.info.rating.reviews,
+    updatedDate: waterpikwp580.info.updatedDate
+  },
+  {
+    id: 3,
     path: nicwellf5025.info.slug,
     name: nicwellf5025.info.title,
     image: nicwellf5025.info.images[0].thumbnail,
@@ -31,7 +40,7 @@ export const bestPortable: ReviewGrid[] = [
     updatedDate: nicwellf5025.info.updatedDate
   },
   {
-    id: 3,
+    id: 4,
     path: coslusf5020e.info.slug,
     name: coslusf5020e.info.title,
     image: coslusf5020e.info.images[0].thumbnail,

@@ -11,7 +11,7 @@ export const m01Global = {
       thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735541367/irrigators/oeeter/oeeter-M01-2-x_dniatf.webp'
     },
   ],
-  amazonUrl: 'https://www.amazon.com/Professional-Irrigator-Adjustable-Pressures-Magnectic/dp/B0CRF88X43',
+  amazonUrl: 'https://amzn.to/4hStICy',
   videoUrl: 'https://www.youtube.com/embed/bdIUcgpYXIk?si=I0wLfTPdHVToaego',
   videoUrl2: 'https://www.youtube.com/embed/iVF8oNzOzek',
   productPrice: '27.51',

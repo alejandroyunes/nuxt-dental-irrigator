@@ -11,7 +11,7 @@ export const f5020eGlobal = {
       thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735455848/irrigators/coslus/coslus-F5020E_2_xs_jp8z4j.webp'
     },
   ],
-  amazonUrl: 'https://amzn.to/3NhjGhd',
+  amazonUrl: 'https://amzn.to/4jSXRDk',
   videoUrl: 'https://www.youtube.com/embed/VbH69k72y1o?si=XKJ69EYF_kTngRVa',
   videoUrl2: 'https://www.youtube.com/embed/YP0iiOTbgGI?si=PwmsSXLA5nTaxHqg',
   productPrice: '37.15',

@@ -12,7 +12,7 @@ export const fc1592Global = {
       thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735215710/irrigators/nicefeel/nicefeel-FC1592-BK-2-xs_mcgxcx.webp'
     }
   ],
-  amazonUrl: 'https://amzn.to/3RvbA7j',
+  amazonUrl: 'https://amzn.to/4gEMpsm',
   videoUrl: 'https://www.youtube.com/embed/HTnrB3ME3y8?si=G_BZFa70Gc8cZDOM',
   productPrice: '15.99',
   amazonPrime: 'https://www.amazon.com',

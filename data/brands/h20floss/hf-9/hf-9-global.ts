@@ -11,7 +11,7 @@ export const hf9Global = {
       thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735530398/irrigators/h2ofloss/H2ofloss-2-x_w8xcbh.webp'
     },
   ],
-  amazonUrl: 'https://amzn.to/46Jx6tj',
+  amazonUrl: 'https://amzn.to/4jRDXIZ',
   videoUrl: 'https://www.youtube.com/embed/z0cbEdX3Wqk?si=225Jg2EiIyOnlRxg',
   videoUrl2: 'https://www.youtube.com/embed/p6MqcvmmWyA?si=gOcUUJmtG86dYK2f',
   productPrice: '36.99',
@@ -19,6 +19,6 @@ export const hf9Global = {
   updatedDate: '02/11/2025',
   rating: {
     stars: 4.3,
-    reviews: 16194,
+    reviews: 16195,
   }
 }

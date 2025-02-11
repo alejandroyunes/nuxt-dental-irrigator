@@ -11,7 +11,7 @@ export const m6PlusGlobal = {
       thumbnail: 'https://res.cloudinary.com/dcpdkock3/image/upload/v1735618205/irrigators/synhope/Synhope2-x_otfbyq.webp'
     },
   ],
-  amazonUrl: 'https://amzn.to/46MIggT',
+  amazonUrl: 'https://amzn.to/4aTycq0',
   videoUrl: 'https://www.youtube.com/embed/mbsjawWvEjs?si=5H-pd9DcUBHt8Up8',
   videoUrl2: 'https://www.youtube.com/embed/HQ-qVwfQ0iI?si=4RCv_Id8jKDWC4rt',
   productPrice: '34.99',
