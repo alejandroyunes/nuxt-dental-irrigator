@@ -1,11 +1,8 @@
 import { defineNuxtConfig } from "nuxt/config"
 
 export default defineNuxtConfig({
-  // compatibilityDate: "2025-01-22",
   devtools: { enabled: false },
-
   css: ["~/assets/main.scss"],
-
   modules: [
     '@formkit/nuxt',
     '@pinia/nuxt',
@@ -14,9 +11,8 @@ export default defineNuxtConfig({
     '@zadigetvoltaire/nuxt-gtm'
   ],
   alias: {
-    components: '@/',
+    components: '~/',
   },
-
   app: {
     head: {
       htmlAttrs: { lang: 'en' },
@@ -34,7 +30,6 @@ export default defineNuxtConfig({
       id: 'dental-irrigator',
     },
   },
-
   image: {
     format: ['webp', 'png'],
     screens: {

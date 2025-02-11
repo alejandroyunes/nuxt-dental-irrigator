@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import TitleDescription from "~/components/atoms/title-description/index.vue"
-import Hero from '~/components/organisms/hero.vue'
 import Filter from '~/components/organisms/filter.vue'
+import Hero from '~/components/organisms/hero.vue'
 import ReviewsGrid from '~/components/organisms/review-grid.vue'
 import TypeSection from '~/components/organisms/types.vue'
 import type { TitleInfo } from "~/types/title-info"
 
-import { getAllPortable } from '@/components/composables/all-brands/getAllPortable'
+import { getAllPortable } from '~/components/composables/all-brands/getAllPortable'
 
 const { allPortableReview, filterByPrice } = getAllPortable()
 

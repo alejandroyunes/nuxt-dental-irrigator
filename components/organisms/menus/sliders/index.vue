@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import ExitSvg from '@/components/icons/ExitSvg.vue'
+import ExitSvg from '~/components/icons/ExitSvg.vue'
 
 import FacebookSvg from '~/components/icons/social/FacebookSvg.vue'
 import TwitterSvg from '~/components/icons/social/TwitterSvg.vue'

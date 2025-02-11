@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import './assets/error.scss'
 import type { NuxtError } from '#app'
-import Button from '@/components/atoms/buttons/fill/index.vue'
+import Button from '~/components/atoms/buttons/fill/index.vue'
 
 const props = defineProps({
   error: Object as () => NuxtError
