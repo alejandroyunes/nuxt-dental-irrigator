@@ -6,9 +6,9 @@ import ReviewsGrid from '~/components/organisms/review-grid.vue'
 import TypeSection from '~/components/organisms/types.vue'
 import type { TitleInfo } from "~/types/title-info"
 
-import { getBestCounterReviews } from '~/components/composables/best/getBestCounter'
+import { getBestCounter } from '~/components/composables/best/getBestCounter'
 
-const { bestCounterReview, filterByPrice } = getBestCounterReviews()
+const { bestCounterReview, filterByPrice } = getBestCounter()
 
 const title = 'Top 6 Best Counter top Water Flossers for Healthy Teeth & Gums in 2025'
 const description = 'Discover the best counter top water flossers to maintain optimal oral hygiene. Explore our expert reviews and comparisons of the top dental irrigators for healthier teeth and gums.';

@@ -2,7 +2,7 @@ import { onMounted, ref } from 'vue'
 import { allCounter } from '~/data/all-brands/counter/reviews'
 import type { ReviewGrid } from "~/types/review-grid"
 
-export function getAllCounterReviews() {
+export function getAllCounter() {
 
   const allCounterReview = ref<ReviewGrid[]>([])
 

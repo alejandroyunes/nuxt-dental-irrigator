@@ -2,7 +2,7 @@ import { onMounted, ref } from 'vue'
 import { bestPortable } from "~/data/best/portable/reviews"
 import type { ReviewGrid } from "~/types/review-grid"
 
-export function getBestPortableReviews() {
+export function getBestPortable() {
 
   const bestPortableReview = ref<ReviewGrid[]>([])
 

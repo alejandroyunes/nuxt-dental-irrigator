@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { getAllCounter } from '~/components/composables/all-brands/getAllCounter'
 import TitleDescription from "~/components/atoms/title-description/index.vue"
 import Hero from '~/components/organisms/hero.vue'
 import Filter from '~/components/organisms/filter.vue'
@@ -6,9 +7,8 @@ import ReviewsGrid from '~/components/organisms/review-grid.vue'
 import TypeSection from '~/components/organisms/types.vue'
 import type { TitleInfo } from "~/types/title-info"
 
-import { getAllCounterReviews } from '~/components/composables/all-brands/getAllCounter'
 
-const { allCounterReview, filterByPrice } = getAllCounterReviews()
+const { allCounterReview, filterByPrice } = getAllCounter()
 
 
 const title = 'Best Counter top Water Flossers from All Brands for Healthy Teeth & Gums in 2025'

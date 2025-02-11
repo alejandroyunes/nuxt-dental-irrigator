@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { getBest } from '~/components/composables/affordable/getBest'
-import { getBestCounterReviews } from '~/components/composables/affordable/getBestCounter'
-import { getBestPortableReviews } from '~/components/composables/affordable/getBestPortable'
+import { getBestCounter } from '~/components/composables/affordable/getBestCounter'
+import { getBestPortable } from '~/components/composables/affordable/getBestPortable'
 
 import type { TitleInfo } from "~/types/title-info"
 
@@ -30,8 +30,8 @@ useSeoMeta({
 })
 
 const { bestReview } = getBest()
-const { bestPortableAffortableReview } = getBestPortableReviews()
-const { bestCounterAffortableReview } = getBestCounterReviews()
+const { bestPortableAffortableReview } = getBestPortable()
+const { bestCounterAffortableReview } = getBestCounter()
 
 const heroData = {
   titleH2: "Discover the Top Picks for",

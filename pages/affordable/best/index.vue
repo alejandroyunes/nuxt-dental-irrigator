@@ -7,9 +7,9 @@ import ReviewsGrid from '~/components/organisms/review-grid.vue'
 import TypeSection from '~/components/organisms/types.vue'
 import type { TitleInfo } from "~/types/title-info"
 
-import { getBestReviews } from '~/components/composables/affordable/getBest'
+import { getBest } from '~/components/composables/affordable/getBest'
 
-const { bestReview, filterByPrice } = getBestReviews()
+const { bestReview, filterByPrice } = getBest()
 
 const title = 'Top 6 Best Affordable Dental Irrigators for Healthy Teeth & Gums in 2025'
 const description = 'Discover the best affordable dental irrigators to maintain optimal oral hygiene. Explore our expert reviews and comparisons of the top dental irrigators for healthier teeth and gums.'

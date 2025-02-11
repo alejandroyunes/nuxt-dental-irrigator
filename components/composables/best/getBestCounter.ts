@@ -2,7 +2,7 @@ import { onMounted, ref } from 'vue'
 import { bestCounter } from '~/data/best/counter/reviews'
 import type { ReviewGrid } from "~/types/review-grid"
 
-export function getBestCounterReviews() {
+export function getBestCounter() {
 
   const bestCounterReview = ref<ReviewGrid[]>([])
 
