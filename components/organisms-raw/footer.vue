@@ -37,8 +37,6 @@ const socialLinks = [
       </li>
     </ul>
 
-    <p class="copyright">&copy; {{ currentYear }} dental-irrigator.net</p>
-
     <div class="legal">
       <NuxtLink to="/legal/cookies">
         <p>Cookie Policy</p>
@@ -52,6 +50,9 @@ const socialLinks = [
         <p>Privacy Policy</p>
       </NuxtLink>
     </div>
+
+    <p class="copyright">&copy; {{ currentYear }} dental-irrigator.net</p>
+
   </footer>
 </template>
 
@@ -76,6 +77,7 @@ const socialLinks = [
     p {
       text-align: center;
       margin: .5rem 0;
+      font-size: 1.125rem;
     }
 
     .secure-image {
@@ -132,18 +134,17 @@ const socialLinks = [
   }
 
   .copyright {
-    padding-top: 24px;
     color: var(--text);
     font-size: .9rem;
   }
 
   .legal {
-
+    padding-top: 1rem;
     display: flex;
 
     p {
       color: var(--text);
-      font-size: .9rem;
+      font-size: 1rem;
       margin: .5rem .5rem .5rem 0;
 
       &:hover {
