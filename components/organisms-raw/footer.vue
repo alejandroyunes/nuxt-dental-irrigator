@@ -77,14 +77,14 @@ const socialLinks = [
 
     p {
       text-align: center;
+      margin: .5rem 0;
     }
 
     .secure-image {
-      p {
-        margin: .5rem 0;
-      }
-
-      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
     }
   }
 
