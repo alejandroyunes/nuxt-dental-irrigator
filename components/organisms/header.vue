@@ -103,7 +103,6 @@ const toggleSlider = () => {
           display: flex;
           align-items: center;
           justify-content: baseline;
-          width: 100%;
           max-width: 56px;
           height: auto;
 
