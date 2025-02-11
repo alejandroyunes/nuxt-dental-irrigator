@@ -10,9 +10,7 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@zadigetvoltaire/nuxt-gtm'
   ],
-  alias: {
-    components: '~/',
-  },
+
   app: {
     head: {
       htmlAttrs: { lang: 'en' },

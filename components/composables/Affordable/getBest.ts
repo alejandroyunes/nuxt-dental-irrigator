@@ -1,8 +1,9 @@
+import { de } from '@formkit/i18n'
 import { onMounted, ref } from 'vue'
 import { bestReviews } from "~/data/affortable/best/reviews"
 import type { ReviewGrid } from "~/types/review-grid"
 
-export function getBest() {
+export default function getBest() {
 
   const bestReview = ref<ReviewGrid[]>([])
 
