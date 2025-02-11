@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { getAllCounter } from '~/components/composables/all-brands/getAllCounter'
+import { getAllCounter } from '../../../components/composables/all-brands/getAllCounter'
 import TitleDescription from "~/components/atoms/title-description/index.vue"
 import Hero from '~/components/organisms/hero.vue'
 import Filter from '~/components/organisms/filter.vue'

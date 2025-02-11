@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { getBest } from '~/components/composables/affordable/getBest'
-import { getBestCounter } from '~/components/composables/affordable/getBestCounter'
-import { getBestPortable } from '~/components/composables/affordable/getBestPortable'
+import { getBest } from '../components/composables/affordable/getBest'
+import { getBestCounter } from '../components/composables/affordable/getBestCounter'
+import { getBestPortable } from '../components/composables/affordable/getBestPortable'
 
 import type { TitleInfo } from "~/types/title-info"
 

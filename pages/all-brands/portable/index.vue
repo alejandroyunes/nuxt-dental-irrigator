@@ -6,9 +6,9 @@ import ReviewsGrid from '~/components/organisms/review-grid.vue'
 import TypeSection from '~/components/organisms/types.vue'
 import type { TitleInfo } from "~/types/title-info"
 
-import { getAllPortableReviews } from '~/components/composables/all-brands/getAllPortable'
+import { getAllPortable } from '../../../components/composables/all-brands/getAllPortable'
 
-const { allPortableReview, filterByPrice } = getAllPortableReviews()
+const { allPortableReview, filterByPrice } = getAllPortable()
 
 const title = 'Top Best Portable Water Flossers for Healthy Teeth & Gums in 2025'
 const description = 'Discover the best Portable water flossers to maintain optimal oral hygiene. Explore our expert reviews and comparisons of the top dental irrigators for healthier teeth and gums.';

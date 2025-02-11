@@ -7,7 +7,7 @@ import ReviewsGrid from '~/components/organisms/review-grid.vue'
 import TypeSection from '~/components/organisms/types.vue'
 import type { TitleInfo } from "~/types/title-info"
 
-import { getBestCounter } from '~/components/composables/affordable/getBestCounter'
+import { getBestCounter } from '../../../components/composables/affordable/getBestCounter'
 
 const { bestCounterAffortableReview, filterByPrice } = getBestCounter()
 

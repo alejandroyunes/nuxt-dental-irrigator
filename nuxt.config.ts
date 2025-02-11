@@ -2,7 +2,7 @@ import { defineNuxtConfig } from "nuxt/config"
 
 export default defineNuxtConfig({
   // compatibilityDate: "2025-01-22",
-  devtools: { enabled: true },
+  devtools: { enabled: false },
 
   css: ["~/assets/main.scss"],
 
@@ -16,7 +16,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      htmlAttrs: { lang: 'es' },
+      htmlAttrs: { lang: 'en' },
       title: 'Best Dental Irrigators for Healthy Teeth & Gums in 2025',
       titleTemplate: '%s',
       link: [
