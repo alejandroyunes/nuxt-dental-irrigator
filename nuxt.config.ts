@@ -38,14 +38,13 @@ export default defineNuxtConfig({
   },
 
   gtm: {
-    id: 'GTM-53GHMHBC',
+    id: 'GTM-TPWWTX3Z',
     defer: false,
     compatibility: false,
     enabled: true,
     debug: false,
     loadScript: true,
     enableRouterSync: true,
-    ignoredViews: ['homepage'],
     trackOnNextTick: false,
     devtools: false,
   },
