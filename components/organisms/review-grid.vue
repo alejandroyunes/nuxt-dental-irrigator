@@ -111,7 +111,7 @@ const { reviews } = defineProps<{
         transition: background-color 0.3s ease;
 
         &:hover {
-          background: darken(#3498db, 10%);
+          background: var(--primary);
         }
       }
     }
