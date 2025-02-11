@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import TitleDescription from "~/components/atoms/title-description/index.vue"
-import { getBestCounter } from '~/components/composables/best/getBestCounter'
 import Filter from '~/components/organisms/filter.vue'
 import Hero from '~/components/organisms/hero.vue'
 import ReviewsGrid from '~/components/organisms/review-grid.vue'
 import TypeSection from '~/components/organisms/types.vue'
+import { getBestCounter } from '~/composables/best/getBestCounter'
 import type { TitleInfo } from "~/types/title-info"
 
 const { bestCounterReview, filterByPrice } = getBestCounter()

@@ -7,7 +7,7 @@ import ReviewsGrid from '~/components/organisms/review-grid.vue'
 import TypeSection from '~/components/organisms/types.vue'
 import type { TitleInfo } from "~/types/title-info"
 
-import getBest from '~/components/composables/affordable/getBest'
+import { getBest } from '~/composables/affordable/getBest'
 
 const { bestReview, filterByPrice } = getBest()
 

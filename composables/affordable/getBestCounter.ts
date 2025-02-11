@@ -2,7 +2,7 @@ import { onMounted, ref } from 'vue'
 import { bestCounter } from '~/data/affortable/counter/reviews'
 import type { ReviewGrid } from "~/types/review-grid"
 
-export default function getBestCounter() {
+export function getBestCounter() {
 
   const bestCounterAffortableReview = ref<ReviewGrid[]>([])
 

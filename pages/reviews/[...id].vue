@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router'
-import { getProductDetails } from '~/components/composables/getProductDetails'
-import ProductCard from '~/components/organisms/product-card.vue'
+import Title from '~/components/atoms/title-description/index.vue'
 import Accordion from '~/components/organisms/accordion.vue'
 import Features from '~/components/organisms/features.vue'
+import ProductCard from '~/components/organisms/product-card.vue'
 import ProsCons from '~/components/organisms/pros-cons.vue'
 import TableComparison from '~/components/organisms/table.vue'
-import Title from '~/components/atoms/title-description/index.vue'
 import Video from '~/components/organisms/video.vue'
+import { getProductDetails } from '~/composables/getProductDetails'
 
 const route = useRoute()
 
