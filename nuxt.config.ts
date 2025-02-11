@@ -14,7 +14,7 @@ export default defineNuxtConfig({
 app: {
   head: {
     htmlAttrs: { lang: 'es' },
-    title: 'Servicios Web Profesionales en Colombia | Páginas Profesionales',
+    title: 'Best Dental Irrigators for Healthy Teeth & Gums in 2025',
     titleTemplate: '%s',
     link: [
       {
@@ -25,7 +25,7 @@ app: {
     ],
   },
   rootAttrs: {
-    id: 'paginas-profesionales',
+    id: 'dental-irrigator',
   },
 },
 image: {

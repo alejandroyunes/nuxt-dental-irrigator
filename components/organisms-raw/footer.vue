@@ -7,9 +7,9 @@ import InstagramSvg from '~/components/icons/social/InstagramSvg.vue'
 const currentYear = ref(new Date().getFullYear())
 
 const socialLinks = [
-  { icon: FacebookSvg, to: 'https://facebook.com/profile.php?id=61564869706521', label: 'Visítanos en Facebook' },
-  { icon: TwitterSvg, to: 'https://twitter.com/paginaspro_co', label: 'Visítanos en Twitter' },
-  { icon: InstagramSvg, to: 'https://instagram.com/paginasprofesionales.co', label: 'Visítanos en Instagram' },
+  { icon: FacebookSvg, to: '', label: 'Visítanos en Facebook' },
+  { icon: TwitterSvg, to: '', label: 'Visítanos en Twitter' },
+  { icon: InstagramSvg, to: '', label: 'Visítanos en Instagram' },
 ]
 
 </script>
@@ -17,9 +17,19 @@ const socialLinks = [
 <template>
   <footer class="footer-content">
 
-    <NuxtPicture class="image" src="/logo.png" alt="Logo de páginas profesionales" densities="x1"
+    <NuxtPicture class="image" src="/logo.png" alt="dental irrigator logo" densities="x1"
       sizes="xs:100px md:100px xl:100px" format="png" />
-    <h2 class="title">Páginas Profesionales</h2>
+    <h2 class="title">Best Dental Irrigators for Healthy Teeth & Gums in 2025</h2>
+
+    <div className="secure-pay">
+      <div class="secure-image">
+        <p>Secure Payment through Amazon</p>
+        <NuxtPicture src="/images/secure-pay.webp" alt="Secure Payment through Amazon" densities="x1"
+          sizes="xs:362px md:362px xl:362px" format="png" />
+      </div>
+      <p>We include products that we believe are useful for our readers. If you purchase through links on this page, we
+        may earn a small commission.</p>
+    </div>
 
     <ul class="social-links">
       <li class="item" v-for="socialLink in socialLinks" :key="socialLink.to">
@@ -29,7 +39,21 @@ const socialLinks = [
       </li>
     </ul>
 
-    <p class="copyright">&copy; {{ currentYear }} Páginas Profesionales.</p>
+    <p class="copyright">&copy; {{ currentYear }} dental-irrigator.net</p>
+
+    <div class="legal">
+      <NuxtLink to="/legal/cookies">
+        <p>Cookie Policy</p>
+      </NuxtLink>
+
+      <NuxtLink to="/legal/legal-notice">
+        <p>Legal Notice</p>
+      </NuxtLink>
+
+      <NuxtLink to="/legal/privacy">
+        <p>Privacy Policy</p>
+      </NuxtLink>
+    </div>
   </footer>
 </template>
 
@@ -46,6 +70,22 @@ const socialLinks = [
   .image {
     width: 100px;
     height: 100px;
+  }
+
+  .secure-pay {
+    width: 100%;
+
+    p {
+      text-align: center;
+    }
+
+    .secure-image {
+      p {
+        margin: .5rem 0;
+      }
+
+      text-align: center;
+    }
   }
 
   .title {
@@ -93,6 +133,21 @@ const socialLinks = [
     padding-top: 24px;
     color: var(--text);
     font-size: .9rem;
+  }
+
+  .legal {
+
+    display: flex;
+
+    p {
+      color: var(--text);
+      font-size: .9rem;
+      margin: .5rem .5rem .5rem 0;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }
 </style>
