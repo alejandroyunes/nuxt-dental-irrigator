@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-import './title-description.scss'
 
 type TitleDescription = {
   id?: string
@@ -23,3 +22,43 @@ const { info } = defineProps<{
     <p class="text">{{ info?.subtext }}</p>
   </div>
 </template>
+
+
+
+<style lang="css" scoped>
+.title-description {
+  padding: 4rem 1.2rem;
+  margin: 0 auto;
+  max-width: var(--tablet-width);
+  text-align: center;
+  scroll-margin-top: 40px;
+
+  .title {
+    font-size: 2.5rem;
+    color: var(--heading);
+    margin-bottom: 1.5rem;
+    background: var(--background-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .description {
+    font-size: 1.25rem;
+    color: var(--text);
+    margin: 0 auto;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    max-width: var(--mobile-width);
+  }
+
+  .text {
+    font-size: 1.25rem;
+    color: var(--text);
+    font-style: italic;
+  }
+
+  .extra-top-space {
+    padding-top: 40px;
+  }
+}
+</style>

@@ -114,6 +114,10 @@ const { reviews } = defineProps<{
           background: var(--primary);
         }
       }
+
+      @media (max-width: 768px) {
+        justify-content: center;
+      }
     }
   }
 }

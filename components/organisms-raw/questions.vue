@@ -81,6 +81,10 @@ const questions = ref<FAQ[]>([
   padding: 0 20px 20px;
   margin-top: 40px;
 
+  details summary::-webkit-details-marker {
+  display:none;
+}
+
   details {
     font-size: 1.2rem;
     box-shadow: var(--shadow-card);

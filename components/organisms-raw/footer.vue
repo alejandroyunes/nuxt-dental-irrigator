@@ -85,7 +85,7 @@ const socialLinks = [
       flex-direction: column;
 
       img {
-        width: 260px;
+        width: 280px;
       }
     }
   }
