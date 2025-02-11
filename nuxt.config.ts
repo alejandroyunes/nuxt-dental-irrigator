@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     '@zadigetvoltaire/nuxt-gtm'
   ],
   alias: {
-    components: '@/components',
+    components: '@/',
   },
 
   app: {
