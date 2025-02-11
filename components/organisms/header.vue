@@ -37,7 +37,7 @@ const toggleSlider = () => {
       <div class="logo-and-title">
         <NuxtLink to="/" class="logo">
           <div class="image">
-            <NuxtImg class="image" src="/logo.png" alt="Denatl Irrigator" densities="x1" sizes="xs:56px md:56px xl:56px" format="png" />
+            <NuxtImg src="/logo.png" alt="Denatl Irrigator" format="png" />
           </div>
           <h1>Dental Irrigator</h1>
         </NuxtLink>
@@ -102,11 +102,10 @@ const toggleSlider = () => {
           display: flex;
           align-items: center;
           justify-content: baseline;
-          max-width: 56px;
           height: auto;
 
           img {
-            max-width: 56px;
+            width: 56px;
           }
         }
       }
