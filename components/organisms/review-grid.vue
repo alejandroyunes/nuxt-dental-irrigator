@@ -54,6 +54,10 @@ const { reviews } = defineProps<{
       background-color: var(--background-soft);
       box-shadow: var(--shadow-card);
 
+      @media (max-width: 768px) {
+        justify-content: center;
+      }
+
       .image {
         object-fit: cover;
         transition: transform 0.3s ease;
@@ -115,9 +119,6 @@ const { reviews } = defineProps<{
         }
       }
 
-      @media (max-width: 768px) {
-        justify-content: center;
-      }
     }
   }
 }

@@ -82,8 +82,12 @@ const questions = ref<FAQ[]>([
   margin-top: 40px;
 
   details summary::-webkit-details-marker {
-  display:none;
-}
+    display:none;
+  }
+
+  details > summary {
+    list-style: none;
+  }
 
   details {
     font-size: 1.2rem;

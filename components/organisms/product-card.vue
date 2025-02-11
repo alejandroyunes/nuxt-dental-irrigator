@@ -89,6 +89,13 @@ console.log('info: ',info?.rating.reviews)
       align-items: center;
       gap: .5rem;
 
+      @media (max-width: 768px) {
+        outline: 3px solid red;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+      }
+
       .price {
         font-size: 1.5rem;
         font-weight: bold;

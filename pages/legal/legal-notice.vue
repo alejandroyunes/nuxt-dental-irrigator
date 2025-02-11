@@ -115,7 +115,7 @@ const email = 'irrigatordental@gmail.com'
 <style scoped lang="scss">
 .legal-notice {
   max-width: var(--max-width);
-  padding: 8rem 0 5rem;
+  padding: 8rem 1rem 5rem;
   margin: 0 auto;
 
   h2,

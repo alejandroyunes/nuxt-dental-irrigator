@@ -148,7 +148,7 @@
 <style scoped lang="scss">
 .privacy-policy {
   max-width: var(--max-width);
-  padding: 8rem 0 5rem;
+  padding: 8rem 1rem 5rem;
   margin: 0 auto;
 
   h2,
