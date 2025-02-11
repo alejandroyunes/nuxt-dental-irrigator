@@ -70,7 +70,7 @@ const socialLinks = [
   .image {
     width: 100px;
     height: 100px;
-    
+    max-width: 100px;
   }
 
   .secure-pay {
