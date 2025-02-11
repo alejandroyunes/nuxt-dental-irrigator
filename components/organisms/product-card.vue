@@ -6,6 +6,8 @@ const { info } = defineProps<{
   info?: ProductDetails['info']
 }>()
 
+console.log('info: ',info?.rating.reviews)
+
 </script>
 
 <template>
@@ -27,7 +29,7 @@ const { info } = defineProps<{
 
       <div class="rating">
         <span> ⭐ {{ info?.rating.stars }} Stars</span>
-        <span> ❤️ {{ info?.rating.reviews }} reviews</span>
+        <span> ❤️ {{ info?.rating.reviews.toLocaleString() }} reviews</span>
       </div>
 
       <div class="characteristics">
