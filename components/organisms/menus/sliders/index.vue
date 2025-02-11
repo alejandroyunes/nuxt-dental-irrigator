@@ -79,8 +79,7 @@ const tipsLinks = [
     <div class="top-nav-header">
 
       <NuxtLink @click="toggle" to="/" class="top-nav-logo">
-        <NuxtPicture class="image" src="/logo.png" alt="Logo de páginas profesionales" densities="x1"
-          sizes="xs:48px md:48px xl:48px" format="png" />
+        <NuxtImg class="image" src="/logo.png" alt="Logo de páginas profesionales" format="png" />
       </NuxtLink>
 
       <div @click="toggle" class="animation-exit">

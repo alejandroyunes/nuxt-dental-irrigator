@@ -17,15 +17,13 @@ const socialLinks = [
 <template>
   <footer class="footer-content">
 
-    <NuxtPicture class="image" src="/logo.png" alt="dental irrigator logo" densities="x1"
-      sizes="xs:100px md:100px xl:100px" format="png" />
+    <NuxtImg class="logo" src="/logo.png" alt="dental irrigator logo" format="png" />
     <h2 class="title">Best Dental Irrigators for Healthy Teeth & Gums in 2025</h2>
 
     <div className="secure-pay">
       <div class="secure-image">
         <p>Secure Payment through Amazon</p>
-        <NuxtPicture src="/images/secure-pay.webp" alt="Secure Payment through Amazon" densities="x1"
-          sizes="xs:362px md:362px xl:362px" format="png" />
+        <NuxtImg src="/images/secure-pay.webp" alt="Secure Payment through Amazon" format="png" />
       </div>
       <p>We include products that we believe are useful for our readers. If you purchase through links on this page, we
         may earn a small commission.</p>
@@ -67,10 +65,9 @@ const socialLinks = [
   max-width: var(--max-width);
   margin: 0 auto;
 
-  .image {
+  .logo {
     width: 100px;
     height: 100px;
-    max-width: 100px;
   }
 
   .secure-pay {
@@ -86,6 +83,10 @@ const socialLinks = [
       justify-content: center;
       align-items: center;
       flex-direction: column;
+
+      img {
+        width: 260px;
+      }
     }
   }
 
