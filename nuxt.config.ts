@@ -6,13 +6,16 @@ export default defineNuxtConfig({
 
   css: ["~/assets/main.scss"],
 
-  modules: [    
-  '@formkit/nuxt',
-  '@pinia/nuxt',
-  '@nuxtjs/seo',
-  '@nuxt/image',
-  '@zadigetvoltaire/nuxt-gtm'
-],
+  modules: [
+    '@formkit/nuxt',
+    '@pinia/nuxt',
+    '@nuxtjs/seo',
+    '@nuxt/image',
+    '@zadigetvoltaire/nuxt-gtm'
+  ],
+  alias: {
+    components: '@/components',
+  },
 
   app: {
     head: {
@@ -52,7 +55,7 @@ export default defineNuxtConfig({
     ignoredViews: ['homepage'],
     trackOnNextTick: false,
     devtools: false,
-    },
+  },
 
   compatibilityDate: '2025-02-11',
 })
