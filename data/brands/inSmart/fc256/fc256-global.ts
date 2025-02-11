@@ -13,11 +13,11 @@ export const fc256Global = {
   ],
   amazonUrl: 'https://amzn.to/3Nbst4b',
   videoUrl: 'https://www.youtube.com/embed/7BegXWHgKHM?si=Zs1tOCTCMEGbXovv',
-  productPrice: '26.98',
+  productPrice: '27.99',
   amazonPrime: 'https://www.amazon.com',
   updatedDate: '02/10/2025',
   rating: {
-    stars: 4.2,
-    reviews: 16244,
+    stars: 4.3,
+    reviews: 16276,
   },
 }

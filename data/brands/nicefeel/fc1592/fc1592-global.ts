@@ -19,6 +19,6 @@ export const fc1592Global = {
   updatedDate: '02/10/2025',
   rating: {
     stars: 4.3,
-    reviews: 22279,
+    reviews: 22323,
   },
 }

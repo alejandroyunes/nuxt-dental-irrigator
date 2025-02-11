@@ -19,6 +19,6 @@ export const m6PlusGlobal = {
   updatedDate: '02/10/2025',
   rating: {
     stars: 4.2,
-    reviews: 15781,
+    reviews: 15958,
   },
 }

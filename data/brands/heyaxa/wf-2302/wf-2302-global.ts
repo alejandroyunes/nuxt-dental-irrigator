@@ -17,7 +17,7 @@ export const wf2302Global = {
   amazonPrime: 'https://www.amazon.com',
   updatedDate: '02/10/2025',
   rating: {
-    stars: 4.4,
-    reviews: 148,
+    stars: 4.2,
+    reviews: 161,
   },
 }

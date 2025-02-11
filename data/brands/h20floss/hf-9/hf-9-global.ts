@@ -19,6 +19,6 @@ export const hf9Global = {
   updatedDate: '02/10/2025',
   rating: {
     stars: 4.3,
-    reviews: 16178,
+    reviews: 16194,
   }
 }

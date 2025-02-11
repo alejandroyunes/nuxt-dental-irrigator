@@ -23,6 +23,6 @@ export const f5025Global = {
   updatedDate: '02/10/2025',
   rating: {
     stars: 4.3,
-    reviews: 48550,
+    reviews: 48767,
   },
 }

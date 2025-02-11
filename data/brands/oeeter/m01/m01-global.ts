@@ -14,11 +14,11 @@ export const m01Global = {
   amazonUrl: 'https://www.amazon.com/Professional-Irrigator-Adjustable-Pressures-Magnectic/dp/B0CRF88X43',
   videoUrl: 'https://www.youtube.com/embed/bdIUcgpYXIk?si=I0wLfTPdHVToaego',
   videoUrl2: 'https://www.youtube.com/embed/iVF8oNzOzek',
-  productPrice: '25.99',
+  productPrice: '27.51',
   amazonPrime: 'https://www.amazon.com',
   updatedDate: '02/10/2025',
   rating: {
     stars: 4.0,
-    reviews: 393,
+    reviews: 421,
   },
 }

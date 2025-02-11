@@ -7,6 +7,7 @@ import nicwellf5025 from '~/data/brands/nicwell/f5025/f5025'
 import waterpikwf02 from '~/data/brands/waterpik/wf-02/wf-02'
 import synhopeM6Plus from "~/data/brands/synhope/m6-plus/m6-plus"
 import waterpikwp580 from "~/data/brands/waterpik/wp-580/wp-580"
+import panasonicEW1511W from '~/data/brands/panasonic/ew1511w/ew1511w'
 
 import type { ReviewGrid } from "~/types/review-grid"
 
@@ -99,5 +100,16 @@ export const allPortable: ReviewGrid[] = [
     rating: synhopeM6Plus.info.rating.stars,
     reviewCount: synhopeM6Plus.info.rating.reviews,
     updatedDate: synhopeM6Plus.info.updatedDate
+  },
+  {
+    id: 9,
+    path: panasonicEW1511W.info.slug,
+    name: panasonicEW1511W.info.title,
+    image: panasonicEW1511W.info.images[0].thumbnail,
+    alt: panasonicEW1511W.info.alt,
+    price: panasonicEW1511W.info.price,
+    rating: panasonicEW1511W.info.rating.stars,
+    reviewCount: panasonicEW1511W.info.rating.reviews,
+    updatedDate: panasonicEW1511W.info.updatedDate
   },
 ]

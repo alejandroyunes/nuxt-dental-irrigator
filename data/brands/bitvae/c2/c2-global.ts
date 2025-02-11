@@ -15,10 +15,10 @@ export const c2Global = {
   videoUrl: 'https://www.youtube.com/embed/xCdAcy6jiMw?si=LPz6UoKRKzJC4puP',
   videoUrl2: 'https://www.youtube.com/embed/-G5yefrlxr4',
   amazonPrime: 'https://www.amazon.com',
-  productPrice: '25.99',
+  productPrice: '29.69',
   updatedDate: '02/10/2025',
   rating: {
     stars: 4.4,
-    reviews: 17484,
+    reviews: 17727,
   },
 }

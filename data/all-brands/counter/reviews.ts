@@ -8,6 +8,7 @@ import oeeterM01 from '~/data/brands/oeeter/m01/m01'
 import sawgmoreFC166 from '~/data/brands/sawgmore/fc166/fc166'
 import turewellFC162 from '~/data/brands/turewell/fc-162/fc-162'
 import h2oflossHF9 from '~/data/brands/h20floss/hf-9/hf-9'
+import waterpikwp667 from "~/data/brands/waterpik/wp-667/wp-667"
 
 import type { ReviewGrid } from "~/types/review-grid"
 
@@ -99,5 +100,16 @@ export const allCounter: ReviewGrid[] = [
     rating: heyaxa2302WF.info.rating.stars,
     reviewCount: heyaxa2302WF.info.rating.reviews,
     updatedDate: heyaxa2302WF.info.updatedDate
+  },
+  {
+    id: 9,
+    path: waterpikwp667.info.slug,
+    name: waterpikwp667.info.title,
+    image: waterpikwp667.info.images[0].thumbnail,
+    alt: waterpikwp667.info.alt,
+    price: waterpikwp667.info.price,
+    rating: waterpikwp667.info.rating.stars,
+    reviewCount: waterpikwp667.info.rating.reviews,
+    updatedDate: waterpikwp667.info.updatedDate
   },
 ]

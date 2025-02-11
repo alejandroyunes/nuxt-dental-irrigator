@@ -14,11 +14,11 @@ export const wf02Global = {
   amazonUrl: 'https://amzn.to/3TjtFqp',
   videoUrl: 'https://www.youtube.com/embed/oijS5814cVg?si=91iHyYw79l9F8PIC',
   videoUrl2: 'https://www.youtube.com/embed/_pI9UgJs1zw?si=_qQXR412SCnkP-oK',
-  productPrice: '36.89',
+  productPrice: '31.55',
   amazonPrime: 'https://www.amazon.com',
   updatedDate: '02/10/2025',
   rating: {
     stars: 4.2,
-    reviews: 48102,
+    reviews: 48230,
   }
 }

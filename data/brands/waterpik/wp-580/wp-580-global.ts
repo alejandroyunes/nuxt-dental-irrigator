@@ -14,11 +14,11 @@ export const wp580Global = {
   amazonUrl: 'https://amzn.to/46O8vDQ',
   videoUrl: 'https://www.youtube.com/embed/BryQWjm1JyU?si=3LB72fkMvsT2G3XM',
   videoUrl2: 'https://www.youtube.com/embed/kEwJEdrv-Sk',
-  productPrice: '79.99',
+  productPrice: '71.63',
   amazonPrime: 'https://www.amazon.com',
   updatedDate: '02/10/2025',
   rating: {
-    stars: 4.4,
-    reviews: 65751,
+    stars: 4.3,
+    reviews: 66549,
   },
 }
