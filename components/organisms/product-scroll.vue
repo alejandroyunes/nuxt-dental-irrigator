@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ref, watchEffect } from 'vue';
-import type { ReviewGrid } from "~/types/review-grid";
+import { ref } from 'vue'
+import type { ReviewGrid } from "~/types/review-grid"
 
 const isLoading = ref(true)
 

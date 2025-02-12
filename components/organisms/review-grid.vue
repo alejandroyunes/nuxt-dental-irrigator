@@ -9,8 +9,7 @@ const { reviews } = defineProps<{
 
 <template>
   <section class="irrigator-grid">
-
-    <div class="cards">
+    <ul>
       <div v-for="review in reviews" :key="review.id" class="card">
         <NuxtImg :src="review.image" :alt="review.name" class="image" />
         <div class="content">
@@ -31,8 +30,7 @@ const { reviews } = defineProps<{
           </div>
         </div>
       </div>
-    </div>
-
+    </ul>
   </section>
 </template>
 
@@ -41,10 +39,11 @@ const { reviews } = defineProps<{
   max-width: 1200px;
   margin: 0 auto;
 
-  .cards {
+  ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
+    padding: 0;
 
     .card {
       display: flex;
