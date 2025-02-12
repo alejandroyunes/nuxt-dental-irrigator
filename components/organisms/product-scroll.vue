@@ -32,7 +32,7 @@ const { reviews } = defineProps<{
                 <p>Last Updated: {{ review.updatedDate }}</p>
                 <div class="rating">
                   <span> ⭐ {{ review.rating }} Stars</span>
-                  <span> ❤️ {{ review.reviewCount }} reviews</span>
+                  <span> ❤️ {{ review.reviewCount.toLocaleString() }} reviews</span>
                 </div>
                 <NuxtLink :to="`${review.path}`" class="button">
                   Read Review
